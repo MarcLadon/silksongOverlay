@@ -1,0 +1,102 @@
+<Window x:Class="SilksongOverlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Silksong Overlay"
+        Width="1200"
+        Height="780"
+        Background="#0F1117"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Border CornerRadius="12"
+                Background="#161B22"
+                BorderBrush="#6EA8FE"
+                BorderThickness="1"
+                Padding="10"
+                Margin="0,0,0,12">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Ajouter objectif" Width="140" Margin="0,0,10,0" Click="AddObjectiveButton_Click" />
+                <Button Content="Valider objectif" Width="140" Margin="0,0,10,0" Click="CompleteObjectiveButton_Click" />
+                <Button Content="Retour objectif" Width="140" Margin="0,0,10,0" Click="PreviousObjectiveButton_Click" />
+                <Button Content="+ mort" Width="100" Margin="0,0,10,0" Click="AddDeathButton_Click" />
+                <Button Content="Chrono" Width="100" Margin="0,0,10,0" Click="ToggleTimerButton_Click" />
+                <Button Content="Reset" Width="100" Margin="0,0,10,0" Click="ResetTimerButton_Click" />
+                <Button Content="Overlay" Width="100" Margin="0,0,10,0" Click="ToggleOverlayButton_Click" />
+                <Button Content="Mode édition" Width="120" Click="ToggleEditModeButton_Click" />
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0"
+                    CornerRadius="12"
+                    Background="#151A22"
+                    BorderBrush="#1F2937"
+                    BorderThickness="1"
+                    Padding="10">
+                <ListBox x:Name="ObjectivesList"
+                         Background="#151A22"
+                         BorderBrush="#1F2937"
+                         SelectionChanged="ObjectivesList_SelectionChanged">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="0,0,0,8"
+                                    Padding="8"
+                                    CornerRadius="8"
+                                    Background="#1B222D">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16" />
+                                    <TextBlock Text="{Binding Location}" Foreground="#B4C2D6" Margin="0,2,0,0" />
+                                    <TextBlock Text="{Binding IsCompleted, StringFormat=Terminé: {0}}"
+                                               Foreground="#7AE582"
+                                               Margin="0,4,0,0" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Border>
+
+            <Border Grid.Column="1"
+                    Margin="14,0,0,0"
+                    CornerRadius="12"
+                    Background="#151A22"
+                    BorderBrush="#1F2937"
+                    BorderThickness="1"
+                    Padding="14">
+                <StackPanel>
+                    <TextBlock Text="Nom de l'objectif" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBox x:Name="ObjectiveNameText" Margin="0,0,0,12" />
+
+                    <TextBlock Text="Lieu" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBox x:Name="ObjectiveLocationText" Margin="0,0,0,12" />
+
+                    <TextBlock Text="Image" FontWeight="Bold" Margin="0,0,0,6" />
+                    <Button Content="Choisir image" Margin="0,0,0,12" Click="SelectImageButton_Click" />
+
+                    <TextBlock Text="Objectif courant" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBlock x:Name="CurrentObjectiveText" Text="Aucun" Margin="0,0,0,12" />
+
+                    <TextBlock Text="Complétion" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBlock x:Name="CompletionText" Text="0 %" Margin="0,0,0,12" />
+
+                    <TextBlock Text="Morts" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBlock x:Name="DeathsText" Text="0" Margin="0,0,0,12" />
+
+                    <TextBlock Text="Chronomètre" FontWeight="Bold" Margin="0,0,0,6" />
+                    <TextBlock x:Name="TimerText" Text="00:00:00" Margin="0,0,0,18" />
+
+                    <Button Content="Sauvegarder" Click="SaveButton_Click" />
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
