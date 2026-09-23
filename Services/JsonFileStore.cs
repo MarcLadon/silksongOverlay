@@ -1,3 +1,4 @@
+using System.IO;
 using System.Text.Json;
 using SilksongOverlay.Models;
 
@@ -21,7 +22,9 @@ public sealed class JsonFileStore
         }
 
         var json = File.ReadAllText(_path);
-        return JsonSerializer.Deserialize<OverlayConfiguration>(json) ?? new OverlayConfiguration();
+
+        return JsonSerializer.Deserialize<OverlayConfiguration>(json)
+            ?? new OverlayConfiguration();
     }
 
     public void Save(OverlayConfiguration config)
