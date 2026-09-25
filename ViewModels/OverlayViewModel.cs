@@ -14,53 +14,23 @@ public sealed class OverlayViewModel
         ObjectiveService = new ObjectiveService(objectives);
     }
 
-    public string CurrentObjectiveName =>
-        ObjectiveService.CurrentObjective?.Name ?? "Terminé";
+    public string CurrentObjectiveName => ObjectiveService.CurrentObjective?.Name ?? "Terminé";
+    public string CurrentObjectiveLocation => ObjectiveService.CurrentObjective?.Location ?? "—";
+    public string? CurrentObjectiveImagePath => ObjectiveService.CurrentObjective?.ImagePath;
+    public double CompletionPercentage => ObjectiveService.CompletionPercentage;
+    public string TimerText => TimerService.GetFormattedText();
+    public string DeathText => DeathCount.ToString();
 
-    public string CurrentObjectiveLocation =>
-        ObjectiveService.CurrentObjective?.Location ?? "—";
-
-    public string? CurrentObjectiveImagePath =>
-        ObjectiveService.CurrentObjective?.ImagePath;
-
-    public double CompletionPercentage =>
-        ObjectiveService.CompletionPercentage;
-
-    public string TimerText =>
-        TimerService.GetFormattedText();
-
-    public string DeathText =>
-        DeathCount.ToString();
-
-    public void CompleteCurrentObjective()
-    {
-        ObjectiveService.CompleteCurrentObjective();
-    }
-
-    public void GoPreviousObjective()
-    {
-        ObjectiveService.GoToPreviousObjective();
-    }
-
-    public void AddDeath()
-    {
-        DeathCount++;
-    }
+    public void CompleteCurrentObjective() => ObjectiveService.CompleteCurrentObjective();
+    public bool ProcessDetectedEvent(string eventType, string value) => ObjectiveService.ProcessDetectedEvent(eventType, value);
+    public void GoPreviousObjective() => ObjectiveService.GoToPreviousObjective();
+    public void AddDeath() => DeathCount++;
 
     public void ToggleTimer()
     {
-        if (TimerService.IsRunning)
-        {
-            TimerService.Stop();
-        }
-        else
-        {
-            TimerService.Start();
-        }
+        if (TimerService.IsRunning) TimerService.Stop();
+        else TimerService.Start();
     }
 
-    public void ResetTimer()
-    {
-        TimerService.Reset();
-    }
+    public void ResetTimer() => TimerService.Reset();
 }

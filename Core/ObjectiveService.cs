@@ -13,7 +13,6 @@ public sealed class ObjectiveService
     }
 
     public IReadOnlyList<Objective> Objectives => _objectives;
-
     public int CurrentObjectiveIndex { get; private set; }
 
     public Objective? CurrentObjective =>
@@ -22,46 +21,44 @@ public sealed class ObjectiveService
             : null;
 
     public int CompletedCount => _objectives.Count(x => x.IsCompleted);
-
     public int TotalCount => _objectives.Count;
-
-    public double CompletionPercentage =>
-        TotalCount == 0 ? 0 : (CompletedCount * 100.0) / TotalCount;
+    public double CompletionPercentage => TotalCount == 0 ? 0 : CompletedCount * 100.0 / TotalCount;
 
     public void AddObjective(string name, string location, string? imagePath = null)
     {
-        var objective = new Objective
+        _objectives.Add(new Objective
         {
             Name = name,
             Location = location,
             ImagePath = imagePath,
             Order = _objectives.Count
-        };
-
-        _objectives.Add(objective);
+        });
         RefreshOrder();
     }
 
     public bool CompleteCurrentObjective()
     {
-        if (CurrentObjective is null)
-        {
-            return false;
-        }
+        if (CurrentObjective is null) return false;
 
         CurrentObjective.IsCompleted = true;
         CurrentObjectiveIndex = GetFirstIncompleteIndexOrEnd();
         return true;
     }
 
+    public bool ProcessDetectedEvent(string eventType, string value)
+    {
+        var current = CurrentObjective;
+        if (current is null) return false;
+
+        var matches = string.Equals(current.DetectionType, eventType, StringComparison.OrdinalIgnoreCase)
+            && string.Equals(current.DetectionValue, value, StringComparison.OrdinalIgnoreCase);
+
+        return matches && CompleteCurrentObjective();
+    }
+
     public bool GoToPreviousObjective()
     {
-        if (_objectives.Count == 0)
-        {
-            return false;
-        }
-
-        for (int i = CurrentObjectiveIndex - 1; i >= 0; i--)
+        for (var i = CurrentObjectiveIndex - 1; i >= 0; i--)
         {
             if (!_objectives[i].IsCompleted)
             {
@@ -75,36 +72,19 @@ public sealed class ObjectiveService
 
     public void RefreshOrder()
     {
-        var ordered = _objectives
-            .OrderBy(x => x.Order)
-            .ThenBy(x => x.Name)
-            .ToList();
-
-        for (int i = 0; i < ordered.Count; i++)
-        {
-            ordered[i].Order = i;
-        }
+        var ordered = _objectives.OrderBy(x => x.Order).ThenBy(x => x.Name).ToList();
+        for (var i = 0; i < ordered.Count; i++) ordered[i].Order = i;
 
         _objectives.Clear();
         _objectives.AddRange(ordered);
-
-        if (_objectives.Count == 0)
-        {
-            CurrentObjectiveIndex = 0;
-            return;
-        }
-
-        CurrentObjectiveIndex = GetFirstIncompleteIndexOrEnd();
+        CurrentObjectiveIndex = _objectives.Count == 0 ? 0 : GetFirstIncompleteIndexOrEnd();
     }
 
     private int GetFirstIncompleteIndexOrEnd()
     {
-        for (int i = 0; i < _objectives.Count; i++)
+        for (var i = 0; i < _objectives.Count; i++)
         {
-            if (!_objectives[i].IsCompleted)
-            {
-                return i;
-            }
+            if (!_objectives[i].IsCompleted) return i;
         }
 
         return _objectives.Count;

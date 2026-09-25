@@ -17,33 +17,53 @@ public sealed class FileObjectiveDetector : IObjectiveDetector
     public async Task StartAsync(CancellationToken cancellationToken)
     {
         _stopSource = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+        Directory.CreateDirectory(Path.GetDirectoryName(_path) ?? ".");
 
         string? lastContent = null;
 
-        while (!_stopSource.Token.IsCancellationRequested)
+        try
         {
-            if (File.Exists(_path))
+            while (!_stopSource.Token.IsCancellationRequested)
             {
-                var content = await File.ReadAllTextAsync(_path, _stopSource.Token);
-
-                if (!string.Equals(content, lastContent))
+                if (File.Exists(_path))
                 {
-                    lastContent = content;
-
-                    var detectedEvent = JsonSerializer.Deserialize<DetectedEvent>(content);
-
-                    if (detectedEvent is not null)
+                    try
                     {
-                        ObjectiveDetected?.Invoke(
-                            this,
-                            new ObjectiveDetectedEventArgs(
-                                detectedEvent.Type,
-                                detectedEvent.Value));
+                        var content = await File.ReadAllTextAsync(_path, _stopSource.Token);
+
+                        if (!string.Equals(content, lastContent, StringComparison.Ordinal))
+                        {
+                            lastContent = content;
+                            var detectedEvent = JsonSerializer.Deserialize<DetectedEvent>(content);
+
+                            if (detectedEvent is not null &&
+                                !string.IsNullOrWhiteSpace(detectedEvent.Type) &&
+                                !string.IsNullOrWhiteSpace(detectedEvent.Value))
+                            {
+                                ObjectiveDetected?.Invoke(
+                                    this,
+                                    new ObjectiveDetectedEventArgs(
+                                        detectedEvent.Type,
+                                        detectedEvent.Value));
+                            }
+                        }
+                    }
+                    catch (JsonException)
+                    {
+                        // Le fichier peut être momentanément incomplet pendant son écriture.
+                    }
+                    catch (IOException)
+                    {
+                        // Le fichier peut être verrouillé momentanément par un autre processus.
                     }
                 }
-            }
 
-            await Task.Delay(TimeSpan.FromMilliseconds(500), _stopSource.Token);
+                await Task.Delay(TimeSpan.FromMilliseconds(500), _stopSource.Token);
+            }
+        }
+        catch (OperationCanceledException)
+        {
+            // Arrêt normal du détecteur.
         }
     }
 
