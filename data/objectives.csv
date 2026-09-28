@@ -1,0 +1,3 @@
+Order,Name,Location,DetectionType,DetectionValue,ImagePath
+1,Entrer dans les Quais profonds,Quais profonds,area_entered,Deep Docks,
+2,Vaincre le premier boss,Arène principale,boss_defeated,Bell Beast,
