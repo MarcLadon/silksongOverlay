@@ -86,12 +86,12 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 85,Puce,Clochelle,Puce,Puce,
 86,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,
 87,Veuve,Clochelle,BOSS,Veuve,
-88,Aiguilline,Clochelle,Talent,Aiguilline,
+88,Aiguilline,Clochelle,Talent,Aiguilline,icon/Maudit.png
 89,Médaillon de souvenir,Clochelle,Medaillon,Médaillondesouvenir,
 90,Cloches argentées,Clochelle,Quête,Clochesargentées,
 91,Mon coursier disparu,Clochelle,Quête,Moncoursierdisparu,
 92,Nettoyage de corbotères,Clochelle,Quête,Nettoyagedecorbotères,
-93,Aiguille aiguisée,Clochelle,Aiguille,Aiguilleaiguisée,
+93,Aiguille aiguisée,Clochelle,Aiguille,Aiguilleaiguisée,icon/Needle_2.png
 94,Huile du maître aiguiseur,Clochelle,Quête,Huiledumaîtreaiguiseur,
 95,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,
 96,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,
@@ -270,7 +270,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 269,Volpeste enragée,Clochelle,Quête,Volpesteenragée,
 270,La gloire de Clochelle,Clochelle,Quête,LagloiredeClochelle,
 271,Huile du maître aiguiseur,Clochelle,Quête,Huiledumaîtreaiguiseur,
-272,Aiguille brillante,Clochelle,Aiguille,Aiguillebrillante,
+272,Aiguille brillante,Clochelle,Aiguille,Aiguillebrillante,icon/Needle_3.png
 273,Médaillon de souvenir,Voûtes des murmures,Medaillon,Médaillondesouvenir,
 274,Puce,Voûtes des murmures,Puce,Puce,
 275,Cylindre de psaume,Voûtes des murmures,Ressource,Cylindredepsaume,
@@ -301,7 +301,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 300,Lard de coursier,Clochelle,Livrable,Larddecoursier,
 301,Papilles délicates de Pharloom,Alcôves de la chorale,Quête,PapillesdélicatesdePharloom,
 302,Huile pâle,Alcôves de la chorale,Ressource,Huilepâle,
-303,Aiguille d'acier-alvéole,Clochelle,Aiguille,Aiguilled'acier-alvéole,
+303,Aiguille d'acier-alvéole,Clochelle,Aiguille,Aiguilled'acier-alvéole,icon/Needle_4.png
 304,L'exfilé,Aile Blanche,BOSS,L'exfilé,
 305,Coeur de soie,Aile Blanche,Soie,Coeurdesoie,
 306,Cylindre de psaume,Fonderie,Ressource,Cylindredepsaume,
@@ -437,7 +437,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 436,Faurelle,Terres lointaines,OutilRouge,Faurelle,
 437,Réjouissements de la fin,Clochelle,Quête,Réjouissementsdelafin,
 438,Huile pâle,Conduits putrides,Ressource,Huilepâle,
-439,Aiguille d'acier pâle,Clochelle,Aiguille,Aiguilled'acierpâle,
+439,Aiguille d'acier pâle,Clochelle,Aiguille,Aiguilled'acierpâle,icon/Needle_5.png
 440,Cylindre de psaume,Marches érodées,Ressource,Cylindredepsaume,
 441,Marque du voleur,Marches érodées,OutilJaune,Marqueduvoleur,
 442,Dé magnétite,Marches érodées,OutilJaune,Démagnétite,
