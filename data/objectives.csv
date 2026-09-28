@@ -10,11 +10,11 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 9,Levier,Antre,Activation,Levier,icon/
 10,Les puces perdues,Antre,Quête,Lespucesperdues,icon/
 11,Chapelet usé,Antre,Monnaie,Chapeletusé,icon/
-12,Collier d'os,Antre,OutilJaune,Collierd'os,icon/
+12,Collier d'os,Antre,OutilJaune,Collierd'os,icon/Collier_os.png
 13,Carte des Terres Verdoyantes,Antre,Carte,CartedesTerresVerdoyantes,icon/
 14,Carte de l'Antre,Antre,Carte,Cartedel'Antre,icon/
 15,Plume,Antre,Equipement,Plume,icon/
-16,Boussole,Antre,OutilJaune,Boussole,icon/
+16,Boussole,Antre,OutilJaune,Boussole,icon/Boussole.png
 17,Commandement de la chorale,Gouffre,Ressource,Commandementdelachorale,icon/
 18,Lance soyeuse,Gouffre,Technique,Lancesoyeuse,icon/
 19,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/
@@ -23,7 +23,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 22,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/
 23,Oeil druidique,Gouffre,OutilBleu,Oeildruidique,icon/oeil_druidique.png
 24,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/
-25,Broche magnétite,Gouffre,OutilJaune,Brochemagnétite,icon/
+25,Broche magnétite,Gouffre,OutilJaune,Brochemagnétite,icon/Broche_magnetite.png
 26,Fragment de bobine,Gouffre,Bobine,Fragmentdebobine,icon/
 27,Bête des cloches,Antre,BOSS,Bêtedescloches,icon/
 28,Coeur de soie,Antre,Soie,Coeurdesoie,icon/
@@ -120,10 +120,10 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 119,Breuvage des puces,Sombrevale,OutilRouge,Breuvagedespuces,icon/Breuvage_puce.png
 120,Fragment de masque,Quais profonds,Masque,Fragmentdemasque,icon/
 121,Levier,Terres lointaines,Activation,Levier,icon/
-122,Bracelets vifsoie,Terres lointaines,OutilJaune,Braceletsvifsoie,icon/
+122,Bracelets vifsoie,Terres lointaines,OutilJaune,Braceletsvifsoie,icon/Bracelets_vifsoie.png
 123,Harpe runique,Terres lointaines,Ressource,Harperunique,icon/
 124,Puce,Terres lointaines,Puce,Puce,icon/
-125,Anneau lourd,Terres lointaines,OutilJaune,Anneaulourd,icon/
+125,Anneau lourd,Terres lointaines,OutilJaune,Anneaulourd,icon/Anneau_lourd.png
 126,Sac à outils agrandi,Terres lointaines,Equipement,Sacàoutilsagrandi,icon/
 127,Fragment de bobine,Sombrevale,Bobine,Fragmentdebobine,icon/
 128,Nettoyage de corbotères,Sombrevale,Quête,Nettoyagedecorbotères,icon/
@@ -151,7 +151,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 150,Courbe-serre,Sentier du chasseur,OutilRouge,Courbe-serre,icon/Courbe_serre.png
 151,Masque fissuré,Sentier du chasseur,OutilBleu,Masquefissuré,icon/Masque_fissuré.png
 152,Chapelet usé,Chemin du pêcheur,Monnaie,Chapeletusé,icon/
-153,Bracelet épineux,Chemin du pêcheur,OutilJaune,Braceletépineux,icon/
+153,Bracelet épineux,Chemin du pêcheur,OutilJaune,Braceletépineux,icon/Bracelet_epineux.png
 154,Entrailles de férochard,Chemin du pêcheur,Quête,Entraillesdeférochard,icon/
 155,Carte du Sentier du pécheur,Chemin du pêcheur,Carte,CarteduSentierdupécheur,icon/
 156,Clé simple,Chemin du pêcheur,Clé,Clésimple,icon/
@@ -159,7 +159,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 158,Entrailles de férochard,Chemin du pêcheur,Quête,Entraillesdeférochard,icon/
 159,Entrailles de férochard,Chemin du pêcheur,Livrable,Entraillesdeférochard,icon/
 160,Pointes d'acier,Chemin du pêcheur,OutilRouge,Pointesd'acier,icon/Pointes_acier.png
-161,Sacoche en carapace,Vermiterres,OutilJaune,Sacocheencarapace,icon/
+161,Sacoche en carapace,Vermiterres,OutilJaune,Sacocheencarapace,icon/Sacoche_carapace.png
 162,Carte des Vermiterres,Vermiterres,Carte,CartedesVermiterres,icon/
 163,Chapelet usé,Vermiterres,Monnaie,Chapeletusé,icon/
 164,Puce,Vermiterres,Puce,Puce,icon/
@@ -236,11 +236,11 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 235,Puce,Fonderie,Puce,Puce,icon/
 236,Métal artisanal,Fonderie,Ressource,Métalartisanal,icon/
 237,Serrefil,Fonderie,Talent,Serrefil,icon/
-238,Broclet,Fonderie,OutilJaune,Broclet,icon/
+238,Broclet,Fonderie,OutilJaune,Broclet,icon/Broclet.png
 239,Clé de l'architecte,Fonderie,Clé,Clédel'architecte,icon/
 240,Kit de fabrication,Fonderie,Equipement,Kitdefabrication,icon/
 241,Architecte,Fonderie,Crest,Architecte,icon/Architecte.png
-242,Griffe du grimpeur,Alcôves de la chorale,OutilJaune,Griffedugrimpeur,icon/
+242,Griffe du grimpeur,Alcôves de la chorale,OutilJaune,Griffedugrimpeur,icon/Griffe_grimpeur.png
 243,Fragment de masque,Alcôves de la chorale,Masque,Fragmentdemasque,icon/
 244,Jaune,Tisse-nid Alta,Crest,Jaune,icon/
 245,Bleu,Tisse-nid Alta,Crest,Bleu,icon/
@@ -334,7 +334,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 333,Puce,Conduits putrides,Puce,Puce,icon/
 334,Métal artisanal,Conduits putrides,Ressource,Métalartisanal,icon/
 335,Commandement de la chorale,Alcôves de la chorale,Ressource,Commandementdelachorale,icon/
-336,Fil d'araignée,Alcôves de la chorale,OutilJaune,Fild'araignée,icon/
+336,Fil d'araignée,Alcôves de la chorale,OutilJaune,Fild'araignée,icon/Fil_araignee.png
 337,Fragment de bobine,Alcôves de la chorale,Bobine,Fragmentdebobine,icon/
 338,Métal artisanal,Alcôves de la chorale,Ressource,Métalartisanal,icon/
 339,Yeux druidique,Gouffre,OutilBleu,Yeuxdruidique,icon/Yeux_druidique.png
@@ -439,8 +439,8 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 438,Huile pâle,Conduits putrides,Ressource,Huilepâle,icon/
 439,Aiguille d'acier pâle,Clochelle,Aiguille,Aiguilled'acierpâle,icon/Needle_5.png
 440,Cylindre de psaume,Marches érodées,Ressource,Cylindredepsaume,icon/
-441,Marque du voleur,Marches érodées,OutilJaune,Marqueduvoleur,icon/
-442,Dé magnétite,Marches érodées,OutilJaune,Démagnétite,icon/
+441,Marque du voleur,Marches érodées,OutilJaune,Marqueduvoleur,icon/Marque_voleur.png
+442,Dé magnétite,Marches érodées,OutilJaune,Démagnétite,icon/Des_magnetite.png
 443,Masse de néant,Marches érodées,Livrable,Massedenéant,icon/
 444,Fragment de masque,Marches érodées,Masque,Fragmentdemasque,icon/
 445,Fragment de masque,Mont Fay,Masque,Fragmentdemasque,icon/
