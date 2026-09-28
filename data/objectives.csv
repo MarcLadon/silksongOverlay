@@ -5,7 +5,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 4,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png
 5,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/chapelet_use.png
 6,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png
-7,Mère Forestière,Gouffre,BOSS,MèreForestière,icon/
+7,Mère Forestière,Gouffre,BOSS,MèreForestière,icon/Mere_forestiere.png
 8,La grande citadelle,Gouffre,Quête,Lagrandecitadelle,icon/
 9,Levier,Antre,Activation,Levier,icon/
 10,Les puces perdues,Antre,Quête,Lespucesperdues,icon/
@@ -19,13 +19,13 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 18,Lance soyeuse,Gouffre,Technique,Lancesoyeuse,icon/Lance_soyeuse.png
 19,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/chapelet_use.png
 20,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png
-21,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/
-22,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/
+21,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/Recolte.png
+22,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/Recolte.png
 23,Oeil druidique,Gouffre,OutilBleu,Oeildruidique,icon/oeil_druidique.png
 24,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png
 25,Broche magnétite,Gouffre,OutilJaune,Brochemagnétite,icon/Broche_magnetite.png
 26,Fragment de bobine,Gouffre,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
-27,Bête des cloches,Antre,BOSS,Bêtedescloches,icon/
+27,Bête des cloches,Antre,BOSS,Bêtedescloches,icon/Bete_choches.png
 28,Coeur de soie,Antre,Soie,Coeurdesoie,icon/Coeur_soie.png
 29,Métal artisanal,Gouffre,Ressource,Métalartisanal,icon/Metal_artisanal.png
 30,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/
@@ -40,7 +40,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 39,Puce,Quais Profonds,Puce,Puce,icon/
 40,Fragment de bobine,Quais profonds,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
 41,Cloche de magma,Quais profonds,OutilBleu,Clochedemagma,icon/Cloche_magma.png
-42,Lace,Quais profonds,BOSS,Lace,icon/
+42,Lace,Quais profonds,BOSS,Lace,icon/Lace.png
 43,Puce,Terres lointaines,Puce,Puce,icon/
 44,Médaillon de souvenir,Terres lointaines,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
 45,Carte des Terres Lointaines,Terres lointaines,Carte,CartedesTerresLointaines,icon/
@@ -53,7 +53,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 52,Coeur d'épine,Terres lointaines,Livrable,Coeurd'épine,icon/
 53,Manuscrit d'os,Terres lointaines,Ressource,Manuscritd'os,icon/Manuscrit_os.png
 54,Fragment de masque,Terres lointaines,Masque,Fragmentdemasque,icon/Fragment_masque.png
-55,Quatrième chorale,Terres lointaines,BOSS,Quatrièmechorale,icon/
+55,Quatrième chorale,Terres lointaines,BOSS,Quatrièmechorale,icon/Quatrieme_chorale.png
 56,Carte de Sombrevale,Sombrevale,Carte,CartedeSombrevale,icon/
 57,Puce,Sombrevale,Puce,Puce,icon/
 58,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,icon/chapelet_use.png
@@ -64,7 +64,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 63,Insectes de Pharloom,Sombrevale,Quête,InsectesdePharloom,icon/
 64,Faucheur,Sombrevale,Crest,Faucheur,icon/Faucheur.png
 65,Médaillon de souvenir,Sombrevale,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
-66,Ailebrume,Sombrevale,BOSS,Ailebrume,icon/
+66,Ailebrume,Sombrevale,BOSS,Ailebrume,icon/Ailebrume.png
 67,La ville tissée,Clochelle,Quête,Lavilletissée,icon/
 68,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/
 69,Châle de pélerin,Gouffre,Livrable,Châledepélerin,icon/
@@ -79,24 +79,24 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 78,Fragment de masque,Coquibois,Masque,Fragmentdemasque,icon/Fragment_masque.png
 79,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
 80,Chapelet,Coquibois,Monnaie,Chapelet,icon/Chapelet.png
-81,Soeur Splinter,Coquibois,BOSS,SoeurSplinter,icon/
+81,Soeur Splinter,Coquibois,BOSS,SoeurSplinter,icon/Soeur_ecorceuse.png
 82,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
 83,Prise ferme,Coquibois,Talent,Priseferme,icon/Prise_ferme.png
 84,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
 85,Puce,Clochelle,Puce,Puce,icon/
 86,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
-87,Veuve,Clochelle,BOSS,Veuve,icon/
+87,Veuve,Clochelle,BOSS,Veuve,icon/veuve.png
 88,Aiguilline,Clochelle,Talent,Aiguilline,icon/Aiguilline.png
 89,Médaillon de souvenir,Clochelle,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
-90,Cloches argentées,Clochelle,Quête,Clochesargentées,icon/Cloche_argentee.png
+90,Cloches argentées,Clochelle,Quête,Clochesargentées,icon/Recolte.png
 91,Mon coursier disparu,Clochelle,Quête,Moncoursierdisparu,icon/
 92,Nettoyage de corbotères,Clochelle,Quête,Nettoyagedecorbotères,icon/
 93,Aiguille aiguisée,Clochelle,Aiguille,Aiguilleaiguisée,icon/Needle_2.png
 94,Huile du maître aiguiseur,Clochelle,Quête,Huiledumaîtreaiguiseur,icon/
 95,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
 96,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png
-97,Rituel de pollip,Coquibois,Quête,Ritueldepollip,icon/
-98,Rituel de pollip,Coquibois,Quête,Ritueldepollip,icon/
+97,Rituel de pollip,Coquibois,Quête,Ritueldepollip,icon/Recolte.png
+98,Rituel de pollip,Coquibois,Quête,Ritueldepollip,icon/Recolte.png
 99,Bourse de pollip,Coquibois,OutilBleu,Boursedepollip,icon/Bourse_pollip.png
 100,Mon coursier disparu,Gouffre,Quête,Moncoursierdisparu,icon/
 101,Effigie de tisserande,Gouffre,Ressource,Effigiedetisserande,icon/Effigie_tisserande.png
@@ -108,13 +108,13 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 107,Fragment de masque,Tisse-nid Alta,Masque,Fragmentdemasque,icon/Fragment_masque.png
 108,Fragment de bobine,Tisse-nid Alta,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
 109,Baie verdissante,Tisse-nid Alta,Livrable,Baieverdissante,icon/Baie_verdissante.png
-110,Double Mère Forestière,Tisse-nid Alta,BOSS,DoubleMèreForestière,icon/
+110,Double Mère Forestière,Tisse-nid Alta,BOSS,DoubleMèreForestière,icon/Mere_forestiere.png
 111,Tisséclat,Tisse-nid Alta,OutilBleu,Tisséclat,icon/Tisseclat.png
 112,Châtiment du Tyran,Gouffre,Quête,ChâtimentduTyran,icon/
 113,Médaillon de souvenir,Antre,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
 114,Gemme de silex,Antre,Livrable,Gemmedesilex,icon/Gemme_silex.png
 115,Sac à outils agrandi,Antre,Equipement,Sacàoutilsagrandi,icon/
-116,Crâne-Tyran,Antre,BOSS,Crâne-Tyran,icon/
+116,Crâne-Tyran,Antre,BOSS,Crâne-Tyran,icon/Crane_tyran.png
 117,Fragment de couronne,Antre,Livrable,Fragmentdecouronne,icon/fragment_couronne.png
 118,Les puces perdues,Antre,Quête,Lespucesperdues,icon/
 119,Breuvage des puces,Sombrevale,OutilRouge,Breuvagedespuces,icon/Breuvage_puce.png
@@ -146,7 +146,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 145,Levier,Sentier du chasseur,Activation,Levier,icon/
 146,Carte de l'Avancé du chasseur,Sentier du chasseur,Carte,Cartedel'Avancéduchasseur,icon/
 147,Médaillon de souvenir,Sentier du chasseur,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
-148,Volpeste enragée,Sentier du chasseur,BOSS,Volpesteenragée,icon/
+148,Volpeste enragée,Sentier du chasseur,BOSS,Volpesteenragée,icon/Volpeste_enragee.png
 149,Bête,Sentier du chasseur,Crest,Bête,icon/Bete.png
 150,Courbe-serre,Sentier du chasseur,OutilRouge,Courbe-serre,icon/Courbe_serre.png
 151,Masque fissuré,Sentier du chasseur,OutilBleu,Masquefissuré,icon/Masque_fissuré.png
@@ -164,7 +164,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 163,Chapelet usé,Vermiterres,Monnaie,Chapeletusé,icon/chapelet_use.png
 164,Puce,Vermiterres,Puce,Puce,icon/
 165,Fragment de masque,Vermiterres,Masque,Fragmentdemasque,icon/Fragment_masque.png
-166,Craggleur,Vermiterres,BOSS,Craggleur,icon/
+166,Craggleur,Vermiterres,BOSS,Craggleur,icon/Craggleur.png
 167,Porte,Vermiterres,Activation,Porte,icon/
 168,L'assistant de l'alchimiste,Vermiterres,Quête,L'assistantdel'alchimiste,icon/
 169,Fiollette,??,OutilRouge,Fiollette,icon/Fiollette.png
@@ -176,11 +176,11 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 175,Fiole de plasmonium,Vermiterres,OutilRouge,Fioledeplasmonium,icon/Fiole_plasmonium.png
 176,Médaillon de souvenir,Marches érodées,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
 177,Carte des Marches érodées,Marches érodées,Carte,CartedesMarchesérodées,icon/
-178,Grandes Volucornes,Marches érodées,BOSS,GrandesVolucornes,icon/
+178,Grandes Volucornes,Marches érodées,BOSS,GrandesVolucornes,icon/Volucorne.png
 179,Attaque de précision,Marches érodées,Talent,Attaquedeprécision,icon/Attaque_precision.png
 180,Puce,Marches érodées,Puce,Puce,icon/
 181,Métal artisanal,Marches érodées,Ressource,Métalartisanal,icon/Metal_artisanal.png
-182,La dernière juge,Marches érodées,BOSS,Ladernièrejuge,icon/
+182,La dernière juge,Marches érodées,BOSS,Ladernièrejuge,icon/Derniere_juge.png
 183,Grand portail,,Quête,Grandportail,icon/
 184,Galeries silencieuses,,Quête,Galeriessilencieuses,icon/
 185,La grande citadelle,,Quête,Lagrandecitadelle,icon/
@@ -253,7 +253,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 252,Remède pour les blessés,Aile Blanche,Quête,Remèdepourlesblessés,icon/
 253,Fragment de bobine,Aile Blanche,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
 254,Clé du chirurgien,Aile Blanche,Clé,Cléduchirurgien,icon/Cle_chirurgien.png
-255,Duo mécaniques,Noyau mécanique,BOSS,Duomécaniques,icon/
+255,Duo mécaniques,Noyau mécanique,BOSS,Duomécaniques,icon/Duo_mecanique.png
 256,Mélodie Maestrels,Alcôves de la chorale,Quête,MélodieMaestrels,icon/
 257,Mélodie des Architectes,Alcôves de la chorale,Quête,MélodiedesArchitectes,icon/
 258,Mélodie Archivistes,Alcôves de la chorale,Quête,MélodieArchivistes,icon/
@@ -276,7 +276,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 275,Cylindre de psaume,Voûtes des murmures,Ressource,Cylindredepsaume,icon/Cylindre_psaume.png
 276,Fragment de masque,Voûtes des murmures,Masque,Fragmentdemasque,icon/Fragment_masque.png
 277,Composant mécanique,Voûtes des murmures,Livrable,Composantmécanique,icon/Composant_mecanique.png
-278,Trobbio,Voûtes des murmures,BOSS,Trobbio,icon/
+278,Trobbio,Voûtes des murmures,BOSS,Trobbio,icon/Trobbio.png
 279,Mirosserre,Voûtes des murmures,OutilBleu,Mirosserre,icon/Mirosserre.png
 280,Porte,Fonderie,Activation,Porte,icon/
 281,Médaillon de souvenir,Alcôves de la chorale,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
@@ -295,14 +295,14 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 294,Puce,Sables Karak,Puce,Puce,icon/
 295,Clé simple,Sables Karak,Clé,Clésimple,icon/cle_simple.png
 296,Médaillon de souvenir,Sombrevale,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
-297,Chef Déshonoré Lugoli,Chemin du pêcheur,BOSS,ChefDéshonoréLugoli,icon/
+297,Chef Déshonoré Lugoli,Chemin du pêcheur,BOSS,ChefDéshonoréLugoli,icon/Lugoli.png
 298,Bouefrasse marinée,Chemin du pêcheur,Livrable,Bouefrassemarinée,icon/Bouefrasse_marinee.png
 299,Clé d'un clochetoit,Clochelle,Clé,Cléd'unclochetoit,icon/Cle_clochetoit.png
 300,Lard de coursier,Clochelle,Livrable,Larddecoursier,icon/lard_coursier.png
 301,Papilles délicates de Pharloom,Alcôves de la chorale,Quête,PapillesdélicatesdePharloom,icon/
 302,Huile pâle,Alcôves de la chorale,Ressource,Huilepâle,icon/Huile_pale.png
 303,Aiguille d'acier-alvéole,Clochelle,Aiguille,Aiguilled'acier-alvéole,icon/Needle_4.png
-304,L'exfilé,Aile Blanche,BOSS,L'exfilé,icon/
+304,L'exfilé,Aile Blanche,BOSS,L'exfilé,icon/Les_tisses.png
 305,Coeur de soie,Aile Blanche,Soie,Coeurdesoie,icon/Coeur_soie.png
 306,Cylindre de psaume,Fonderie,Ressource,Cylindredepsaume,icon/Cylindre_psaume.png
 307,Kit de fabrication,Marches érodées,Equipement,Kitdefabrication,icon/Kit_fabrication.png
@@ -321,7 +321,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 320,Baie verdissante,Memorium,Livrable,Baieverdissante,icon/Baie_verdissante.png
 321,Médaillon de souvenir,Memorium,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
 322,Fragment de bobine,Memorium,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
-323,Matérium,Memorium,Livrable,Matérium,icon/
+323,Matérium,Memorium,Livrable,Matérium,icon/Materium.png
 324,Orbéclair,Memorium,OutilRouge,Orbéclair,icon/Orbeclair.png
 325,Puce,Memorium,Puce,Puce,icon/
 326,Fortifier Chantsoir,Alcôves de la chorale,Quête,FortifierChantsoir,icon/
@@ -338,7 +338,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 337,Fragment de bobine,Alcôves de la chorale,Bobine,Fragmentdebobine,icon/Fragment_bobine.png
 338,Métal artisanal,Alcôves de la chorale,Ressource,Métalartisanal,icon/Metal_artisanal.png
 339,Yeux druidique,Gouffre,OutilBleu,Yeuxdruidique,icon/Yeux_druidique.png
-340,Volpeste enragée,Terres lointaines,BOSS,Volpesteenragée,icon/
+340,Volpeste enragée,Terres lointaines,BOSS,Volpesteenragée,icon/Volpeste_enragee.png
 341,Fragment de corne,Terres lointaines,Livrable,Fragmentdecorne,icon/fragment_corne.png
 342,Fragment de masque,Terres lointaines,Masque,Fragmentdemasque,icon/Fragment_masque.png
 343,Volpeste enragée,Clochelle,Quête,Volpesteenragée,icon/
@@ -353,17 +353,17 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 352,Chapelet usé,Le Bloc,Monnaie,Chapeletusé,icon/chapelet_use.png
 353,Clé de l'Hérétique,Le Bloc,Clé,Clédel'Hérétique,icon/Cle_heretique.png
 354,Effigie de tisserande,Le Bloc,Ressource,Effigiedetisserande,icon/Effigie_tisserande.png
-355,Premier péché,Le Bloc,BOSS,Premierpéché,icon/
+355,Premier péché,Le Bloc,BOSS,Premierpéché,icon/Peche_originel.png
 356,Furie runique,Le Bloc,Technique,Furierunique,icon/Furie_runique.png
 357,Manuscrit d'os,Bosquet de feu follet,Ressource,Manuscritd'os,icon/Manuscrit_os.png
 358,Fragment de masque,Bosquet de feu follet,Masque,Fragmentdemasque,icon/Fragment_masque.png
 359,Collier de perles,Bosquet de feu follet,Monnaie,Collierdeperles,icon/Collier_perles.png
 360,Métal artisanal,Bosquet de feu follet,Ressource,Métalartisanal,icon/Metal_artisanal.png
 361,Puce,Fonderie,Puce,Puce,icon/
-362,Lace,Le Berceau,BOSS,Lace,icon/
+362,Lace,Le Berceau,BOSS,Lace,icon/Lace.png
 363,Coeur de soie,Le Berceau,Soie,Coeurdesoie,icon/Coeur_soie.png
 364,La mère des lamentations,Alcôves de la chorale,Quête,Lamèredeslamentations,icon/
-365,Mère Nourricière,Le Bloc,BOSS,MèreNourricière,icon/
+365,Mère Nourricière,Le Bloc,BOSS,MèreNourricière,icon/Mere_suprieuse_soie.png
 366,Oeil de la mère nourricière,Le Bloc,Livrable,Oeildelamèrenourricière,icon/Oeil_mere_nourriciere.png
 367,La mère des lamentations,Alcôves de la chorale,Quête,Lamèredeslamentations,icon/
 368,Extenseur de bobine,Alcôves de la chorale,OutilBleu,Extenseurdebobine,icon/Extenseur_bobine.png
@@ -387,7 +387,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 386,Puce,Bilesac,Puce,Puce,icon/
 387,Fin de la piste,Bilesac,Quête,Findelapiste,icon/
 388,Lance-anneaux,Bilesac,OutilRouge,Lance-anneaux,icon/Lance_anneaux.png
-389,Groal le grand,Bilesac,BOSS,Groallegrand,icon/
+389,Groal le grand,Bilesac,BOSS,Groallegrand,icon/Groal.png
 390,L'âme du chercheur,Bilesac,Livrable,L'âmeduchercheur,icon/Ame_chercheur.png
 391,Sac à outils agrandi,Conduits putrides,Equipement,Sacàoutilsagrandi,icon/
 392,Soie et Âme,Alcôves de la chorale,Quête,SoieetÂme,icon/
@@ -397,14 +397,14 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 396,Soie et Âme,Alcôves de la chorale,Quête,SoieetÂme,icon/
 397,Attrape-âme,Alcôves de la chorale,Quête,Attrape-âme,icon/
 398,Carte du berceau,Le Berceau,Carte,Carteduberceau,icon/
-399,Mère supérieur Soie,Le Berceau,BOSS,MèresupérieurSoie,icon/
+399,Mère supérieur Soie,Le Berceau,BOSS,MèresupérieurSoie,icon/Mere_nourriciere.png
 400,Après la chute du royaume,Le Berceau,Quête,Aprèslachuteduroyaume,icon/
 401,En attendant la fin,Alcôves de la chorale,Quête,Enattendantlafin,icon/
-402,Dévoreur de cloches,Alcôves de la chorale,BOSS,Dévoreurdecloches,icon/
+402,Dévoreur de cloches,Alcôves de la chorale,BOSS,Dévoreurdecloches,icon/Devoreur_cloches.png
 403,Bête des cloches,Alcôves de la chorale,Quête,Bêtedescloches,icon/
 404,Mélodie des Bestiots,Station,Talent,MélodiedesBestiots,icon/Melodie_bestiots.png
 405,Caché en dessous,Gouffre,Quête,Cachéendessous,icon/
-406,Frères précursuers Signis et Gron,Quais profonds,BOSS,FrèresprécursuersSignisetGron,icon/
+406,Frères précursuers Signis et Gron,Quais profonds,BOSS,FrèresprécursuersSignisetGron,icon/Signis_Gron.png
 407,Dévoreur de Soie,Quais profonds,Monnaie,DévoreurdeSoie,icon/Devoreur_soie.png
 408,Médaillon de souvenir,Quais profonds,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png
 409,Clé de la cloche de plongée,Quais profonds,Clé,Clédelaclochedeplongée,icon/Cle_cloche_plongee.png
@@ -422,7 +422,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 421,Glande de plasmonium,Vermiterres,Equipement,Glandedeplasmonium,icon/Glande_plasmonium.png
 422,Puce,Bilesac,Puce,Puce,icon/
 423,Dévoreur de Soie,Bilesac,Monnaie,DévoreurdeSoie,icon/Devoreur_soie.png
-424,TO TRAD FR,Bilesac,BOSS,TOTRADFR,icon/
+424,Fantome,Bilesac,BOSS,Fantome,icon/Fantome.png
 425,Point de croix,Bilesac,Technique,Pointdecroix,icon/Point_croix.png
 426,Oeuf de Pucelia,Conduits putrides,OutilBleu,OeufdePucelia,icon/Oeuf_Pucelia.png
 427,Résolution fatale,Clochelle,Quête,Résolutionfatale,icon/
@@ -444,7 +444,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 443,Masse de néant,Marches érodées,Livrable,Massedenéant,icon/
 444,Fragment de masque,Marches érodées,Masque,Fragmentdemasque,icon/Fragment_masque.png
 445,Fragment de masque,Mont Fay,Masque,Fragmentdemasque,icon/Fragment_masque.png
-446,Maîtresse de la Pique,Mont Fay,BOSS,MaîtressedelaPique,icon/
+446,Maîtresse de la Pique,Mont Fay,BOSS,MaîtressedelaPique,icon/Maitresse_pique.png
 447,Insigne de la Pique,Mont Fay,OutilBleu,InsignedelaPique,icon/Insigne_pique.png
 448,Tire-soie,Mont Fay,OutilRouge,Tire-soie,icon/Tire_soie.png
 449,Rite de réincarnation,Coquibois,Quête,Ritederéincarnation,icon/
@@ -458,36 +458,36 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 457,Chasseur (final),Tisse-nid Alta,Crest,Chasseur(final),icon/Hunter_Crest_3.png
 458,Sylphonie,Tisse-nid Alta,Talent,Sylphonie,icon/Sylphonie.png
 459,Masse de néant,Marches érodées,Livrable,Massedenéant,icon/
-460,Foudrelon,Sables Karak,BOSS,Foudrelon,icon/
+460,Foudrelon,Sables Karak,BOSS,Foudrelon,icon/Foudrelon.png
 461,Voltine,Sables Karak,OutilBleu,Voltine,icon/Voltine.png
-462,Grande Volucorne,Sables Karak,BOSS,GrandeVolucorne,icon/
+462,Grande Volucorne,Sables Karak,BOSS,GrandeVolucorne,icon/Volucorne_furie.png
 463,Coquilleur,Sables Karak,OutilRouge,Coquilleur,icon/Coquilleur.png
-464,Roi corail Khann,Sables Karak,BOSS,RoicorailKhann,icon/
+464,Roi corail Khann,Sables Karak,BOSS,RoicorailKhann,icon/Roi_Corail_Khann.png
 465,Coeur de corail,Sables Karak,Livrable,Coeurdecorail,icon/Coeur_corail.png
 466,Serrepince,Marches érodées,OutilBleu,Serrepince,icon/Serrepince.png
 467,Masse de néant,Grand portail,Livrable,Massedenéant,icon/
-468,Seth Gardien du Sanctuaire,Grand portail,BOSS,SethGardienduSanctuaire,icon/
-469,Florinelle,Grand portail,BOSS,Florinelle,icon/
+468,Seth Gardien du Sanctuaire,Grand portail,BOSS,SethGardienduSanctuaire,icon/Seth.png
+469,Florinelle,Grand portail,BOSS,Florinelle,icon/Florinelle.png
 470,Coeur fleurissant,Grand portail,Livrable,Coeurfleurissant,icon/
-471,Chanteuse Skarr Karmelita,Terres lointaines,BOSS,ChanteuseSkarrKarmelita,icon/
+471,Chanteuse Skarr Karmelita,Terres lointaines,BOSS,ChanteuseSkarrKarmelita,icon/Skarr_karmelita.png
 472,Coeur de Skarr,Terres lointaines,Livrable,CoeurdeSkarr,icon/Coeur_skarr.png
 473,Flore éternelle,Gouffre,Equipement,Floreéternelle,icon/Flore_eternelle.png
 474,Dernière plongée,,Quête,Dernièreplongée,icon/
 475,Message de corbotère,Clochelle,Livrable,Messagedecorbotère,icon/Message_corbotere.png
 476,Chasseur de l'ombre,Clochelle,Quête,Chasseurdel'ombre,icon/
 477,L'appel du héros,Clochelle,Quête,L'appelduhéros,icon/
-478,Gurr Le banni,Terres lointaines,BOSS,GurrLebanni,icon/
+478,Gurr Le banni,Terres lointaines,BOSS,GurrLebanni,icon/Gurr.png
 479,Poupée d'herbe,Terres lointaines,Livrable,Poupéed'herbe,icon/Poupee_herbe.png
 480,Chasseur de l'ombre,Clochelle,Quête,Chasseurdel'ombre,icon/
 481,Fragment de masque,Clochelle,Masque,Fragmentdemasque,icon/Fragment_masque.png
 482,Harpe runique,Grandes galeries,Ressource,Harperunique,icon/Harpe_runique.png
 483,L'ultime audience,Alcôves de la chorale,Quête,L'ultimeaudience,icon/
-484,Seconde Sentinelle,Grandes galeries,BOSS,SecondeSentinelle,icon/
+484,Seconde Sentinelle,Grandes galeries,BOSS,SecondeSentinelle,icon/Seconde_sentinelle.png
 485,Réserve de soie,Grandes galeries,OutilBleu,Réservedesoie,icon/Reserve_soie.png
 486,Fragment de masque,Clochelle,Masque,Fragmentdemasque,icon/Fragment_masque.png
 487,Roue mécanique,Fonderie,OutilRouge,Rouemécanique,icon/Roue_mecanique.png
 488,Ceinture à dents-de-scie,Fonderie,OutilBleu,Ceintureàdents-de-scie,icon/Ceinture_dent_scie.png
-489,Père de la flamme,Bosquet de feu follet,BOSS,Pèredelaflamme,icon/
+489,Père de la flamme,Bosquet de feu follet,BOSS,Pèredelaflamme,icon/Pere_flamme.png
 490,Lanterne de flambrume,Bosquet de feu follet,OutilBleu,Lanternedeflambrume,icon/Lanterne_flambrume.png
 500,Porte,Quais profonds,Activation,Porte,icon/
 500,Porte,Grand portail,Activation,Porte,icon/
@@ -501,14 +501,14 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 500,Clé simple,Gouffre,Clé,Clésimple,icon/cle_simple.png
 500,Clé simple,Alcôves de la chorale,Clé,Clésimple,icon/cle_simple.png
 500,Dévoreur de Soie,Le Berceau,Monnaie,DévoreurdeSoie,icon/Devoreur_soie.png
-500,TO TRAD FR,Sombrevale,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Marches érodées,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Verdania,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Abysse,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Verdania,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Vermiterres,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Voûtes des murmures,BOSS,TOTRADFR,icon/
-500,TO TRAD FR,Sables Karak,BOSS,TOTRADFR,icon/
+500,Père Corbotère,Sombrevale,BOSS,PèreCorbotère,icon/Pere_corbotere.png
+500,Garmond perdu,Marches érodées,BOSS,TOTRADFR,icon/Garmond.png
+500,Duo trefleur,Verdania,BOSS,DuoTrefleur,icon/Duo_trefleur.png
+500,Lace déchue,Abysse,BOSS,LaceDéchue,icon/Lace_dechue.png
+500,Cerf Pâle,Verdania,BOSS,TOTRADFR,icon/Cerf_pale.png
+500,Zango plasmifié,Vermiterres,BOSS,ZangoPlasmifié,icon/Zango_plasmifie.png
+500,Trobbio tourmenté,Voûtes des murmures,BOSS,TrobbioTourmenté,icon/Trobbio_tourmente.png
+500,Gardien frontière,Sables Karak,BOSS,GardienFrontière,icon/Gardien_frontiere.png
 500,Mirosserres,Voûtes des murmures,OutilBleu,Mirosserres,icon/Mirosserres.png
 500,TO TRAD FR,Verdania,Carte,TOTRADFR,icon/
 500,Epingles de Banc,Antre,Carte,EpinglesdeBanc,icon/
