@@ -18,7 +18,7 @@ public sealed class TimerDeathWidget : WidgetBase
         _timerBlock = new TextBlock
         {
             Foreground = new SolidColorBrush(Colors.White),
-            FontSize = 28,
+            FontSize = 22,
             FontWeight = FontWeights.Bold,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
@@ -28,7 +28,7 @@ public sealed class TimerDeathWidget : WidgetBase
         _deathBlock = new TextBlock
         {
             Foreground = new SolidColorBrush(Colors.OrangeRed),
-            FontSize = 18,
+            FontSize = 14,
             FontWeight = FontWeights.Bold,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
@@ -40,14 +40,14 @@ public sealed class TimerDeathWidget : WidgetBase
             Orientation = Orientation.Horizontal,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            Margin = new Thickness(12)
+            Margin = new Thickness(8)
         };
 
         panel.Children.Add(_timerBlock);
         panel.Children.Add(new Separator
         {
             Width = 2,
-            Margin = new Thickness(12, 0, 12, 0),
+            Margin = new Thickness(8, 0, 8, 0),
             Background = new SolidColorBrush(Color.FromArgb(100, 255, 255, 255))
         });
         panel.Children.Add(_deathBlock);
@@ -58,7 +58,7 @@ public sealed class TimerDeathWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(10),
-            Padding = new Thickness(12),
+            Padding = new Thickness(8),
             Child = panel
         };
 
