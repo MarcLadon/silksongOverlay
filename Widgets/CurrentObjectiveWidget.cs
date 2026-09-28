@@ -103,19 +103,40 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         _locationBlock.Text = $"Lieu : {current.Location}";
         _progressBar.Value = viewModel.CompletionPercentage;
 
-        if (!string.IsNullOrWhiteSpace(current.ImagePath) && File.Exists(current.ImagePath))
+        _image.Source = TryLoadImage(current.ImagePath);
+    }
+
+    private static BitmapImage? TryLoadImage(string? imagePath)
+    {
+        if (string.IsNullOrWhiteSpace(imagePath))
         {
+            return null;
+        }
+
+        try
+        {
+            var fullPath = Path.IsPathRooted(imagePath)
+                ? imagePath
+                : Path.Combine(Environment.CurrentDirectory, imagePath);
+
+            if (!File.Exists(fullPath))
+            {
+                return null;
+            }
+
             var bitmap = new BitmapImage();
             bitmap.BeginInit();
             bitmap.CacheOption = BitmapCacheOption.OnLoad;
-            bitmap.UriSource = new Uri(current.ImagePath, UriKind.Absolute);
+            bitmap.UriSource = new Uri(fullPath, UriKind.Absolute);
             bitmap.EndInit();
+            bitmap.Freeze();
 
-            _image.Source = bitmap;
+            return bitmap;
         }
-        else
+        catch (Exception ex)
         {
-            _image.Source = null;
+            System.Diagnostics.Debug.WriteLine($"Erreur lors du chargement de l'image '{imagePath}': {ex.Message}");
+            return null;
         }
     }
 
