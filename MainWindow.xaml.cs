@@ -9,6 +9,7 @@ using System.Windows.Threading;
 using Microsoft.Win32;
 using SilksongOverlay.Core;
 using SilksongOverlay.Models;
+using SilksongOverlay.Services;
 using SilksongOverlay.ViewModels;
 using SilksongOverlay.Widgets;
 
@@ -17,6 +18,7 @@ namespace SilksongOverlay;
 public partial class MainWindow : Window
 {
     private readonly string _configPath = "config/overlay.json";
+    private readonly string _csvObjectivesPath = "data/objectives.csv";
     private readonly ConfigurationService _configurationService;
     private readonly OverlayViewModel _viewModel;
     private readonly OverlayWindow _overlayWindow = new();
@@ -36,8 +38,17 @@ public partial class MainWindow : Window
         _configurationService = new ConfigurationService(_configPath);
         var config = _configurationService.Load();
 
-        if (config.Objectives.Count == 0)
+        // Charger les objectifs depuis le CSV
+        var csvLoader = new CsvObjectiveLoader(_csvObjectivesPath);
+        var csvObjectives = csvLoader.Load();
+
+        if (csvObjectives.Count > 0)
         {
+            config.Objectives = csvObjectives;
+        }
+        else if (config.Objectives.Count == 0)
+        {
+            // Si aucun CSV n'existe et aucun objectif sauvegardé, créer des défauts
             config.Objectives = new List<Objective>
             {
                 new() { Name = "Entrer dans les quais profonds", Location = "Quais profonds", Order = 0, DetectionType = "area_entered", DetectionValue = "Deep Docks" },
