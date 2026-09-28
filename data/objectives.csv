@@ -1,7 +1,7 @@
 Order,Name,Location,DetectionType,DetectionValue,ImagePath
-1,Cape du chasseur,Gouffre,Equipement,Capeduchasseur,icon/Hunter_Crest_1.png
+1,Cape du chasseur,Gouffre,Equipement,Capeduchasseur,
 2,Sac à outils,Gouffre,Equipement,Sacàoutils,
-3,Chasseur,??,Crest,Chasseur,
+3,Chasseur,??,Crest,Chasseur,icon/Hunter_Crest_1.png
 4,Baie verdissante,Gouffre,Livrable,Baieverdissante,
 5,Chapelet usé,Gouffre,Monnaie,Chapeletusé,
 6,Baie verdissante,Gouffre,Livrable,Baieverdissante,
@@ -62,7 +62,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 61,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,
 62,Manuscrit d'os,Sombrevale,Ressource,Manuscritd'os,
 63,Insectes de Pharloom,Sombrevale,Quête,InsectesdePharloom,
-64,Faucheur,Sombrevale,Crest,Faucheur,
+64,Faucheur,Sombrevale,Crest,Faucheur,icon/Faucheur.png
 65,Médaillon de souvenir,Sombrevale,Medaillon,Médaillondesouvenir,
 66,Ailebrume,Sombrevale,BOSS,Ailebrume,
 67,La ville tissée,Clochelle,Quête,Lavilletissée,
@@ -101,9 +101,9 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 100,Mon coursier disparu,Gouffre,Quête,Moncoursierdisparu,
 101,Effigie de tisserande,Gouffre,Ressource,Effigiedetisserande,
 102,Baie verdissante,Gouffre,Livrable,Baieverdissante,
-103,Vagabond,Gouffre,Crest,Vagabond,
+103,Vagabond,Gouffre,Crest,Vagabond,icon/Vagabond.png
 104,Carte du Tisse-Nid,Tisse-nid Alta,Carte,CarteduTisse-Nid,
-105,Chasseur (évolué),Tisse-nid Alta,Crest,Chasseur(évolué),
+105,Chasseur (évolué),Tisse-nid Alta,Crest,Chasseur(évolué),icon/Hunter_Crest_2.png
 106,Harpe runique,Tisse-nid Alta,Ressource,Harperunique,
 107,Fragment de masque,Tisse-nid Alta,Masque,Fragmentdemasque,
 108,Fragment de bobine,Tisse-nid Alta,Bobine,Fragmentdebobine,
@@ -147,7 +147,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 146,Carte de l'Avancé du chasseur,Sentier du chasseur,Carte,Cartedel'Avancéduchasseur,
 147,Médaillon de souvenir,Sentier du chasseur,Medaillon,Médaillondesouvenir,
 148,Volpeste enragée,Sentier du chasseur,BOSS,Volpesteenragée,
-149,Bête,Sentier du chasseur,Crest,Bête,
+149,Bête,Sentier du chasseur,Crest,Bête,icon/Bete.png
 150,Courbe-serre,Sentier du chasseur,OutilRouge,Courbe-serre,
 151,Masque fissuré,Sentier du chasseur,OutilBleu,Masquefissuré,
 152,Chapelet usé,Chemin du pêcheur,Monnaie,Chapeletusé,
@@ -239,7 +239,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 238,Broclet,Fonderie,OutilJaune,Broclet,
 239,Clé de l'architecte,Fonderie,Clé,Clédel'architecte,
 240,Kit de fabrication,Fonderie,Equipement,Kitdefabrication,
-241,Architecte,Fonderie,Crest,Architecte,
+241,Architecte,Fonderie,Crest,Architecte,icon/Architecte.png
 242,Griffe du grimpeur,Alcôves de la chorale,OutilJaune,Griffedugrimpeur,
 243,Fragment de masque,Alcôves de la chorale,Masque,Fragmentdemasque,
 244,Jaune,Tisse-nid Alta,Crest,Jaune,
@@ -416,7 +416,7 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 415,Chercheuse de sorts,Quais profonds,Quête,Chercheusedesorts,
 416,???,Quais profonds,Livrable,???,
 417,Elégie des profondeurs,Gouffre,Talent,Elégiedesprofondeurs,
-418,Chaman,Gouffre,Crest,Chaman,
+418,Chaman,Gouffre,Crest,Chaman,icon/Chaman.png
 419,Alchimie avancée,Vermiterres,Quête,Alchimieavancée,
 420,Alchimie avancée,Vermiterres,Quête,Alchimieavancée,
 421,Glande de plasmonium,Vermiterres,Equipement,Glandedeplasmonium,
@@ -449,13 +449,13 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 448,Tire-soie,Mont Fay,OutilRouge,Tire-soie,
 449,Rite de réincarnation,Coquibois,Quête,Ritederéincarnation,
 450,Rite de réincarnation,Coquibois,Quête,Ritederéincarnation,
-451,??,Coquibois,Crest,??,
+451,Maudit,Coquibois,Crest,??,icon/Maudit.png
 452,Effigie de tisserande,Coquibois,Ressource,Effigiedetisserande,
 453,Chirurgie parasitaire,Sombrevale,Quête,Chirurgieparasitaire,
 454,Epines d'acier,Chemin du pêcheur,Livrable,Epinesd'acier,
 455,Chirurgie parasitaire,Sombrevale,Quête,Chirurgieparasitaire,
-456,Sorcière,Sombrevale,Crest,Sorcière,
-457,Chasseur (final),Tisse-nid Alta,Crest,Chasseur(final),
+456,Sorcière,Sombrevale,Crest,Sorcière,icon/Sorciere.png
+457,Chasseur (final),Tisse-nid Alta,Crest,Chasseur(final),icon/Hunter_Crest_3.png
 458,Sylphonie,Tisse-nid Alta,Talent,Sylphonie,
 459,Masse de néant,Marches érodées,Livrable,Massedenéant,
 460,Foudrelon,Sables Karak,BOSS,Foudrelon,
