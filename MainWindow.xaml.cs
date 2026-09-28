@@ -113,10 +113,8 @@ public partial class MainWindow : Window
     {
         var widgets = new WidgetBase[]
         {
-            new TimerWidget { Configuration = { X = 20, Y = 20, Width = 220, Height = 60 } },
-            new DeathCounterWidget { Configuration = { X = 20, Y = 90, Width = 180, Height = 40 } },
-            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 150, Width = 500, Height = 150 } },
-            new CompletionWidget { Configuration = { X = 20, Y = 320, Width = 300, Height = 70 } }
+            new TimerDeathWidget { Configuration = { X = 20, Y = 20, Width = 280, Height = 60 } },
+            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 95, Width = 500, Height = 150 } }
         };
 
         _widgets.AddRange(widgets);
@@ -146,10 +144,8 @@ public partial class MainWindow : Window
         {
             switch (widget)
             {
-                case TimerWidget timer: timer.Bind(_viewModel); break;
-                case DeathCounterWidget deaths: deaths.Bind(_viewModel); break;
+                case TimerDeathWidget timerDeath: timerDeath.Bind(_viewModel); break;
                 case CurrentObjectiveWidget objective: objective.Bind(_viewModel); break;
-                case CompletionWidget completion: completion.Bind(_viewModel); break;
             }
         }
     }

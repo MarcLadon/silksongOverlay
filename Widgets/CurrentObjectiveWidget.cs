@@ -12,7 +12,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
     private readonly Image _image;
     private readonly TextBlock _titleBlock;
     private readonly TextBlock _locationBlock;
-    private readonly ProgressBar _progressBar;
+    private readonly TextBlock _completionBlock;
+    private readonly ProgressBar _completionBar;
 
     public CurrentObjectiveWidget()
     {
@@ -42,14 +43,21 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             TextWrapping = TextWrapping.Wrap
         };
 
-        _progressBar = new ProgressBar
+        _completionBlock = new TextBlock
         {
-            Height = 10,
+            FontSize = 14,
+            Foreground = new SolidColorBrush(Colors.LimeGreen),
+            FontWeight = FontWeights.SemiBold,
+            Margin = new Thickness(0, 8, 0, 4)
+        };
+
+        _completionBar = new ProgressBar
+        {
+            Height = 8,
             Minimum = 0,
             Maximum = 100,
-            Margin = new Thickness(0, 8, 0, 0),
             Background = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)),
-            Foreground = new SolidColorBrush(Color.FromArgb(220, 110, 168, 254))
+            Foreground = new SolidColorBrush(Color.FromArgb(220, 122, 229, 130))
         };
 
         var textPanel = new StackPanel
@@ -59,7 +67,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         textPanel.Children.Add(_titleBlock);
         textPanel.Children.Add(_locationBlock);
-        textPanel.Children.Add(_progressBar);
+        textPanel.Children.Add(_completionBlock);
+        textPanel.Children.Add(_completionBar);
 
         var panel = new StackPanel
         {
@@ -94,14 +103,16 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         {
             _titleBlock.Text = "Terminé";
             _locationBlock.Text = "Tous les objectifs sont accomplis";
-            _progressBar.Value = 100;
+            _completionBlock.Text = $"Complétion : 100.00%";
+            _completionBar.Value = 100;
             _image.Source = null;
             return;
         }
 
         _titleBlock.Text = current.Name;
         _locationBlock.Text = $"Lieu : {current.Location}";
-        _progressBar.Value = viewModel.CompletionPercentage;
+        _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
+        _completionBar.Value = viewModel.CompletionPercentage;
 
         _image.Source = TryLoadImage(current.ImagePath);
     }
