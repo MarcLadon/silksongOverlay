@@ -113,8 +113,8 @@ public partial class MainWindow : Window
     {
         var widgets = new WidgetBase[]
         {
-            new TimerDeathWidget { Configuration = { X = 20, Y = 20, Width = 280, Height = 60 } },
-            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 95, Width = 245, Height = 120 } }
+            new TimerDeathWidget { Configuration = { X = 20, Y = 20, Width = 200, Height = 60 } },
+            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 95, Width = 368, Height = 120 } }
         };
 
         _widgets.AddRange(widgets);
