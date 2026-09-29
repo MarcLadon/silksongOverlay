@@ -22,15 +22,16 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         _image = new Image
         {
-            Width = 80,
-            Height = 80,
+            Width = 64,
+            Height = 64,
             Stretch = Stretch.UniformToFill,
-            Margin = new Thickness(0, 0, 12, 0)
+            Margin = new Thickness(0, 0, 10, 0),
+            VerticalAlignment = VerticalAlignment.Center
         };
 
         _titleBlock = new TextBlock
         {
-            FontSize = 22,
+            FontSize = 20,
             FontWeight = FontWeights.Bold,
             Foreground = new SolidColorBrush(Colors.White),
             TextWrapping = TextWrapping.Wrap
@@ -38,14 +39,14 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         _locationBlock = new TextBlock
         {
-            FontSize = 16,
+            FontSize = 14,
             Foreground = new SolidColorBrush(Colors.LightGray),
             TextWrapping = TextWrapping.Wrap
         };
 
         _completionBlock = new TextBlock
         {
-            FontSize = 14,
+            FontSize = 13,
             Foreground = new SolidColorBrush(Colors.LimeGreen),
             FontWeight = FontWeights.SemiBold,
             Margin = new Thickness(0, 4, 0, 2)
@@ -56,6 +57,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             Height = 8,
             Minimum = 0,
             Maximum = 100,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
             Background = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)),
             Foreground = new SolidColorBrush(Color.FromArgb(220, 122, 229, 130))
         };
@@ -63,7 +65,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         var textPanel = new StackPanel
         {
             VerticalAlignment = VerticalAlignment.Center,
-            Width = 220
+            HorizontalAlignment = HorizontalAlignment.Stretch
         };
 
         textPanel.Children.Add(_titleBlock);
@@ -71,15 +73,18 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         textPanel.Children.Add(_completionBlock);
         textPanel.Children.Add(_completionBar);
 
-        var panel = new StackPanel
+        var grid = new Grid
         {
-            Orientation = Orientation.Horizontal,
-            Margin = new Thickness(10, 6, 10, 6),
-            VerticalAlignment = VerticalAlignment.Center
+            Margin = new Thickness(0, 2, 0, 2)
         };
+        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
 
-        panel.Children.Add(_image);
-        panel.Children.Add(textPanel);
+        Grid.SetColumn(_image, 0);
+        Grid.SetColumn(textPanel, 1);
+
+        grid.Children.Add(_image);
+        grid.Children.Add(textPanel);
 
         var border = new Border
         {
@@ -87,12 +92,12 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
-            Padding = new Thickness(8, 4, 8, 4),
-            Child = panel
+            Padding = new Thickness(10, 4, 10, 4),
+            Child = grid
         };
 
         View = border;
-        Configuration.Width = 350;
+        Configuration.Width = 245;
         Configuration.Height = 120;
     }
 
