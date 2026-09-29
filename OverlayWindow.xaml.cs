@@ -10,8 +10,16 @@ public partial class OverlayWindow : Window
     public OverlayWindow()
     {
         InitializeComponent();
-        Left = 40;
-        Top = 40;
+        PositionTopRight();
+    }
+
+    private void PositionTopRight()
+    {
+        const double margin = 40;
+        var workArea = SystemParameters.WorkArea;
+
+        Left = workArea.Right - Width - margin;
+        Top = workArea.Top + margin;
     }
 
     public bool IsEditMode
