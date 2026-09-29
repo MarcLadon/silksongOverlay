@@ -24,9 +24,10 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         {
             Width = 64,
             Height = 64,
-            Stretch = Stretch.UniformToFill,
+            Stretch = Stretch.Uniform,
             Margin = new Thickness(0, 0, 10, 0),
-            VerticalAlignment = VerticalAlignment.Center
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
         };
 
         _titleBlock = new TextBlock
@@ -34,14 +35,16 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             FontSize = 20,
             FontWeight = FontWeights.Bold,
             Foreground = new SolidColorBrush(Colors.White),
-            TextWrapping = TextWrapping.Wrap
+            TextWrapping = TextWrapping.Wrap,
+            HorizontalAlignment = HorizontalAlignment.Stretch
         };
 
         _locationBlock = new TextBlock
         {
             FontSize = 14,
             Foreground = new SolidColorBrush(Colors.LightGray),
-            TextWrapping = TextWrapping.Wrap
+            TextWrapping = TextWrapping.Wrap,
+            HorizontalAlignment = HorizontalAlignment.Stretch
         };
 
         _completionBlock = new TextBlock
@@ -49,7 +52,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             FontSize = 13,
             Foreground = new SolidColorBrush(Colors.LimeGreen),
             FontWeight = FontWeights.SemiBold,
-            Margin = new Thickness(0, 4, 0, 2)
+            Margin = new Thickness(0, 4, 0, 2),
+            HorizontalAlignment = HorizontalAlignment.Stretch
         };
 
         _completionBar = new ProgressBar
@@ -62,11 +66,20 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             Foreground = new SolidColorBrush(Color.FromArgb(220, 122, 229, 130))
         };
 
-        var textPanel = new StackPanel
+        var textPanel = new Grid
         {
             VerticalAlignment = VerticalAlignment.Center,
             HorizontalAlignment = HorizontalAlignment.Stretch
         };
+        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+
+        Grid.SetRow(_titleBlock, 0);
+        Grid.SetRow(_locationBlock, 1);
+        Grid.SetRow(_completionBlock, 2);
+        Grid.SetRow(_completionBar, 3);
 
         textPanel.Children.Add(_titleBlock);
         textPanel.Children.Add(_locationBlock);
@@ -75,7 +88,9 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         var grid = new Grid
         {
-            Margin = new Thickness(0, 2, 0, 2)
+            Margin = new Thickness(0, 2, 0, 2),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch
         };
         grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
         grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
@@ -92,7 +107,9 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
-            Padding = new Thickness(10, 4, 10, 4),
+            Padding = new Thickness(6, 2, 6, 2),
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Stretch,
             Child = grid
         };
 
@@ -119,7 +136,6 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         _locationBlock.Text = $"Lieu : {current.Location}";
         _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
         _completionBar.Value = viewModel.CompletionPercentage;
-
         _image.Source = TryLoadImage(current.ImagePath);
     }
 
