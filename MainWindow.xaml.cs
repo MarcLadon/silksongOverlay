@@ -57,6 +57,7 @@ public partial class MainWindow : Window
         }
 
         _viewModel = new OverlayViewModel(config.Objectives) { DeathCount = config.DeathCount };
+        _viewModel.TimerService.RestoreElapsed(TimeSpan.FromSeconds(config.TimerElapsedSeconds));
         if (config.TimerRunning) _viewModel.TimerService.Start();
 
         _uiTimer.Tick += UiTimer_Tick;
@@ -203,7 +204,7 @@ public partial class MainWindow : Window
             Objectives = _viewModel.ObjectiveService.Objectives.ToList(),
             CurrentObjectiveIndex = _viewModel.ObjectiveService.CurrentObjectiveIndex,
             DeathCount = _viewModel.DeathCount,
-            TimerText = _viewModel.TimerText,
+            TimerElapsedSeconds = _viewModel.TimerService.Elapsed.TotalSeconds,
             TimerRunning = _viewModel.TimerService.IsRunning
         });
     }
