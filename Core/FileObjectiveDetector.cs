@@ -5,6 +5,11 @@ namespace SilksongOverlay.Core;
 
 public sealed class FileObjectiveDetector : IObjectiveDetector
 {
+    private static readonly JsonSerializerOptions JsonOptions = new()
+    {
+        PropertyNameCaseInsensitive = true
+    };
+
     private readonly string _path;
     private CancellationTokenSource? _stopSource;
 
@@ -35,7 +40,7 @@ public sealed class FileObjectiveDetector : IObjectiveDetector
                         if (!string.Equals(content, lastContent, StringComparison.Ordinal))
                         {
                             lastContent = content;
-                            var detectedEvent = JsonSerializer.Deserialize<DetectedEvent>(content);
+                            var detectedEvent = JsonSerializer.Deserialize<DetectedEvent>(content, JsonOptions);
 
                             if (detectedEvent is not null &&
                                 !string.IsNullOrWhiteSpace(detectedEvent.Type) &&
