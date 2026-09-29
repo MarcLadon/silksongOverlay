@@ -12,8 +12,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
     private readonly Image _image;
     private readonly TextBlock _titleBlock;
     private readonly TextBlock _locationBlock;
-    private readonly TextBlock _completionBlock;
-    private readonly ProgressBar _completionBar;
+    private readonly ProgressBar _progressBar;
 
     public CurrentObjectiveWidget()
     {
@@ -43,37 +42,30 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             TextWrapping = TextWrapping.Wrap
         };
 
-        _completionBlock = new TextBlock
+        _progressBar = new ProgressBar
         {
-            FontSize = 14,
-            Foreground = new SolidColorBrush(Colors.LimeGreen),
-            FontWeight = FontWeights.SemiBold,
-            Margin = new Thickness(0, 4, 0, 2)
-        };
-
-        _completionBar = new ProgressBar
-        {
-            Height = 8,
+            Height = 10,
             Minimum = 0,
             Maximum = 100,
+            Margin = new Thickness(0, 8, 0, 0),
             Background = new SolidColorBrush(Color.FromArgb(80, 255, 255, 255)),
-            Foreground = new SolidColorBrush(Color.FromArgb(220, 122, 229, 130))
+            Foreground = new SolidColorBrush(Color.FromArgb(220, 110, 168, 254))
         };
 
         var textPanel = new StackPanel
         {
-            VerticalAlignment = VerticalAlignment.Center
+            VerticalAlignment = VerticalAlignment.Center,
+            Width = 220
         };
 
         textPanel.Children.Add(_titleBlock);
         textPanel.Children.Add(_locationBlock);
-        textPanel.Children.Add(_completionBlock);
-        textPanel.Children.Add(_completionBar);
+        textPanel.Children.Add(_progressBar);
 
         var panel = new StackPanel
         {
             Orientation = Orientation.Horizontal,
-            Margin = new Thickness(10, 6, 10, 6),
+            Margin = new Thickness(10),
             VerticalAlignment = VerticalAlignment.Center
         };
 
@@ -86,13 +78,13 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
-            Padding = new Thickness(8, 4, 8, 4),
+            Padding = new Thickness(8),
             Child = panel
         };
 
         View = border;
-        Configuration.Width = 350;
-        Configuration.Height = 120;
+        Configuration.Width = 500;
+        Configuration.Height = 150;
     }
 
     public void Bind(OverlayViewModel viewModel)
@@ -103,51 +95,28 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         {
             _titleBlock.Text = "Terminé";
             _locationBlock.Text = "Tous les objectifs sont accomplis";
-            _completionBlock.Text = $"Complétion : 100.00%";
-            _completionBar.Value = 100;
+            _progressBar.Value = 100;
             _image.Source = null;
             return;
         }
 
         _titleBlock.Text = current.Name;
         _locationBlock.Text = $"Lieu : {current.Location}";
-        _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
-        _completionBar.Value = viewModel.CompletionPercentage;
+        _progressBar.Value = viewModel.CompletionPercentage;
 
-        _image.Source = TryLoadImage(current.ImagePath);
-    }
-
-    private static BitmapImage? TryLoadImage(string? imagePath)
-    {
-        if (string.IsNullOrWhiteSpace(imagePath))
+        if (!string.IsNullOrWhiteSpace(current.ImagePath) && File.Exists(current.ImagePath))
         {
-            return null;
-        }
-
-        try
-        {
-            var fullPath = Path.IsPathRooted(imagePath)
-                ? imagePath
-                : Path.Combine(Environment.CurrentDirectory, imagePath);
-
-            if (!File.Exists(fullPath))
-            {
-                return null;
-            }
-
             var bitmap = new BitmapImage();
             bitmap.BeginInit();
             bitmap.CacheOption = BitmapCacheOption.OnLoad;
-            bitmap.UriSource = new Uri(fullPath, UriKind.Absolute);
+            bitmap.UriSource = new Uri(current.ImagePath, UriKind.Absolute);
             bitmap.EndInit();
-            bitmap.Freeze();
 
-            return bitmap;
+            _image.Source = bitmap;
         }
-        catch (Exception ex)
+        else
         {
-            System.Diagnostics.Debug.WriteLine($"Erreur lors du chargement de l'image '{imagePath}': {ex.Message}");
-            return null;
+            _image.Source = null;
         }
     }
 
