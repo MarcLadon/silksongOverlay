@@ -8,7 +8,7 @@ public sealed class OverlayConfiguration
 
     public int DeathCount { get; set; }
 
-    public string TimerText { get; set; } = "00:00:00";
+    public double TimerElapsedSeconds { get; set; }
 
     public bool TimerRunning { get; set; }
 
