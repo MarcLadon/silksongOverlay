@@ -48,7 +48,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             FontSize = 14,
             Foreground = new SolidColorBrush(Colors.LimeGreen),
             FontWeight = FontWeights.SemiBold,
-            Margin = new Thickness(0, 8, 0, 4)
+            Margin = new Thickness(0, 4, 0, 2)
         };
 
         _completionBar = new ProgressBar
@@ -73,7 +73,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         var panel = new StackPanel
         {
             Orientation = Orientation.Horizontal,
-            Margin = new Thickness(10),
+            Margin = new Thickness(10, 6, 10, 6),
             VerticalAlignment = VerticalAlignment.Center
         };
 
@@ -86,13 +86,13 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
-            Padding = new Thickness(8),
+            Padding = new Thickness(8, 4, 8, 4),
             Child = panel
         };
 
         View = border;
-        Configuration.Width = 500;
-        Configuration.Height = 150;
+        Configuration.Width = 350;
+        Configuration.Height = 120;
     }
 
     public void Bind(OverlayViewModel viewModel)
