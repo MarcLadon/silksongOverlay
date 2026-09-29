@@ -40,14 +40,14 @@ public sealed class TimerDeathWidget : WidgetBase
             Orientation = Orientation.Horizontal,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            Margin = new Thickness(8)
+            Margin = new Thickness(2, 4, 2, 4)
         };
 
         panel.Children.Add(_timerBlock);
         panel.Children.Add(new Separator
         {
             Width = 2,
-            Margin = new Thickness(8, 0, 8, 0),
+            Margin = new Thickness(6, 0, 6, 0),
             Background = new SolidColorBrush(Color.FromArgb(100, 255, 255, 255))
         });
         panel.Children.Add(_deathBlock);
@@ -58,12 +58,12 @@ public sealed class TimerDeathWidget : WidgetBase
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(10),
-            Padding = new Thickness(8),
+            Padding = new Thickness(4, 2, 4, 2),
             Child = panel
         };
 
         View = border;
-        Configuration.Width = 280;
+        Configuration.Width = 200;
         Configuration.Height = 60;
     }
 
