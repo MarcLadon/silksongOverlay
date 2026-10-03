@@ -31,6 +31,7 @@ public sealed class CsvObjectiveLoader
                 return objectives;
             }
 
+            // Colonnes : Order,Name,Location,DetectionType,DetectionValue,ImagePath,Detail
             for (int i = 1; i < lines.Length; i++)
             {
                 var line = lines[i].Trim();
@@ -60,6 +61,7 @@ public sealed class CsvObjectiveLoader
                     DetectionType = parts[3],
                     DetectionValue = parts[4],
                     ImagePath = parts.Count > 5 && !string.IsNullOrWhiteSpace(parts[5]) ? parts[5] : null,
+                    Detail = parts.Count > 6 ? parts[6] : string.Empty,
                     IsCompleted = false
                 };
 

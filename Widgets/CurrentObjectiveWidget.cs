@@ -11,6 +11,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 {
     private readonly Image _image;
     private readonly TextBlock _titleBlock;
+    private readonly TextBlock _detailBlock;
     private readonly TextBlock _locationBlock;
     private readonly TextBlock _completionBlock;
     private readonly ProgressBar _completionBar;
@@ -37,6 +38,15 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             Foreground = new SolidColorBrush(Colors.White),
             TextWrapping = TextWrapping.Wrap,
             HorizontalAlignment = HorizontalAlignment.Stretch
+        };
+
+        _detailBlock = new TextBlock
+        {
+            FontSize = 14,
+            Foreground = new SolidColorBrush(Color.FromRgb(255, 224, 138)),
+            TextWrapping = TextWrapping.Wrap,
+            HorizontalAlignment = HorizontalAlignment.Stretch,
+            Visibility = Visibility.Collapsed
         };
 
         _locationBlock = new TextBlock
@@ -71,17 +81,19 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             VerticalAlignment = VerticalAlignment.Center,
             HorizontalAlignment = HorizontalAlignment.Stretch
         };
-        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
-        textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        for (var i = 0; i < 5; i++)
+        {
+            textPanel.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+        }
 
         Grid.SetRow(_titleBlock, 0);
-        Grid.SetRow(_locationBlock, 1);
-        Grid.SetRow(_completionBlock, 2);
-        Grid.SetRow(_completionBar, 3);
+        Grid.SetRow(_detailBlock, 1);
+        Grid.SetRow(_locationBlock, 2);
+        Grid.SetRow(_completionBlock, 3);
+        Grid.SetRow(_completionBar, 4);
 
         textPanel.Children.Add(_titleBlock);
+        textPanel.Children.Add(_detailBlock);
         textPanel.Children.Add(_locationBlock);
         textPanel.Children.Add(_completionBlock);
         textPanel.Children.Add(_completionBar);
@@ -125,6 +137,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         if (current is null)
         {
             _titleBlock.Text = "Terminé";
+            _detailBlock.Text = string.Empty;
+            _detailBlock.Visibility = Visibility.Collapsed;
             _locationBlock.Text = "Tous les objectifs sont accomplis";
             _completionBlock.Text = "Complétion : 100.00%";
             _completionBar.Value = 100;
@@ -133,6 +147,10 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         }
 
         _titleBlock.Text = current.Name;
+        _detailBlock.Text = current.Detail;
+        _detailBlock.Visibility = string.IsNullOrWhiteSpace(current.Detail)
+            ? Visibility.Collapsed
+            : Visibility.Visible;
         _locationBlock.Text = $"Lieu : {current.Location}";
         _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
         _completionBar.Value = viewModel.CompletionPercentage;

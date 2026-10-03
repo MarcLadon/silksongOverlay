@@ -6,6 +6,8 @@ public sealed class Objective
 
     public string Name { get; set; } = string.Empty;
 
+    public string Detail { get; set; } = string.Empty;
+
     public string Location { get; set; } = string.Empty;
 
     public string? ImagePath { get; set; }
