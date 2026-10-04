@@ -1,96 +1,112 @@
 Order,Name,Location,DetectionType,DetectionValue,ImagePath,Détail
 1,Baie verdissante (1),Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,
 2,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/chapelet_use.png,"Dans le fossé, vers la gauche"
-3,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,Jump depuis l'insecte
+3,Baie verdissante (2),Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,Jump depuis l'insecte
 4,Perles,Gouffre,-,-,icon/perle.png,"Transition, puis dans le fossé, vers la gauche"
 4,Mère Forestière,Gouffre,BOSS,MèreForestière,icon/Mere_forestiere.png,
-5,La grande citadelle,Gouffre,Quête,Lagrandecitadelle,icon/Divers.png,
+5,La grande citadelle,Gouffre,Quête,Lagrandecitadelle,icon/Divers.png,Automatique en avancant
+4,Perles,Gouffre,-,-,icon/perle.png,Mur à casser à droite avant la chute amenant au levier
 6,Levier,Antre,Activation,Levier,icon/levier.png,
-7,Les puces perdues,Antre,Quête,Lespucesperdues,icon/Exploration.png,
-8,Chapelet usé,Antre,Monnaie,Chapeletusé,icon/chapelet_use.png,
-9,Collier d'os,Antre,OutilJaune,Collierd'os,icon/Collier_os.png,
-10,Carte des Terres Verdoyantes,Antre,Carte,CartedesTerresVerdoyantes,icon/Terre_verdoyantes.png,
-11,Carte de l'Antre,Antre,Carte,Cartedel'Antre,icon/Antre.png,
-12,Plume,Antre,Equipement,Plume,icon/Plume.png,
-13,Boussole,Antre,OutilJaune,Boussole,icon/Boussole.png,
-14,Commandement de la chorale,Gouffre,Ressource,Commandementdelachorale,icon/Commandement_chorale.png,
+7,Les puces perdues,Antre,Quête,Lespucesperdues,icon/Exploration.png,Prendre la quète chez les Puces
+4,Perles,Gouffre,-,-,icon/perle.png,Mur à casser au dessus du maitre des puces
+8,Chapelet usé,Antre,Monnaie,Chapeletusé,icon/chapelet_use.png,"En haut, à droite"
+9,Collier d'os,Antre,OutilJaune,Collierd'os,icon/Collier_os.png,"Après transition, en bas à gauche"
+4,Perles,Gouffre,-,-,icon/perle.png,Tout à droite de Shakra
+10,Carte des Terres Verdoyantes,Antre,Carte,CartedesTerresVerdoyantes,icon/Terre_verdoyantes.png,40 perles
+11,Carte de l'Antre,Antre,Carte,Cartedel'Antre,icon/Antre.png,50 perles
+12,Plume,Antre,Equipement,Plume,icon/Plume.png,50 perles
+13,Boussole,Antre,OutilJaune,Boussole,icon/Boussole.png,70 perles
+4,Perles,Gouffre,-,-,icon/perle.png,En haut à droite du levier qui ouvre la trappe
+14,Commandement de la chorale,Gouffre,Ressource,Commandementdelachorale,icon/Commandement_chorale.png,Mur à casser au dessus à gauche
 15,Lance soyeuse,Gouffre,Technique,Lancesoyeuse,icon/Lance_soyeuse.png,
-16,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/chapelet_use.png,
-17,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,
-18,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/Recolte.png,
-19,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/Recolte.png,
-20,Oeil druidique,Gouffre,OutilBleu,Oeildruidique,icon/oeil_druidique.png,
-21,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,
-22,Broche magnétite,Gouffre,OutilJaune,Brochemagnétite,icon/Broche_magnetite.png,
-23,Fragment de bobine,Gouffre,Bobine,Fragmentdebobine,icon/Fragment_bobine.png,
-24,Bête des cloches,Antre,BOSS,Bêtedescloches,icon/Bete_choches.png,
+16,Chapelet usé,Gouffre,Monnaie,Chapeletusé,icon/chapelet_use.png,A gauche de la lance soyeuse
+17,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,"En bas avant le Druite, puis passage caché à droite"
+18,Ceuillette de baies verdissantes,Gouffre,Quête,Ceuillettedebaiesverdissantes,icon/Recolte.png,Prendre la quète au Druide
+20,Oeil druidique,Gouffre,OutilBleu,Oeildruidique,icon/oeil_druidique.png,Rendre la quète au Druide
+4,Perles,Gouffre,-,-,icon/perle.png,Au dessus du levier qui active l'ascenseur
+21,Baie verdissante,Gouffre,Livrable,Baieverdissante,icon/Baie_verdissante.png,Buter l'enfoiré qui vole au dessus du village
+22,Broche magnétite,Gouffre,OutilJaune,Brochemagnétite,icon/Broche_magnetite.png,120 Perles
+23,Fragment de bobine,Gouffre,Bobine,Fragmentdebobine,icon/Fragment_bobine.png,"Au bout du passage au dessus du village, mur à casser"
+4,Perles,Gouffre,-,-,icon/perle.png,A gauche en sortant
+24,Bête des cloches,Antre,BOSS,Bêtedescloches,icon/Bete_choches.png,Au dessus de Shakra
 25,Coeur de soie,Antre,Soie,Coeurdesoie,icon/Coeur_soie.png,
-26,Métal artisanal,Gouffre,Ressource,Métalartisanal,icon/Metal_artisanal.png,
-27,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/Chasse.png,
-28,Réparation de Gouffre,Gouffre,Quête,RéparationdeGouffre,icon/Contribution.png,
-29,Puce,Antre,Puce,Puce,icon/Puce.png,
-30,Métal artisanal,Antre,Ressource,Métalartisanal,icon/Metal_artisanal.png,
-31,Dardillon,Antre,OutilRouge,Dardillon,icon/Dardillon.png,
-32,Carte des Quais Profonds,Quais profonds,Carte,CartedesQuaisProfonds,icon/Quais_profonds.png,
-33,Puce,Quais Profonds,Puce,Puce,icon/Puce.png,
-34,Chapelet usé,Quais profonds,Monnaie,Chapeletusé,icon/chapelet_use.png,
+26,Métal artisanal,Gouffre,Ressource,Métalartisanal,icon/Metal_artisanal.png,"Achat au village, 60 Perles"
+27,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/Chasse.png,Prendre la quète
+28,Réparation de Gouffre,Gouffre,Quête,RéparationdeGouffre,icon/Contribution.png,"Payer la quète, 200 fragments (peut être delay)"
+29,Puce (1),Antre,Puce,Puce,icon/Puce.png,"Après la cloque, activer le levier à droite, puis aller dans la zone au dessus"
+30,Métal artisanal,Antre,Ressource,Métalartisanal,icon/Metal_artisanal.png,"Aller à droite, se trouve derrière un mur explosif"
+,Perles,Antre,-,-,icon/perle.png,"Dans la zone au dessus, puis mur à casser"
+,Perles,Antre,-,-,icon/perle.png,"Au dessus de la prison, à droite du levier au plafond"
+31,Dardillon,Antre,OutilRouge,Dardillon,icon/Dardillon.png,Dans la prison
+32,Carte des Quais Profonds,Quais profonds,Carte,CartedesQuaisProfonds,icon/Quais_profonds.png,50 Perles
+,Clochevoie / Métro,Quais profonds,-,-,icon/Clochevoie.png,40 Perles
+33,Puce,Quais Profonds,Puce,Puce,icon/Puce.png,Mur à casser à gauche du métro
+34,Chapelet usé,Quais profonds,Monnaie,Chapeletusé,icon/chapelet_use.png,"Chemin en haut à droite, mur cacher après l'arène des fourmis"
 35,Pas rapide,Quais profonds,Talent,Pasrapide,icon/Pas_rapide.png,
-36,Puce,Quais Profonds,Puce,Puce,icon/Puce.png,
-37,Fragment de bobine,Quais profonds,Bobine,Fragmentdebobine,icon/Fragment_bobine.png,
+36,Puce,Quais Profonds,Puce,Puce,icon/Puce.png,"Même zone, en haut à gauche"
+,Perles,Quais Profonds,-,-,icon/perle.png,"En descendant l'ascenseur, à gauche"
+37,Fragment de bobine,Quais profonds,Bobine,Fragmentdebobine,icon/Fragment_bobine.png,"Tout en bas de la région, dans une pièce à droite"
+,Perles,Quais Profonds,-,-,icon/perle.png,Tout en bas à gauche
 38,Cloche de magma,Quais profonds,OutilBleu,Clochedemagma,icon/Cloche_magma.png,
-39,Lace,Quais profonds,BOSS,Lace,icon/Lace.png,
-40,Puce,Terres lointaines,Puce,Puce,icon/Puce.png,
-41,Médaillon de souvenir,Terres lointaines,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,
-42,Carte des Terres Lointaines,Terres lointaines,Carte,CartedesTerresLointaines,icon/Terres_lointaines.png,
-43,Cloche de protection,Terres lointaines,OutilBleu,Clochedeprotection,icon/Cloche_protection.png,
-44,Métal artisanal,Quais profonds,Ressource,Métalartisanal,icon/Metal_artisanal.png,
-45,Epines flexibles,Terres lointaines,Quête,Epinesflexibles,icon/Chasse.png,
-46,Chapelet,Terres lointaines,Monnaie,Chapelet,icon/Chapelet.png,
-47,Epines flexibles,Terres lointaines,Quête,Epinesflexibles,icon/Chasse.png,
-48,Cape flottante,Terres lointaines,Equipement,Capeflottante,icon/Cape_flottante.png,
-49,Coeur d'épine,Terres lointaines,Livrable,Coeurd'épine,icon/coeur_epine.png,
-50,Manuscrit d'os,Terres lointaines,Ressource,Manuscritd'os,icon/Manuscrit_os.png,
-51,Fragment de masque,Terres lointaines,Masque,Fragmentdemasque,icon/Fragment_masque.png,
+39,Lace,Quais profonds,BOSS,Lace,icon/Lace.png,Kill the Bitch
+40,Puce,Terres lointaines,Puce,Puce,icon/Puce.png,"Après la cloche, zone du haut et mur à casser à droite"
+41,Médaillon de souvenir,Terres lointaines,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,Chez le marchand (casser la roue de l'entrée). 150 Perles
+,Clochevoie / Métro,Terres lointaines,-,-,icon/Clochevoie.png,40 Perles
+42,Carte des Terres Lointaines,Terres lointaines,Carte,CartedesTerresLointaines,icon/Terres_lointaines.png,50 Perles
+43,Cloche de protection,Terres lointaines,OutilBleu,Clochedeprotection,icon/Cloche_protection.png,En bas à gauche
+44,Métal artisanal,Quais profonds,Ressource,Métalartisanal,icon/Metal_artisanal.png,Mur à casser à gauche de la Cloche de protection
+45,Epines flexibles,Terres lointaines,Quête,Epinesflexibles,icon/Chasse.png,Parler à la couturière
+46,Chapelet,Terres lointaines,Monnaie,Chapelet,icon/Chapelet.png,"Mur invisible, tomber dans le trou le plus à droite et serrer à droite"
+49,Coeur d'épine,Terres lointaines,Livrable,Coeurd'épine,icon/coeur_epine.png,25 à Drop et récupérer des châles
+48,Cape flottante,Terres lointaines,Equipement,Capeflottante,icon/Cape_flottante.png,Rendre la quète à la couturière
+50,Manuscrit d'os,Terres lointaines,Ressource,Manuscritd'os,icon/Manuscrit_os.png,"Retour dans la zone à droite, en haut d'un courant d'air "
+51,Fragment de masque,Terres lointaines,Masque,Fragmentdemasque,icon/Fragment_masque.png,Passage au dessus de la couturière
 52,Quatrième chorale,Terres lointaines,BOSS,Quatrièmechorale,icon/Quatrieme_chorale.png,
-53,Carte de Sombrevale,Sombrevale,Carte,CartedeSombrevale,icon/Sombrevale.png,
-54,Puce,Sombrevale,Puce,Puce,icon/Puce.png,
-55,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,icon/chapelet_use.png,
-56,Tisse-tempête,Sombrevale,Technique,Tisse-tempête,icon/Tisse_tempete.png,
-57,Lame trifoldée,Sombrevale,OutilRouge,Lametrifoldée,icon/Lame_trifoldee.png,
-58,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,icon/chapelet_use.png,
-59,Manuscrit d'os,Sombrevale,Ressource,Manuscritd'os,icon/Manuscrit_os.png,
-60,Insectes de Pharloom,Sombrevale,Quête,InsectesdePharloom,icon/Insecte_pharloom.png,
-61,Faucheur,Sombrevale,Crest,Faucheur,icon/Faucheur.png,
-62,Médaillon de souvenir,Sombrevale,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,
-63,Ailebrume,Sombrevale,BOSS,Ailebrume,icon/Ailebrume.png,
-64,La ville tissée,Clochelle,Quête,Lavilletissée,icon/Ville_tissee.png,
-65,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/Chasse.png,
-66,Châle de pélerin,Gouffre,Livrable,Châledepélerin,icon/Chale_pelerin.png,
-67,Scaralex explosif,Gouffre,Quête,Scaralexexplosif,icon/Chasse.png,
-68,Un pont salvateur,Gouffre,Quête,Unpontsalvateur,icon/Contribution.png,
-69,Fragment de masque,Gouffre,Masque,Fragmentdemasque,icon/Fragment_masque.png,
-70,Chapelet usé,Coquibois,Monnaie,Chapeletusé,icon/chapelet_use.png,
-71,Longue pique,Clochelle,OutilRouge,Longuepique,icon/Longue_pique.png,
-72,Carte de Clochelle,Coquibois,Carte,CartedeClochelle,icon/Clochelle.png,
-73,Carte de Coquibois,Coquibois,Carte,CartedeCoquibois,icon/Coquibois.png,
-74,Puce,Coquibois,Puce,Puce,icon/Puce.png,
-75,Fragment de masque,Coquibois,Masque,Fragmentdemasque,icon/Fragment_masque.png,
-76,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
-77,Chapelet,Coquibois,Monnaie,Chapelet,icon/Chapelet.png,
-78,Soeur Splinter,Coquibois,BOSS,SoeurSplinter,icon/Soeur_ecorceuse.png,
-79,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
+,Perles,Terres lointaines,-,-,icon/perle.png,Au dessus à gauche du boss
+53,Carte de Sombrevale,Sombrevale,Carte,CartedeSombrevale,icon/Sombrevale.png,70 Perles
+54,Puce,Sombrevale,Puce,Puce,icon/Puce.png,En haut à droite du batiment
+55,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,icon/chapelet_use.png,A gauche du batiment
+56,Tisse-tempête,Sombrevale,Technique,Tisse-tempête,icon/Tisse_tempete.png,Dans la zone au dessus
+57,Lame trifoldée,Sombrevale,OutilRouge,Lametrifoldée,icon/Lame_trifoldee.png,"Zone précédente, en haut à droite, mur caché"
+58,Chapelet usé,Sombrevale,Monnaie,Chapeletusé,icon/chapelet_use.png,"Zone de gauche, en bas"
+59,Manuscrit d'os,Sombrevale,Ressource,Manuscritd'os,icon/Manuscrit_os.png,"Dans l'eau, zone cachée, à droite"
+60,Insectes de Pharloom,Sombrevale,Quête,InsectesdePharloom,icon/Insecte_pharloom.png,"Prendre la quète, ouvrir la porte de la taverne"
+61,Faucheur,Sombrevale,Crest,Faucheur,icon/Faucheur.png,"En haut à gauche de la région, dans la chapelle"
+,Clochevoie / Métro,Sombrevale,-,-,icon/Clochevoie.png,"Depuis la taverne, gauche, en bas et à droite. 60 Perles"
+62,Médaillon de souvenir,Sombrevale,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,"Mur à casser à gauche du métro, en haut de cette zone"
+63,Ailebrume,Sombrevale,BOSS,Ailebrume,icon/Ailebrume.png,Traverser la zone pour atteindre le boss
+64,La ville tissée,Clochelle,Quête,Lavilletissée,icon/Ville_tissee.png,Automatique en entrant à Clochelle
+,Clochevoie / Métro,Clochelle,-,-,icon/Clochevoie.png,60 Perles
+66,Châle de pélerin,Gouffre,Livrable,Châledepélerin,icon/Chale_pelerin.png,Terminer les 12 châles si c'est pas déjà fait
+65,Vêtements de pèlerin,Gouffre,Quête,Vêtementsdepèlerin,icon/Chasse.png,Rendre la quète des châles au gouffre
+67,Scaralex explosif,Gouffre,Quête,Scaralexexplosif,icon/Chasse.png,Prendre la quète
+68,Un pont salvateur,Gouffre,Quête,Unpontsalvateur,icon/Contribution.png,"Payer la quète, 300 fragments"
+69,Fragment de masque,Gouffre,Masque,Fragmentdemasque,icon/Fragment_masque.png,300 Perles
+70,Chapelet usé,Coquibois,Monnaie,Chapeletusé,icon/chapelet_use.png,Dans la première zone
+71,Longue pique,Clochelle,OutilRouge,Longuepique,icon/Longue_pique.png,Derrière le nid d'insecte mauve à droite
+72,Carte de Clochelle,Coquibois,Carte,CartedeClochelle,icon/Clochelle.png,Ouvrir le raccourci à droite dans la zone précédente. 40 Perles
+73,Carte de Coquibois,Coquibois,Carte,CartedeCoquibois,icon/Coquibois.png,70 Perles
+,Perles,Coquibois,-,-,icon/perle.png,2 zones à gauche puis en haut
+74,Puce,Coquibois,Puce,Puce,icon/Puce.png,"Zone précédente, en bas à droite"
+75,Fragment de masque,Coquibois,Masque,Fragmentdemasque,icon/Fragment_masque.png,Remonter puis à droite
+,Clochevoie / Métro,Coquibois,-,-,icon/Clochevoie.png,En haut à gauche. 40 Perles
+76,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,"A droite, sauter sur les fleurs"
+77,Chapelet,Coquibois,Monnaie,Chapelet,icon/Chapelet.png,"Droite, descendre et tuer la plante, passer au travers et au dessus"
+78,Soeur Splinter,Coquibois,BOSS,SoeurSplinter,icon/Soeur_ecorceuse.png,Débloquer l'ascenseur au passage
+79,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,"Zone suivante, en bas à gauche"
 80,Prise ferme,Coquibois,Talent,Priseferme,icon/Prise_ferme.png,
-81,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
-82,Puce,Clochelle,Puce,Puce,icon/Puce.png,
-83,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
+81,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,"Zone suivante, en haut"
+,Perles,Coquibois,-,-,icon/perle.png,Au dessus de la sortie
+82,Puce,Clochelle,Puce,Puce,icon/Puce.png,"Tout à droite, taper les cloches. en haut de la prochaine zone"
+83,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,"En bas, détruire le mur de gauche. Tout à gauche de la zone"
 84,Veuve,Clochelle,BOSS,Veuve,icon/veuve.png,
 85,Aiguilline,Clochelle,Talent,Aiguilline,icon/Aiguilline.png,
-86,Médaillon de souvenir,Clochelle,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,
-87,Cloches argentées,Clochelle,Quête,Clochesargentées,icon/Recolte.png,
-88,Mon coursier disparu,Clochelle,Quête,Moncoursierdisparu,icon/Exploration.png,
-89,Nettoyage de corbotères,Clochelle,Quête,Nettoyagedecorbotères,icon/Chasse.png,
-90,Aiguille aiguisée,Clochelle,Aiguille,Aiguilleaiguisée,icon/Needle_2.png,
-91,Huile du maître aiguiseur,Clochelle,Quête,Huiledumaîtreaiguiseur,icon/Exploration.png,
+86,Médaillon de souvenir,Clochelle,Medaillon,Médaillondesouvenir,icon/Medailllon_souvenir.png,"Epuiser les dialogues de Pavo, puis boutique : 330 Perles"
+87,Cloches argentées,Clochelle,Quête,Clochesargentées,icon/Recolte.png,Prendre la quète
+88,Mon coursier disparu,Clochelle,Quête,Moncoursierdisparu,icon/Exploration.png,Prendre la quète
+89,Nettoyage de corbotères,Clochelle,Quête,Nettoyagedecorbotères,icon/Chasse.png,Prendre la quète
+90,Aiguille aiguisée,Clochelle,Aiguille,Aiguilleaiguisée,icon/Needle_2.png,Vendre les reliques puis aiguiser Aiguille
+91,Huile du maître aiguiseur,Clochelle,Quête,Huiledumaîtreaiguiseur,icon/Exploration.png,Prendre la quète
 92,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
 93,Coeur-pollip,Coquibois,Livrable,Coeur-pollip,icon/Coeur_pollip.png,
 94,Rituel de pollip,Coquibois,Quête,Ritueldepollip,icon/Recolte.png,
