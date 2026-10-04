@@ -10,6 +10,7 @@ namespace SilksongOverlay.Widgets;
 public sealed class CurrentObjectiveWidget : WidgetBase
 {
     private readonly Image _image;
+    private readonly Image _mapImage;
     private readonly TextBlock _titleBlock;
     private readonly TextBlock _detailBlock;
     private readonly TextBlock _locationBlock;
@@ -27,6 +28,16 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             Height = 64,
             Stretch = Stretch.Uniform,
             Margin = new Thickness(0, 0, 10, 0),
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Center
+        };
+
+        _mapImage = new Image
+        {
+            Width = 64,
+            Height = 64,
+            Stretch = Stretch.Uniform,
+            Margin = new Thickness(10, 0, 0, 0),
             VerticalAlignment = VerticalAlignment.Center,
             HorizontalAlignment = HorizontalAlignment.Center
         };
@@ -78,7 +89,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         var textPanel = new Grid
         {
-            VerticalAlignment = VerticalAlignment.Center,
+            VerticalAlignment = VerticalAlignment.Stretch,
             HorizontalAlignment = HorizontalAlignment.Stretch
         };
         for (var i = 0; i < 5; i++)
@@ -98,20 +109,34 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         textPanel.Children.Add(_completionBlock);
         textPanel.Children.Add(_completionBar);
 
-        var grid = new Grid
+        var leftPanel = new Grid
+        {
+            VerticalAlignment = VerticalAlignment.Center,
+            HorizontalAlignment = HorizontalAlignment.Stretch
+        };
+        leftPanel.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+        leftPanel.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+
+        Grid.SetColumn(_image, 0);
+        Grid.SetColumn(textPanel, 1);
+
+        leftPanel.Children.Add(_image);
+        leftPanel.Children.Add(textPanel);
+
+        var mainGrid = new Grid
         {
             Margin = new Thickness(0, 2, 0, 2),
             HorizontalAlignment = HorizontalAlignment.Stretch,
             VerticalAlignment = VerticalAlignment.Stretch
         };
-        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
-        grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
 
-        Grid.SetColumn(_image, 0);
-        Grid.SetColumn(textPanel, 1);
+        Grid.SetColumn(leftPanel, 0);
+        Grid.SetColumn(_mapImage, 1);
 
-        grid.Children.Add(_image);
-        grid.Children.Add(textPanel);
+        mainGrid.Children.Add(leftPanel);
+        mainGrid.Children.Add(_mapImage);
 
         var border = new Border
         {
@@ -122,7 +147,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             Padding = new Thickness(6, 2, 6, 2),
             HorizontalAlignment = HorizontalAlignment.Stretch,
             VerticalAlignment = VerticalAlignment.Stretch,
-            Child = grid
+            Child = mainGrid
         };
 
         View = border;
@@ -143,6 +168,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             _completionBlock.Text = "Complétion : 100.00%";
             _completionBar.Value = 100;
             _image.Source = null;
+            _mapImage.Source = null;
             return;
         }
 
@@ -155,6 +181,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
         _completionBar.Value = viewModel.CompletionPercentage;
         _image.Source = TryLoadImage(current.ImagePath);
+        _mapImage.Source = TryLoadImage(current.MapImagePath);
     }
 
     private static BitmapImage? TryLoadImage(string? imagePath)

@@ -12,6 +12,8 @@ public sealed class Objective
 
     public string? ImagePath { get; set; }
 
+    public string? MapImagePath { get; set; }
+
     public bool IsCompleted { get; set; }
 
     public int Order { get; set; }
