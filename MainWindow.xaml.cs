@@ -114,7 +114,7 @@ public partial class MainWindow : Window
     {
         var widgets = new WidgetBase[]
         {
-            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 20, Width = 380, Height = 150 } }
+            new CurrentObjectiveWidget { Configuration = { X = 20, Y = 20 } }
         };
 
         _widgets.AddRange(widgets);
