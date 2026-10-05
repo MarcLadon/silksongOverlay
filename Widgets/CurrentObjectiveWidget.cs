@@ -9,6 +9,11 @@ namespace SilksongOverlay.Widgets;
 
 public sealed class CurrentObjectiveWidget : WidgetBase
 {
+    private const double WidgetWidth = 500;
+    private const double WidgetHeight = 160;
+    private const double MapWidth = 190;
+    private const double MapHeight = 120;
+
     private readonly Image _image;
     private readonly Image _mapImage;
     private readonly TextBlock _titleBlock;
@@ -32,10 +37,12 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             HorizontalAlignment = HorizontalAlignment.Center
         };
 
+        // La carte est une image en paysage : on lui donne une boîte large
+        // (Stretch.Uniform conserve le ratio dans cette boîte).
         _mapImage = new Image
         {
-            Width = 100,
-            Height = 100,
+            Width = MapWidth,
+            Height = MapHeight,
             Stretch = Stretch.Uniform,
             Margin = new Thickness(10, 0, 0, 0),
             VerticalAlignment = VerticalAlignment.Center,
@@ -89,7 +96,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         var textPanel = new Grid
         {
-            VerticalAlignment = VerticalAlignment.Stretch,
+            VerticalAlignment = VerticalAlignment.Center,
             HorizontalAlignment = HorizontalAlignment.Stretch
         };
         for (var i = 0; i < 5; i++)
@@ -130,7 +137,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             VerticalAlignment = VerticalAlignment.Stretch
         };
         mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(130) });
+        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
 
         Grid.SetColumn(leftPanel, 0);
         Grid.SetColumn(_mapImage, 1);
@@ -140,13 +147,13 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         var border = new Border
         {
-            Width = 380,
-            Height = 150,
+            Width = WidgetWidth,
+            Height = WidgetHeight,
             Background = new SolidColorBrush(Color.FromArgb(170, 17, 22, 32)),
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
-            Padding = new Thickness(6, 2, 6, 2),
+            Padding = new Thickness(8, 4, 8, 4),
             Child = mainGrid
         };
 
