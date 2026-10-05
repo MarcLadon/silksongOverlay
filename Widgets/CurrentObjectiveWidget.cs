@@ -147,8 +147,6 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             BorderThickness = new Thickness(1),
             CornerRadius = new CornerRadius(12),
             Padding = new Thickness(6, 2, 6, 2),
-            HorizontalAlignment = HorizontalAlignment.Stretch,
-            VerticalAlignment = VerticalAlignment.Stretch,
             Child = mainGrid
         };
 
