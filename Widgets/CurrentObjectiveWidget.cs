@@ -130,7 +130,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             VerticalAlignment = VerticalAlignment.Stretch
         };
         mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
-        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+        mainGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(110) });
 
         Grid.SetColumn(leftPanel, 0);
         Grid.SetColumn(_mapImage, 1);
