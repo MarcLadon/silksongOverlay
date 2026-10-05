@@ -140,6 +140,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         var border = new Border
         {
+            Width = 380,
+            Height = 150,
             Background = new SolidColorBrush(Color.FromArgb(170, 17, 22, 32)),
             BorderBrush = new SolidColorBrush(Color.FromArgb(200, 110, 168, 254)),
             BorderThickness = new Thickness(1),
@@ -155,7 +157,6 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
     public override void UpdateFromConfiguration()
     {
-        // Force dimensions instead of using Configuration
         View.Visibility = Configuration.IsVisible ? Visibility.Visible : Visibility.Collapsed;
         View.Opacity = Configuration.Opacity;
 
