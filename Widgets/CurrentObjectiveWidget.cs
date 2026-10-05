@@ -151,8 +151,20 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         };
 
         View = border;
-        Configuration.Width = 380;
-        Configuration.Height = 150;
+    }
+
+    public override void UpdateFromConfiguration()
+    {
+        // Force dimensions instead of using Configuration
+        View.Visibility = Configuration.IsVisible ? Visibility.Visible : Visibility.Collapsed;
+        View.Opacity = Configuration.Opacity;
+
+        Canvas.SetLeft(View, Configuration.X);
+        Canvas.SetTop(View, Configuration.Y);
+        
+        // Force fixed dimensions
+        View.Width = 380;
+        View.Height = 150;
     }
 
     public void Bind(OverlayViewModel viewModel)
