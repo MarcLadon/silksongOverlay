@@ -34,8 +34,8 @@ public sealed class CurrentObjectiveWidget : WidgetBase
 
         _mapImage = new Image
         {
-            Width = 64,
-            Height = 64,
+            Width = 100,
+            Height = 100,
             Stretch = Stretch.Uniform,
             Margin = new Thickness(10, 0, 0, 0),
             VerticalAlignment = VerticalAlignment.Center,
@@ -151,13 +151,15 @@ public sealed class CurrentObjectiveWidget : WidgetBase
         };
 
         View = border;
-        Configuration.Width = 245;
-        Configuration.Height = 120;
+        Configuration.Width = 380;
+        Configuration.Height = 150;
     }
 
     public void Bind(OverlayViewModel viewModel)
     {
         var current = viewModel.ObjectiveService.CurrentObjective;
+        var totalObjectives = viewModel.ObjectiveService.TotalCount;
+        var currentIndex = viewModel.ObjectiveService.CurrentObjectiveIndex + 1;
 
         if (current is null)
         {
@@ -165,7 +167,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             _detailBlock.Text = string.Empty;
             _detailBlock.Visibility = Visibility.Collapsed;
             _locationBlock.Text = "Tous les objectifs sont accomplis";
-            _completionBlock.Text = "Complétion : 100.00%";
+            _completionBlock.Text = $"Complétion {totalObjectives}/{totalObjectives}";
             _completionBar.Value = 100;
             _image.Source = null;
             _mapImage.Source = null;
@@ -178,7 +180,7 @@ public sealed class CurrentObjectiveWidget : WidgetBase
             ? Visibility.Collapsed
             : Visibility.Visible;
         _locationBlock.Text = $"Lieu : {current.Location}";
-        _completionBlock.Text = $"Complétion : {viewModel.CompletionPercentage:0.00}%";
+        _completionBlock.Text = $"Complétion {currentIndex}/{totalObjectives}";
         _completionBar.Value = viewModel.CompletionPercentage;
         _image.Source = TryLoadImage(current.ImagePath);
         _mapImage.Source = TryLoadImage(current.MapImagePath);
