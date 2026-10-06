@@ -22,10 +22,13 @@ public partial class OverlayWindow : Window
     private IObjectiveDetector? _objectiveDetector;
     private HwndSource? _source;
     private readonly Dictionary<int, Action> _hotkeys = new();
+    private readonly Dictionary<int, DateTime> _lastHotkeyTime = new();
     private const int WM_HOTKEY = 0x0312;
     private const int GWL_EXSTYLE = -20;
     private const int WS_EX_LAYERED = 0x00080000;
     private const int WS_EX_TRANSPARENT = 0x00000020;
+    private const uint MOD_NOREPEAT = 0x4000;
+    private static readonly TimeSpan HotkeyDebounce = TimeSpan.FromMilliseconds(250);
 
     public OverlayWindow()
     {
@@ -193,11 +196,29 @@ public partial class OverlayWindow : Window
         _hotkeys.Clear();
     }
 
-    private void RegisterHotKey(int id, int virtualKey, ModifierKeys modifiers) => RegisterHotKeyNative(new WindowInteropHelper(this).Handle, id, (uint)modifiers, (uint)virtualKey);
+    // MOD_NOREPEAT : une touche maintenue ne déclenche qu'une seule fois (évite les sauts d'objectifs).
+    private void RegisterHotKey(int id, int virtualKey, ModifierKeys modifiers) =>
+        RegisterHotKeyNative(new WindowInteropHelper(this).Handle, id, (uint)modifiers | MOD_NOREPEAT, (uint)virtualKey);
 
     private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
     {
-        if (msg == WM_HOTKEY && _hotkeys.TryGetValue(wParam.ToInt32(), out var action)) action();
+        if (msg == WM_HOTKEY)
+        {
+            var id = wParam.ToInt32();
+            if (_hotkeys.TryGetValue(id, out var action))
+            {
+                // Anti-rebond : ignore les déclenchements trop rapprochés (double appui involontaire).
+                var now = DateTime.UtcNow;
+                if (!_lastHotkeyTime.TryGetValue(id, out var last) || now - last >= HotkeyDebounce)
+                {
+                    _lastHotkeyTime[id] = now;
+                    action();
+                }
+
+                handled = true;
+            }
+        }
+
         return IntPtr.Zero;
     }
 
