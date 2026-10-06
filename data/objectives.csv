@@ -6,7 +6,7 @@ Order,Name,Location,,,ImagePath,Détail,MapImagePath
 5,Mère Forestière,Gouffre,,,icon/Mere_forestiere.png,,map/Mere_forestiere.png
 6,Perles,Gouffre,,,icon/Perle.png,Mur à casser à droite avant la chute amenant au levier,map/Perle_2.png
 7,Levier,Antre,,,icon/Levier.png,,map/Levier_1.png
-8,Les puces perdues,Antre,,,icon/Exploration.png,Prendre la quète chez les Puces,map/puces_perdues_1.png
+8,Les puces perdues,Antre,,,icon/Exploration.png,Prendre la quète chez les Puces,map/Puces_perdues_1.png
 9,Perles,Gouffre,,,icon/Perle.png,Mur à casser au dessus du maitre des puces,map/Perle_3.png
 10,Chapelet usé,Antre,,,icon/Chapelet_use.png,"En haut, à droite",map/Chapelet_use_2.png
 11,Collier d'os,Antre,,,icon/Collier_os.png,"Après transition, en bas à gauche",map/Collier_os.png
@@ -98,438 +98,437 @@ Order,Name,Location,,,ImagePath,Détail,MapImagePath
 97,Perles,Coquibois,,,icon/Perle.png,Au dessus de la sortie,map/Perle_14.png
 98,Puce (7),Clochelle,,,icon/Puce.png,"Tout à droite, taper les cloches. en haut de la prochaine zone",map/Puce_7.png
 99,Coeur-pollip,Coquibois,,,icon/Coeur_pollip.png,"En bas, détruire le mur de gauche. Tout à gauche de la zone",map/Coeur_pollip_4.png
-100,Veuve,Clochelle,,,icon/veuve.png,,map/veuve.png
+100,Veuve,Clochelle,,,icon/Veuve.png,,map/Veuve.png
 101,Aiguilline,Clochelle,,,icon/Aiguilline.png,,map/Aiguilline.png
 102,Médaillon de souvenir,Clochelle,,,icon/Medailllon_souvenir.png,"Epuiser les dialogues de Pavo, puis boutique : 330 Perles",map/Medailllon_souvenir_3.png
-103,Cloches argentées,Clochelle,,,icon/Recolte.png,Prendre la quète,map/Recolte.png
-104,Mon coursier disparu,Clochelle,,,icon/Exploration.png,Prendre la quète,map/Exploration.png
+103,Cloches argentées,Clochelle,,,icon/Recolte.png,Prendre la quète,map/Recolte_3.png
+104,Mon coursier disparu,Clochelle,,,icon/Exploration.png,Prendre la quète,map/Exploration_1.png
 105,Nettoyage de corbotères,Clochelle,,,icon/Chasse.png,Prendre la quète,map/Chasse_3.png
 106,Aiguille aiguisée,Clochelle,,,icon/Needle_2.png,Vendre les reliques puis aiguiser Aiguille,map/Needle_2.png
-107,Huile du maître aiguiseur,Clochelle,,,icon/Exploration.png,Prendre la quète,map/Exploration.png
-108,Coeur-pollip,Coquibois,,,icon/Coeur_pollip.png,"Première zone, tout en haut",map/Coeur_pollip_.png
-109,Coeur-pollip,Coquibois,,,icon/Coeur_pollip.png,2 zones à gauche,map/Coeur_pollip_.png
-110,Rituel de pollip,Coquibois,,,icon/Recolte.png,Zone à gauche en haut. Prendre la quète,map/Recolte.png
-111,Rituel de pollip,Coquibois,,,icon/Recolte.png,Rendre la quète,map/Recolte.png
+107,Huile du maître aiguiseur,Clochelle,,,icon/Exploration.png,Prendre la quète,map/Exploration_2.png
+108,Coeur-pollip,Coquibois,,,icon/Coeur_pollip.png,"Première zone, tout en haut",map/Coeur_pollip_5.png
+109,Coeur-pollip,Coquibois,,,icon/Coeur_pollip.png,2 zones à gauche,map/Coeur_pollip_6.png
+110,Rituel de pollip,Coquibois,,,icon/Recolte.png,Zone à gauche en haut. Prendre la quète,map/Recolte_2.png
+111,Rituel de pollip,Coquibois,,,icon/Recolte.png,Rendre la quète,map/Recolte_2.png
 112,Bourse de pollip,Coquibois,,,icon/Bourse_pollip.png,Reparler au PNJ,map/Bourse_pollip.png
-113,Mon coursier disparu,Gouffre,,,icon/Exploration.png,Activer la cloche puis chuter dans le gouffre en collant à gauche,map/Exploration.png
-114,Perles,Gouffre,,,icon/Perle.png,Tout en bas à gauche,map/Perle_.png
-115,Perles,Gouffre,,,icon/Perle.png,Chuter et planer + dash à gauche après la transition,map/Perle_.png
-116,Effigie de tisserande,Gouffre,,,icon/Effigie_tisserande.png,A gauche,map/Effigie_tisserande.png
-117,Baie verdissante (5),Gouffre,,,icon/Baie_verdissante.png,Tout à gauche en l'air,map/Baie_verdissante.png
+113,Mon coursier disparu,Gouffre,,,icon/Exploration.png,Activer la cloche puis chuter dans le gouffre en collant à gauche,map/Exploration_3.png
+114,Perles,Gouffre,,,icon/Perle.png,Tout en bas à gauche,map/Perle_14.png
+115,Perles,Gouffre,,,icon/Perle.png,Chuter et planer + dash à gauche après la transition,map/Perle_16.png
+116,Effigie de tisserande,Gouffre,,,icon/Effigie_tisserande.png,A gauche,map/Effigie_tisserande_1.png
+117,Baie verdissante (5),Gouffre,,,icon/Baie_verdissante.png,Tout à gauche en l'air,map/Baie_verdissante_5.png
 118,Vagabond,Gouffre,,,icon/Vagabond.png,Dans la chapelle,map/Vagabond.png
 119,Carte du Tisse-Nid,Tisse-nid Alta,,,icon/Tisse-nid.png,,map/Tisse-nid.png
 120,Chasseur (évolué),Tisse-nid Alta,,,icon/Hunter_Crest_2.png,Murs à casser en bas à droite,map/Hunter_Crest_2.png
-121,Harpe runique,Tisse-nid Alta,,,icon/Harpe_runique.png,"Escalader vers le haut, puis à droite puis en haut",map/Harpe_runique.png
-122,Fragment de masque,Tisse-nid Alta,,,icon/Fragment_masque.png,Mur à casser en bas à droite,map/Fragment_masque_.png
-123,Fragment de bobine,Tisse-nid Alta,,,icon/Fragment_bobine.png,"Retourner en arrière, puis descendre et passage à gauche",map/Fragment_bobine.png
-124,Baie verdissante (6),Tisse-nid Alta,,,icon/Baie_verdissante.png,"Retour au TP en bas, puis passage à gauche dans l'eau",map/Baie_verdissante.png
-125,Double Mère Forestière,Tisse-nid Alta,,,icon/Mere_forestiere.png,Tout à gauche,map/Mere_forestiere.png
+121,Harpe runique,Tisse-nid Alta,,,icon/Harpe_runique.png,"Escalader vers le haut, puis à droite puis en haut",map/Harpe_runique_1.png
+122,Fragment de masque,Tisse-nid Alta,,,icon/Fragment_masque.png,Mur à casser en bas à droite,map/Fragment_masque_4.png
+123,Fragment de bobine,Tisse-nid Alta,,,icon/Fragment_bobine.png,"Retourner en arrière, puis descendre et passage à gauche",map/Fragment_bobine_3.png
+124,Baie verdissante (6),Tisse-nid Alta,,,icon/Baie_verdissante.png,"Retour au TP en bas, puis passage à gauche dans l'eau",map/Baie_verdissante_6.png
+125,Double Mère Forestière,Tisse-nid Alta,,,icon/Mere_forestiere.png,Tout à gauche,map/Double_Mere_forestiere.png
 126,Tisséclat,Tisse-nid Alta,,,icon/Tisseclat.png,,map/Tisseclat.png
-127,Châtiment du Tyran,Gouffre,,,icon/Grande_chasse.png,Prendre la quète,map/Grande_chasse.png
-128,Gemme de silex (1),Antre,,,icon/Gemme_silex.png,"En entrant dans l'Antre, au dessus.",map/Gemme_silex.png
-129,Gemme de silex (2),Antre,,,icon/Gemme_silex.png,Remonter tout en haut au centre,map/Gemme_silex.png
+127,Châtiment du Tyran,Gouffre,,,icon/Grande_chasse.png,Prendre la quète,map/Grande_chasse_1.png
+128,Gemme de silex (1),Antre,,,icon/Gemme_silex.png,"En entrant dans l'Antre, au dessus.",map/Gemme_silex_1.png
+129,Gemme de silex (2),Antre,,,icon/Gemme_silex.png,Remonter tout en haut au centre,map/Gemme_silex_2.png
 130,Médaillon de souvenir,Antre,,,icon/Medailllon_souvenir.png,"Même zone, escalader à gauche",map/Medailllon_souvenir_4.png
-131,Gemme de silex (3),Antre,,,icon/Gemme_silex.png,"A droite, au dessus de la prison",map/Gemme_silex.png
-132,Sac à outils agrandi,Antre,,,icon/Sac_outils.png,Dans la prison. 25 Perles,map/Sac_outils.png
+131,Gemme de silex (3),Antre,,,icon/Gemme_silex.png,"A droite, au dessus de la prison",map/Gemme_silex_3.png
+132,Sac à outils agrandi,Antre,,,icon/Sac_outils.png,Dans la prison. 25 Perles,map/Sac_outils_1.png
 133,Crâne-Tyran,Antre,,,icon/Crane_tyran.png,"Descendre, à gauche et escalader au dessus du transport mécanique",map/Crane_tyran.png
-134,Fragment de couronne,Antre,,,icon/fragment_couronne.png,,map/fragment_couronne.png
-135,Les puces perdues,Antre,,,icon/Exploration.png,Rendre la quète et voyager avec les puces,map/Exploration.png
+134,Fragment de couronne,Antre,,,icon/Fragment_couronne.png,,map/Fragment_couronne.png
+135,Les puces perdues,Antre,,,icon/Exploration.png,Rendre la quète et voyager avec les puces,map/Puces_perdues_1.png
 136,Breuvage des puces,Sombrevale,,,icon/Breuvage_puce.png,Parler à la puce,map/Breuvage_puce.png
-137,Fragment de masque,Quais profonds,,,icon/Fragment_masque.png,"Mur secret depuis le métro de Clochelle, descendre, puis aller à droite dans les quais, mais depuis le haut",map/Fragment_masque_.png
-138,Levier,Terres lointaines,,,icon/Levier.png,,map/Levier.png
-139,Bracelets vifsoie,Terres lointaines,,,icon/Bracelets_vifsoie.png,"Metro vers Terres lointaines, passage à droite du métro. descendre vers couturière, puis au fond à droite",map/Bracelets_vifsoie.png
-140,Harpe runique,Terres lointaines,,,icon/Harpe_runique.png,Equiper bracelet et boire breuvage,map/Harpe_runique.png
-141,Puce,Terres lointaines,,,icon/Puce.png,Poursuivre le passage du métro,map/Puce_.png
-142,Anneau lourd,Terres lointaines,,,icon/Anneau_lourd.png,160 Perles,map/Anneau_lourd.png
-143,Sac à outils agrandi,Terres lointaines,,,icon/Sac_outils.png,220 Perles,map/Sac_outils.png
-144,Nettoyage de corbotères,Sombrevale,,,icon/Chasse.png,"Metro vers Sombrevale, parler au tavernier",map/Chasse_4.png
-145,Fragment de bobine,Sombrevale,,,icon/Fragment_bobine.png,"Escalader à droite de la taverne, ramasser les pelages au passage",map/Fragment_bobine.png
-146,Pelage,Sombrevale,,,icon/Pelage.png,"Mur à casser à droite de la bobine pour ouvrir un passage, puis farm pelage au dessus de la taverne",map/Pelage.png
-147,Kit de fabrication,Sombrevale,,,icon/Kit_fabrication.png,Rendre la quète au tavernier,map/Kit_fabrication.png
-148,Puce,Sombrevale,,,icon/Puce.png,"Aller à gauche, dans la tour aux insectes aux ciseaux, escalader puis droite après ascenseur, mur à casser",map/Puce_.png
-149,Dévoreur de Soie,Sombrevale,,,icon/Devoreur_soie.png,"Retour ascenseur, à gauche puis tout en haut",map/Devoreur_soie.png
-150,Puce,Sombrevale,,,icon/Puce.png,Passage à gauche,map/Puce_.png
-151,Chapelet usé,Sombrevale,,,icon/Chapelet_use.png,Passage à gauche,map/Chapelet_use_.png
-152,Pompillo,Sombrevale,,,icon/Pompillo.png,Casser au mur au dessus à gauche,map/Pompillo.png
-153,Scaralex explosif,Gouffre,,,icon/Chasse.png,Métro vers gouffe puis rendre la quète,map/Chasse_1.png
-154,Châtiment du Tyran,Gouffre,,,icon/Grande_chasse.png,Rendre la quète,map/Grande_chasse.png
-155,Fragment de bobine,Clochelle,,,icon/Fragment_bobine.png,Métro Clochelle. Achat : 270 Perles,map/Fragment_bobine.png
-156,Cloche argentée,Clochelle,,,icon/Cloche_argentee.png,Farm les cloches sous Clochelle,map/Cloche_argentee.png
-157,Cloches argentées,Clochelle,,,icon/Recolte.png,Rendre la quète,map/Recolte.png
-158,Rénovation de Clochelle,Clochelle,,,icon/Contribution.png,Payer la quète : 250 Perles. Vendre reliques,map/Contribution_.png
-159,Puce,Sentier du chasseur,,,icon/Puce.png,"Aller dans l'Antre depuis la zone des cloches, puis à droite. Tout en haut de la première grande zone",map/Puce_.png
-160,Collier de perles,Sentier du chasseur,,,icon/Collier_perles.png,"Zone suivante, en haut à droite",map/Collier_perles.png
-161,Levier,Sentier du chasseur,,,icon/Levier.png,"Zone des courants d'air, passage en bas à gauche",map/Levier.png
-162,Carte de l'Avancé du chasseur,Sentier du chasseur,,,icon/Avancee_chasseur.png,"Zone des courants d'air, passage en bas à droite. 70 Perles",map/Avancee_chasseur.png
-163,Médaillon de souvenir,Sentier du chasseur,,,icon/Medailllon_souvenir.png,Dans une cage tout à droite,map/Medailllon_souvenir_5.png
-164,Volpeste enragée,Sentier du chasseur,,,icon/Volpeste_enragee.png,"Prendre le courant d'air, dans la chapelle",map/Volpeste_enragee.png
-165,Bête,Sentier du chasseur,,,icon/Bete.png,,map/Bete.png
-166,Courbe-serre,Sentier du chasseur,,,icon/Courbe_serre.png,"Zone des courants d'air, passage presque en haut à gauche, passage secret. 140 Perles",map/Courbe_serre.png
-167,Masque fissuré,Sentier du chasseur,,,icon/Masque_fissuré.png,260 Perles,map/Masque_fissuré.png
-168,Perles,Sentier du chasseur,,,icon/Perle.png,"Zone des courants d'air, passage tout en haut à gauche",map/Perle_.png
-169,Chapelet usé,Chemin du pêcheur,,,icon/Chapelet_use.png,Métro Quais profonds => Taverne => ascenseur. Puis vers la droite et tout en haut vers le Chemin du pêcheur,map/Chapelet_use_.png
-170,Bracelet épineux,Chemin du pêcheur,,,icon/Bracelet_epineux.png,"Passage à droite, au fond puis en bas",map/Bracelet_epineux.png
-171,Entrailles de férochard,Chemin du pêcheur,,,icon/Chasse.png,"Retour dans la zone verticale, passage au dessus à droite. Prendre la quète tout en haut à droite",map/Chasse_5.png
-172,Carte du Sentier du pécheur,Chemin du pêcheur,,,icon/Sentier_pecheur.png,"Depuis la zone verticale, passage à gauche. 90 Perles",map/Sentier_pecheur.png
-173,Perles,Chemin du pêcheur,,,icon/Perle.png,"Depuis la zone verticale, passage en haut. Passer par la gauche",map/Perle_.png
-174,Clé simple,Chemin du pêcheur,,,icon/cle_simple.png,"Zone à droite, puis tout en haut. Penser à farm les férochards",map/cle_simple.png
-175,Puce,Chemin du pêcheur,,,icon/Puce.png,Descendre et passage à droite (pas celui du mur à casser),map/Puce_.png
-176,Entrailles de férochard,Chemin du pêcheur,,,icon/Entraille_ferochard.png,Aller tout en bas à droite et se reposer pour repop férochard. Casser mur à droite pour accès PNJ et vendre Dévoreur de soie,map/Entraille_ferochard.png
-177,Pointes d'acier,Chemin du pêcheur,,,icon/Pointes_acier.png,Rendre la quète des férochards,map/Pointes_acier.png
-178,Sac ou Sacoche (StealSoul),Vermiterres,,,icon/Sacoche_carapace.png,"Métro vers Coquibois, vers la gauche, tomber dans le gouffre et premier passage à gauche. Descendre, puis cul de sac à gauche.",map/Sacoche_carapace.png
-179,Carte des Vermiterres,Vermiterres,,,icon/Vermiterres.png,Plus bas à gauche. 70 Perles,map/Vermiterres.png
-180,Chapelet usé,Vermiterres,,,icon/Chapelet_use.png,Au sommet de la prochaine zone,map/Chapelet_use_.png
-181,Puce,Vermiterres,,,icon/Puce.png,"En bas, mur à casser avant le levier",map/Puce_.png
-182,Fragment de masque,Vermiterres,,,icon/Fragment_masque.png,"Tout en bas, mur à casser au niveau de l'eau",map/Fragment_masque_.png
-183,Craggleur,Vermiterres,,,icon/Craggleur.png,Zone à droite,map/Craggleur.png
-184,Porte,Vermiterres,,,,Retour à gauche,
-185,L'assistant de l'alchimiste,Vermiterres,,,icon/Recolte.png,"A gauche, monter, a droite et tout en haut. Prendre la quète",map/Recolte.png
-186,Fiollette,Vermiterres,,,icon/Fiollette.png,Equiper l'outil,map/Fiollette.png
-187,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Sortir, descendre et direct à gauche",map/Plasmonium.png
-188,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Descendre tout en bas, puis à droite",map/Plasmonium.png
-189,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Prochaine zone à gauche, tout à gauche après mur à casser",map/Plasmonium.png
-190,Médaillon de souvenir,Vermiterres,,,icon/Medailllon_souvenir.png,"Même zone, en bas à droite",map/Medailllon_souvenir_6.png
-191,Fiole de plasmonium,Vermiterres,,,icon/Fiole_plasmonium.png,Rendre la quète du Plasmonium. Puis sortir et ouvrir le raccourci à droite,map/Fiole_plasmonium.png
-192,Médaillon de souvenir,Marches érodées,,,icon/Medailllon_souvenir.png,"Métro du Gouffre vers Coquibois, vers la gauche sans tomber. Puis, après le levier qui ouvre un raccourci",map/Medailllon_souvenir_7.png
-193,Carte des Marches érodées,Marches érodées,,,icon/Marches_erodees.png,70 Perles,map/Marches_erodees.png
-194,Grandes Volucornes,Marches érodées,,,icon/Volucorne.png,"De retour dans la salle verticale, prendre le passage à gauche",map/Volucorne.png
-195,Attaque de précision,Marches érodées,,,icon/Attaque_precision.png,A gauche après le boss,map/Attaque_precision.png
-196,Clochevoie / Métro,Marches érodées,,,icon/Clochevoie.png,"Retour dans la salle verticale, aller tout en haut, puis à gauche. 60 Perles",map/Clochevoie_.png
-197,Puce,Marches érodées,,,icon/Puce.png,A gauche puis tout en haut,map/Puce_.png
-198,Métal artisanal,Marches érodées,,,icon/Metal_artisanal.png,"Retour au métro puis tout à droite, dans un trou avant la zone avec la porte",map/Metal_artisanal.png
-199,La dernière juge,Marches érodées,,,icon/Derniere_juge.png,,map/Derniere_juge.png
-200,Carte du Grand Portail,Grand portail,,,icon/Grand_portail.png,40 Perles,map/Grand_portail.png
-201,Fragment de bobine,Grand portail,,,icon/Fragment_bobine.png,"Tout en haut, à gauche.",map/Fragment_bobine.png
-202,Porte,Fonderie,,,,Ouvrir le raccourci en cassant le mur à droite jusqu'aux alcoves. Puis revenir et sortir en bas à droite,
-203,Carte de la Fonderie,Fonderie,,,icon/Fonderie.png,Monter puis passage à gauche,map/Fonderie.png
-204,Manuscrit d'os,Fonderie,,,icon/Manuscrit_os.png,Casser la grille à gauche,map/Manuscrit_os_.png
-205,Porte,Fonderie,,,,Tout à droite,
-206,Chapelet usé,Fonderie,,,icon/Chapelet_use.png,"Prochaine zone, monter puis à droite",map/Chapelet_use_.png
-207,Ventrica,Fonderie,,,icon/Ventrica.png,"Sortir, aller en haut à droite et activer le ventrica. 80 Perles",map/Ventrica.png
-208,Fragment de bobine,Fonderie,,,icon/Fragment_bobine.png,Sortir et descendre,map/Fragment_bobine.png
-209,Médaillon de souvenir,Fonderie,,,icon/Medailllon_souvenir.png,"Sortir à gauche, monter, puis sortir en haut à gauche. Aller dans la salle des bancs payants, mur invisible au sommet",map/Medailllon_souvenir_8.png
-210,Foreuse du mineur,Fonderie,,,icon/Foreuse_mineur.png,"Allez tous à gauche, puis tout en bas en faisant tomber le conteneur",map/Foreuse_mineur.png
-211,Chapelet usé,Fonderie,,,icon/Chapelet_use.png,Aller tout en haut et casser une grille à droite,map/Chapelet_use_.png
-212,Carte des Alcôves de la chorale,Alcôves de la chorale,,,icon/Alcove_chorale.png,70 Perles,map/Alcove_chorale.png
-213,Collier de perles,Alcôves de la chorale,,,icon/Collier_perles.png,Briser une vitre en haut à gauche,map/Collier_perles.png
-214,Porte,Alcôves de la chorale,,,,"Aller tout en haut à droite, redescendre puis à gauche",
-215,Porte,Alcôves de la chorale,,,,"Sortir à gauche, aller en haut à gauche",
-216,Chapelet usé,Le Bloc,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
-217,Levier,Le Bloc,,,icon/Levier.png,,map/Levier.png
-218,Fragment de bobine,Le Bloc,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-219,Symbole d'espoir,Gouffre,,,icon/Contribution.png,,map/Contribution_.png
-220,Fragment de bobine,Marches érodées,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-221,Puce,Alcôves de la chorale,,,icon/Puce.png,,map/Puce_.png
-222,Composant mécanique,Alcôves de la chorale,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
-223,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier.png
-224,Puce,Alcôves de la chorale,,,icon/Puce.png,,map/Puce_.png
-225,Collier de perles,Alcôves de la chorale,,,icon/Collier_perles.png,,map/Collier_perles.png
-226,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier.png
-227,Papilles délicates de Pharloom,Alcôves de la chorale,,,icon/Recolte.png,,map/Recolte.png
-228,Dévoreur de Soie,Alcôves de la chorale,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-229,Dévoreur de Soie,Alcôves de la chorale,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-230,Clé blanche,Alcôves de la chorale,,,icon/Cle_blanche.png,,map/Cle_blanche.png
-231,Soupe de baies verdissantes,Gouffre,,,icon/Soupe_baies_verdissantes.png,,map/Soupe_baies_verdissantes.png
-232,Mortaille,Quais profonds,,,icon/Mortaille.png,,map/Mortaille.png
-233,Kit de fabrication,Quais profonds,,,icon/Kit_fabrication.png,,map/Kit_fabrication.png
-234,Mon frère disparu,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-235,Insectes de Pharloom,Sombrevale,,,icon/Insecte_pharloom.png,,map/Insecte_pharloom.png
-236,Sac à outils agrandi,Sombrevale,,,icon/Sac_outils.png,,map/Sac_outils.png
-237,Nectar millésimé,Sombrevale,,,icon/Nectar_millesime.png,,map/Nectar_millesime.png
-238,Mon frère disparu,Chemin du pêcheur,,,icon/Exploration.png,,map/Exploration.png
-239,Edification du sanctuaire de Chantsoir,Alcôves de la chorale,,,icon/Contribution.png,,map/Contribution_.png
-240,Piques de qualité,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_6.png
-241,La marchande vagabonde,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-242,La marchande vagabonde,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-243,Commandement de la chorale,Aile Blanche,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
-244,Dévoreur de Soie,Aile Blanche,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-245,Carte de l'Aile Blanche,Aile Blanche,,,icon/Aile_blanche.png,,map/Aile_blanche.png
-246,Ceinture d'injection,Aile Blanche,,,icon/Ceinture_injection.png,,map/Ceinture_injection.png
-247,Fragment de bobine,Fonderie,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-248,Puce,Fonderie,,,icon/Puce.png,,map/Puce_.png
-249,Métal artisanal,Fonderie,,,icon/Metal_artisanal.png,,map/Metal_artisanal.png
-250,Serrefil,Fonderie,,,icon/Serrefil.png,,map/Serrefil.png
-251,Broclet,Fonderie,,,icon/Broclet.png,,map/Broclet.png
-252,Clé de l'architecte,Fonderie,,,icon/Cle_architecte.png,,map/Cle_architecte.png
-253,Kit de fabrication,Fonderie,,,icon/Kit_fabrication.png,,map/Kit_fabrication.png
-254,Architecte,Fonderie,,,icon/Architecte.png,,map/Architecte.png
-255,Griffe du grimpeur,Alcôves de la chorale,,,icon/Griffe_grimpeur.png,,map/Griffe_grimpeur.png
-256,Fragment de masque,Alcôves de la chorale,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-257,Jaune,Tisse-nid Alta,,,icon/Jaune.png,,map/Jaune.png
-258,Bleu,Tisse-nid Alta,,,icon/Bleu.png,,map/Bleu.png
-259,Fragment de bobine,Quais profonds,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-260,Puce,Quais Profonds,,,icon/Puce.png,,map/Puce_.png
-261,Silexium,Quais profonds,,,icon/Silexium.png,,map/Silexium.png
-262,Dard aiguisé,Vermiterres,,,icon/Dard_aiguise.png,,map/Dard_aiguise.png
-263,Remède pour les blessés,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-264,Fragment de bobine,Aile Blanche,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-265,Remède pour les blessés,Aile Blanche,,,icon/Exploration.png,,map/Exploration.png
-266,Fragment de bobine,Aile Blanche,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-267,Clé du chirurgien,Aile Blanche,,,icon/Cle_chirurgien.png,,map/Cle_chirurgien.png
-268,Duo mécaniques,Noyau mécanique,,,icon/Duo_mecanique.png,,map/Duo_mecanique.png
-269,Mélodie Maestrels,Alcôves de la chorale,,,icon/Melodie_maestrels.png,,map/Melodie_maestrels.png
-270,Mélodie des Architectes,Alcôves de la chorale,,,icon/Melodie_architectes.png,,map/Melodie_architectes.png
-271,Mélodie Archivistes,Alcôves de la chorale,,,icon/Melodie_archivistes.png,,map/Melodie_archivistes.png
-272,Carte du Noyau mécanique,Noyau mécanique,,,icon/Noyau_mecanique.png,,map/Noyau_mecanique.png
-273,Fragment de masque,Noyau mécanique,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-274,Fragment de bobine,Noyau mécanique,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-275,Mélodie des Architectes,Noyau mécanique,,,icon/Melodie_architectes.png,,map/Melodie_architectes.png
-276,Carte des voûtes des murmures,Voûtes des murmures,,,icon/Voute_murmure.png,,map/Voute_murmure.png
-277,Dévoreur de Soie,Voûtes des murmures,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-278,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-279,Puce,Voûtes des murmures,,,icon/Puce.png,,map/Puce_.png
-280,Huile pâle,Alcôves de la chorale,,,icon/Huile_pale.png,,map/Huile_pale.png
-281,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier.png
-282,Volpeste enragée,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-283,La gloire de Clochelle,Clochelle,,,icon/Contribution.png,,map/Contribution_.png
-284,Huile du maître aiguiseur,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-285,Aiguille brillante,Clochelle,,,icon/Needle_3.png,,map/Needle_3.png
-286,Médaillon de souvenir,Voûtes des murmures,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_9.png
-287,Puce,Voûtes des murmures,,,icon/Puce.png,,map/Puce_.png
-288,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-289,Fragment de masque,Voûtes des murmures,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-290,Composant mécanique,Voûtes des murmures,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
-291,Trobbio,Voûtes des murmures,,,icon/Trobbio.png,,map/Trobbio.png
-292,Mirosserre,Voûtes des murmures,,,icon/Mirosserre.png,,map/Mirosserre.png
-293,Porte,Fonderie,,,,,
-294,Médaillon de souvenir,Alcôves de la chorale,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_10.png
-295,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-296,Mélodie Archivistes,Voûtes des murmures,,,icon/Melodie_archivistes.png,,map/Melodie_archivistes.png
-297,Piques de qualité,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
-298,Pique de qualité,Alcôves de la chorale,,,icon/Pique_qualite.png,,map/Pique_qualite.png
-299,Carte du Mont Fay,Mont Fay,,,icon/Mont_Fay.png,,map/Mont_Fay.png
-300,Cristal de souvenir,Mont Fay,,,icon/Cristal_souvenir.png,,map/Cristal_souvenir.png
-301,Puce,Mont Fay,,,icon/Puce.png,,map/Puce_.png
-302,Cape de plumes,Mont Fay,,,icon/Cape_plumes.png,,map/Cape_plumes.png
-303,Fragment de masque,Mont Fay,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-304,Médaillon de souvenir,Sables Karak,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_11.png
-305,Carte des Sables Karak,Sables Karak,,,icon/Sable_Karak.png,,map/Sable_Karak.png
-306,Ecornoix,Sables Karak,,,icon/Ecornoix.png,,map/Ecornoix.png
-307,Puce,Sables Karak,,,icon/Puce.png,,map/Puce_.png
-308,Clé simple,Sables Karak,,,icon/cle_simple.png,,map/cle_simple.png
-309,Médaillon de souvenir,Sombrevale,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_12.png
-310,Chef Déshonoré Lugoli,Chemin du pêcheur,,,icon/Lugoli.png,,map/Lugoli.png
-311,Bouefrasse marinée,Chemin du pêcheur,,,icon/Bouefrasse_marinee.png,,map/Bouefrasse_marinee.png
-312,Clé d'un clochetoit,Clochelle,,,icon/Cle_clochetoit.png,,map/Cle_clochetoit.png
-313,Lard de coursier,Clochelle,,,icon/lard_coursier.png,,map/lard_coursier.png
-314,Papilles délicates de Pharloom,Alcôves de la chorale,,,icon/Recolte.png,,map/Recolte.png
-315,Huile pâle,Alcôves de la chorale,,,icon/Huile_pale.png,,map/Huile_pale.png
-316,Aiguille d'acier-alvéole,Clochelle,,,icon/Needle_4.png,,map/Needle_4.png
-317,L'exfilé,Aile Blanche,,,icon/Les_tisses.png,,map/Les_tisses.png
-318,Coeur de soie,Aile Blanche,,,icon/Coeur_soie.png,,map/Coeur_soie.png
-319,Cylindre de psaume,Fonderie,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-320,Kit de fabrication,Marches érodées,,,icon/Kit_fabrication.png,,map/Kit_fabrication.png
-321,Fragment de bobine,Marches érodées,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-322,Robes de la chorale,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
-323,Fragment de bobine,Grandes galeries,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-324,Mouchetille,Grandes galeries,,,icon/Mouchetille.png,,map/Mouchetille.png
-325,Cylindre de psaume,Grandes galeries,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-326,Chapelet usé,Grandes galeries,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
-327,Carte des Grandes galeries,Grandes galeries,,,icon/Grandes_galerie.png,,map/Grandes_galerie.png
-328,Chapletier,Grandes galeries,,,icon/Chapletier.png,,map/Chapletier.png
-329,Mélodie Maestrels,Grandes galeries,,,icon/Melodie_maestrels.png,,map/Melodie_maestrels.png
-330,Souveraine pâle,Le Berceau,,,icon/Divers.png,,map/Divers.png
-331,Composant mécanique,Memorium,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
-332,Carte du Memorium,Memorium,,,icon/Memorium.png,,map/Memorium.png
-333,Baie verdissante (7),Memorium,,,icon/Baie_verdissante.png,,map/Baie_verdissante.png
-334,Médaillon de souvenir,Memorium,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_13.png
-335,Fragment de bobine,Memorium,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-336,Matérium,Memorium,,,icon/Materium.png,,map/Materium.png
-337,Orbéclair,Memorium,,,icon/Orbeclair.png,,map/Orbeclair.png
-338,Puce,Memorium,,,icon/Puce.png,,map/Puce_.png
-339,Fortifier Chantsoir,Alcôves de la chorale,,,icon/Contribution.png,,map/Contribution_.png
-340,La marchande perdue,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-341,La marchande perdue,Memorium,,,icon/Exploration.png,,map/Exploration.png
-342,Carte des Conduits putrides,Conduits putrides,,,icon/Conduits_putrides.png,,map/Conduits_putrides.png
-343,Clé de l'Apostat,Conduits putrides,,,icon/Cle_apostat.png,,map/Cle_apostat.png
-344,Festin de la couvée,Conduits putrides,,,icon/Chasse.png,,map/Chasse_.png
-345,Couronne de pureté,Conduits putrides,,,icon/Couronne_purete.png,,map/Couronne_purete.png
-346,Puce,Conduits putrides,,,icon/Puce.png,,map/Puce_.png
-347,Métal artisanal,Conduits putrides,,,icon/Metal_artisanal.png,,map/Metal_artisanal.png
-348,Commandement de la chorale,Alcôves de la chorale,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
-349,Fil d'araignée,Alcôves de la chorale,,,icon/Fil_araignee.png,,map/Fil_araignee.png
-350,Fragment de bobine,Alcôves de la chorale,,,icon/Fragment_bobine.png,,map/Fragment_bobine.png
-351,Métal artisanal,Alcôves de la chorale,,,icon/Metal_artisanal.png,,map/Metal_artisanal.png
-352,Yeux druidique,Gouffre,,,icon/Yeux_druidique.png,,map/Yeux_druidique.png
-353,Volpeste enragée,Terres lointaines,,,icon/Volpeste_enragee.png,,map/Volpeste_enragee.png
-354,Fragment de corne,Terres lointaines,,,icon/fragment_corne.png,,map/fragment_corne.png
-355,Fragment de masque,Terres lointaines,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-356,Volpeste enragée,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-357,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-358,Puce,Le Bloc,,,icon/Puce.png,,map/Puce_.png
-359,Médaillon de souvenir,Le Bloc,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_14.png
-360,Puce,Le Bloc,,,icon/Puce.png,,map/Puce_.png
-361,Carte du Bloc,Le Bloc,,,icon/Bloc.png,,map/Bloc.png
-362,Fragment de masque,Le Bloc,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-363,Clé de l'Indolent,Le Bloc,,,icon/cle_indolent.png,,map/cle_indolent.png
+137,Fragment de masque,Quais profonds,,,icon/Fragment_masque.png,"Mur secret depuis le métro de Clochelle, descendre, puis aller à droite dans les quais, mais depuis le haut",map/Fragment_masque_5.png
+138,Bracelets vifsoie,Terres lointaines,,,icon/Bracelets_vifsoie.png,"Metro vers Terres lointaines, passage à droite du métro. descendre vers couturière, puis au fond à droite",map/Bracelets_vifsoie.png
+139,Harpe runique,Terres lointaines,,,icon/Harpe_runique.png,Equiper bracelet et boire breuvage,map/Harpe_runique_2.png
+140,Puce (8),Terres lointaines,,,icon/Puce.png,Poursuivre le passage du métro,map/Puce_8.png
+141,Anneau lourd,Terres lointaines,,,icon/Anneau_lourd.png,160 Perles,map/Anneau_lourd.png
+142,Sac à outils agrandi,Terres lointaines,,,icon/Sac_outils.png,220 Perles,map/Sac_outils_2.png
+143,Nettoyage de corbotères,Sombrevale,,,icon/Chasse.png,"Metro vers Sombrevale, parler au tavernier",map/Chasse_4.png
+144,Fragment de bobine,Sombrevale,,,icon/Fragment_bobine.png,"Escalader à droite de la taverne, ramasser les pelages au passage",map/Fragment_bobine_4.png
+145,Pelage,Sombrevale,,,icon/Pelage.png,"Mur à casser à droite de la bobine pour ouvrir un passage, puis farm pelage au dessus de la taverne",map/Pelage.png
+146,Kit de fabrication,Sombrevale,,,icon/Kit_fabrication.png,Rendre la quète au tavernier,map/Kit_fabrication_1.png
+147,Puce (9),Sombrevale,,,icon/Puce.png,"Aller à gauche, dans la tour aux insectes aux ciseaux, escalader puis droite après ascenseur, mur à casser",map/Puce_9.png
+148,Dévoreur de Soie,Sombrevale,,,icon/Devoreur_soie.png,"Retour ascenseur, à gauche puis tout en haut",map/Devoreur_soie_1.png
+149,Puce (10),Sombrevale,,,icon/Puce.png,Passage à gauche,map/Puce_10.png
+150,Chapelet usé,Sombrevale,,,icon/Chapelet_use.png,Passage à gauche,map/Chapelet_use_8.png
+151,Pompillo,Sombrevale,,,icon/Pompillo.png,Casser au mur au dessus à gauche,map/Pompillo.png
+152,Scaralex explosif,Gouffre,,,icon/Chasse.png,Métro vers gouffe puis rendre la quète,map/Chasse_1.png
+153,Châtiment du Tyran,Gouffre,,,icon/Grande_chasse.png,Rendre la quète,map/Grande_chasse_1.png
+154,Fragment de bobine,Clochelle,,,icon/Fragment_bobine.png,Métro Clochelle. Achat : 270 Perles,map/Fragment_bobine_5.png
+155,Cloche argentée,Clochelle,,,icon/Cloche_argentee.png,Farm les cloches sous Clochelle,map/Cloche_argentee.png
+156,Cloches argentées,Clochelle,,,icon/Recolte.png,Rendre la quète,map/Recolte_3.png
+157,Rénovation de Clochelle,Clochelle,,,icon/Contribution.png,Payer la quète : 250 Perles. Vendre reliques,map/Contribution_2.png
+158,Puce (11),Sentier du chasseur,,,icon/Puce.png,"Aller dans l'Antre depuis la zone des cloches, puis à droite. Tout en haut de la première grande zone",map/Puce_11.png
+159,Collier de perles,Sentier du chasseur,,,icon/Collier_perles.png,"Zone suivante, en haut à droite",map/Collier_perles_1.png
+160,Levier,Sentier du chasseur,,,icon/Levier.png,"Zone des courants d'air, passage en bas à gauche",map/Levier_1.png
+161,Carte de l'Avancé du chasseur,Sentier du chasseur,,,icon/Avancee_chasseur.png,"Zone des courants d'air, passage en bas à droite. 70 Perles",map/Avancee_chasseur.png
+162,Médaillon de souvenir,Sentier du chasseur,,,icon/Medailllon_souvenir.png,Dans une cage tout à droite,map/Medailllon_souvenir_5.png
+163,Volpeste enragée,Sentier du chasseur,,,icon/Volpeste_enragee.png,"Prendre le courant d'air, dans la chapelle",map/Volpeste_enragee.png
+164,Bête,Sentier du chasseur,,,icon/Bete.png,,map/Bete.png
+165,Courbe-serre,Sentier du chasseur,,,icon/Courbe_serre.png,"Zone des courants d'air, passage presque en haut à gauche, passage secret. 140 Perles",map/Courbe_serre.png
+166,Masque fissuré,Sentier du chasseur,,,icon/Masque_fissuré.png,260 Perles,map/Masque_fissuré.png
+167,Perles,Sentier du chasseur,,,icon/Perle.png,"Zone des courants d'air, passage tout en haut à gauche",map/Perle_17.png
+168,Chapelet usé,Chemin du pêcheur,,,icon/Chapelet_use.png,Métro Quais profonds => Taverne => ascenseur. Puis vers la droite et tout en haut vers le Chemin du pêcheur,map/Chapelet_use_9.png
+169,Bracelet épineux,Chemin du pêcheur,,,icon/Bracelet_epineux.png,"Passage à droite, au fond puis en bas",map/Bracelet_epineux.png
+170,Entrailles de férochard,Chemin du pêcheur,,,icon/Chasse.png,"Retour dans la zone verticale, passage au dessus à droite. Prendre la quète tout en haut à droite",map/Chasse_5.png
+171,Carte du Sentier du pécheur,Chemin du pêcheur,,,icon/Sentier_pecheur.png,"Depuis la zone verticale, passage à gauche. 90 Perles",map/Sentier_pecheur.png
+172,Perles,Chemin du pêcheur,,,icon/Perle.png,"Depuis la zone verticale, passage en haut. Passer par la gauche",map/Perle_18.png
+173,Clé simple,Chemin du pêcheur,,,icon/Cle_simple.png,"Zone à droite, puis tout en haut. Penser à farm les férochards",map/Cle_simple_1.png
+174,Puce (12),Chemin du pêcheur,,,icon/Puce.png,Descendre et passage à droite (pas celui du mur à casser),map/Puce_12.png
+175,Entrailles de férochard,Chemin du pêcheur,,,icon/Entraille_ferochard.png,Aller tout en bas à droite et se reposer pour repop férochard. Casser mur à droite pour accès PNJ et vendre Dévoreur de soie,map/Entraille_ferochard.png
+176,Pointes d'acier,Chemin du pêcheur,,,icon/Pointes_acier.png,Rendre la quète des férochards,map/Pointes_acier.png
+177,Sac ou Sacoche (StealSoul),Vermiterres,,,icon/Sacoche_carapace.png,"Métro vers Coquibois, vers la gauche, tomber dans le gouffre et premier passage à gauche. Descendre, puis cul de sac à gauche.",map/Sacoche_carapace.png
+178,Carte des Vermiterres,Vermiterres,,,icon/Vermiterres.png,Plus bas à gauche. 70 Perles,map/Vermiterres.png
+179,Chapelet usé,Vermiterres,,,icon/Chapelet_use.png,Au sommet de la prochaine zone,map/Chapelet_use_10.png
+180,Puce (13),Vermiterres,,,icon/Puce.png,"En bas, mur à casser avant le levier",map/Puce_13.png
+181,Fragment de masque,Vermiterres,,,icon/Fragment_masque.png,"Tout en bas, mur à casser au niveau de l'eau",map/Fragment_masque_6.png
+182,Craggleur,Vermiterres,,,icon/Craggleur.png,Zone à droite,map/Craggleur.png
+183,Porte,Vermiterres,,,,Retour à gauche,map/Porte_1.png
+184,L'assistant de l'alchimiste,Vermiterres,,,icon/Recolte.png,"A gauche, monter, a droite et tout en haut. Prendre la quète",map/Recolte_4.png
+185,Fiollette,Vermiterres,,,icon/Fiollette.png,Equiper l'outil,map/Fiollette.png
+186,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Sortir, descendre et direct à gauche",map/Plasmonium_1.png
+187,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Descendre tout en bas, puis à droite",map/Plasmonium_2.png
+188,Plasmonium,Vermiterres,,,icon/Plasmonium.png,"Prochaine zone à gauche, tout à gauche après mur à casser",map/Plasmonium_3.png
+189,Médaillon de souvenir,Vermiterres,,,icon/Medailllon_souvenir.png,"Même zone, en bas à droite",map/Medailllon_souvenir_6.png
+190,Fiole de plasmonium,Vermiterres,,,icon/Fiole_plasmonium.png,Rendre la quète du Plasmonium. Puis sortir et ouvrir le raccourci à droite,map/Fiole_plasmonium.png
+191,Médaillon de souvenir,Marches érodées,,,icon/Medailllon_souvenir.png,"Métro du Gouffre vers Coquibois, vers la gauche sans tomber. Puis, après le levier qui ouvre un raccourci",map/Medailllon_souvenir_7.png
+192,Carte des Marches érodées,Marches érodées,,,icon/Marches_erodees.png,70 Perles,map/Marches_erodees.png
+193,Grandes Volucornes,Marches érodées,,,icon/Volucorne.png,"De retour dans la salle verticale, prendre le passage à gauche",map/Volucorne.png
+194,Attaque de précision,Marches érodées,,,icon/Attaque_precision.png,A gauche après le boss,map/Attaque_precision.png
+195,Clochevoie / Métro,Marches érodées,,,icon/Clochevoie.png,"Retour dans la salle verticale, aller tout en haut, puis à gauche. 60 Perles",map/Clochevoie_6.png
+196,Puce (14),Marches érodées,,,icon/Puce.png,A gauche puis tout en haut,map/Puce_14.png
+197,Métal artisanal,Marches érodées,,,icon/Metal_artisanal.png,"Retour au métro puis tout à droite, dans un trou avant la zone avec la porte",map/Metal_artisanal_4.png
+198,La dernière juge,Marches érodées,,,icon/Derniere_juge.png,,map/Derniere_juge.png
+199,Carte du Grand Portail,Grand portail,,,icon/Grand_portail.png,40 Perles,map/Grand_portail.png
+200,Fragment de bobine,Grand portail,,,icon/Fragment_bobine.png,"Tout en haut, à gauche.",map/Fragment_bobine_6.png
+201,Porte,Fonderie,,,,Ouvrir le raccourci en cassant le mur à droite jusqu'aux alcoves. Puis revenir et sortir en bas à droite,
+202,Carte de la Fonderie,Fonderie,,,icon/Fonderie.png,Monter puis passage à gauche,map/Fonderie.png
+203,Manuscrit d'os,Fonderie,,,icon/Manuscrit_os.png,Casser la grille à gauche,map/Manuscrit_os_.png
+204,Porte,Fonderie,,,,Tout à droite,
+205,Chapelet usé,Fonderie,,,icon/Chapelet_use.png,"Prochaine zone, monter puis à droite",map/Chapelet_use_.png
+206,Ventrica,Fonderie,,,icon/Ventrica.png,"Sortir, aller en haut à droite et activer le ventrica. 80 Perles",map/Ventrica.png
+207,Fragment de bobine,Fonderie,,,icon/Fragment_bobine.png,Sortir et descendre,map/Fragment_bobine_.png
+208,Médaillon de souvenir,Fonderie,,,icon/Medailllon_souvenir.png,"Sortir à gauche, monter, puis sortir en haut à gauche. Aller dans la salle des bancs payants, mur invisible au sommet",map/Medailllon_souvenir_8.png
+209,Foreuse du mineur,Fonderie,,,icon/Foreuse_mineur.png,"Allez tous à gauche, puis tout en bas en faisant tomber le conteneur",map/Foreuse_mineur.png
+210,Chapelet usé,Fonderie,,,icon/Chapelet_use.png,Aller tout en haut et casser une grille à droite,map/Chapelet_use_.png
+211,Carte des Alcôves de la chorale,Alcôves de la chorale,,,icon/Alcove_chorale.png,70 Perles,map/Alcove_chorale.png
+212,Collier de perles,Alcôves de la chorale,,,icon/Collier_perles.png,Briser une vitre en haut à gauche,map/Collier_perles_.png
+213,Porte,Alcôves de la chorale,,,,"Aller tout en haut à droite, redescendre puis à gauche",
+214,Porte,Alcôves de la chorale,,,,"Sortir à gauche, aller en haut à gauche",
+215,Chapelet usé,Le Bloc,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
+216,Levier,Le Bloc,,,icon/Levier.png,,map/Levier_.png
+217,Fragment de bobine,Le Bloc,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+218,Symbole d'espoir,Gouffre,,,icon/Contribution.png,,map/Contribution_.png
+219,Fragment de bobine,Marches érodées,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+220,Puce,Alcôves de la chorale,,,icon/Puce.png,,map/Puce_.png
+221,Composant mécanique,Alcôves de la chorale,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
+222,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier_.png
+223,Puce,Alcôves de la chorale,,,icon/Puce.png,,map/Puce_.png
+224,Collier de perles,Alcôves de la chorale,,,icon/Collier_perles.png,,map/Collier_perles_.png
+225,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier_.png
+226,Papilles délicates de Pharloom,Alcôves de la chorale,,,icon/Recolte.png,,map/Recolte_.png
+227,Dévoreur de Soie,Alcôves de la chorale,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+228,Dévoreur de Soie,Alcôves de la chorale,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+229,Clé blanche,Alcôves de la chorale,,,icon/Cle_blanche.png,,map/Cle_blanche.png
+230,Soupe de baies verdissantes,Gouffre,,,icon/Soupe_baies_verdissantes.png,,map/Soupe_baies_verdissantes.png
+231,Mortaille,Quais profonds,,,icon/Mortaille.png,,map/Mortaille.png
+232,Kit de fabrication,Quais profonds,,,icon/Kit_fabrication.png,,map/Kit_fabrication_.png
+233,Mon frère disparu,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+234,Insectes de Pharloom,Sombrevale,,,icon/Insecte_pharloom.png,,map/Insecte_pharloom.png
+235,Sac à outils agrandi,Sombrevale,,,icon/Sac_outils.png,,map/Sac_outils_.png
+236,Nectar millésimé,Sombrevale,,,icon/Nectar_millesime.png,,map/Nectar_millesime.png
+237,Mon frère disparu,Chemin du pêcheur,,,icon/Exploration.png,,map/Exploration_.png
+238,Edification du sanctuaire de Chantsoir,Alcôves de la chorale,,,icon/Contribution.png,,map/Contribution_.png
+239,Piques de qualité,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_6.png
+240,La marchande vagabonde,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+241,La marchande vagabonde,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+242,Commandement de la chorale,Aile Blanche,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
+243,Dévoreur de Soie,Aile Blanche,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+244,Carte de l'Aile Blanche,Aile Blanche,,,icon/Aile_blanche.png,,map/Aile_blanche.png
+245,Ceinture d'injection,Aile Blanche,,,icon/Ceinture_injection.png,,map/Ceinture_injection.png
+246,Fragment de bobine,Fonderie,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+247,Puce,Fonderie,,,icon/Puce.png,,map/Puce_.png
+248,Métal artisanal,Fonderie,,,icon/Metal_artisanal.png,,map/Metal_artisanal_.png
+249,Serrefil,Fonderie,,,icon/Serrefil.png,,map/Serrefil.png
+250,Broclet,Fonderie,,,icon/Broclet.png,,map/Broclet.png
+251,Clé de l'architecte,Fonderie,,,icon/Cle_architecte.png,,map/Cle_architecte.png
+252,Kit de fabrication,Fonderie,,,icon/Kit_fabrication.png,,map/Kit_fabrication_.png
+253,Architecte,Fonderie,,,icon/Architecte.png,,map/Architecte.png
+254,Griffe du grimpeur,Alcôves de la chorale,,,icon/Griffe_grimpeur.png,,map/Griffe_grimpeur.png
+255,Fragment de masque,Alcôves de la chorale,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+256,Jaune,Tisse-nid Alta,,,icon/Jaune.png,,map/Jaune.png
+257,Bleu,Tisse-nid Alta,,,icon/Bleu.png,,map/Bleu.png
+258,Fragment de bobine,Quais profonds,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+259,Puce,Quais Profonds,,,icon/Puce.png,,map/Puce_.png
+260,Silexium,Quais profonds,,,icon/Silexium.png,,map/Silexium.png
+261,Dard aiguisé,Vermiterres,,,icon/Dard_aiguise.png,,map/Dard_aiguise.png
+262,Remède pour les blessés,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+263,Fragment de bobine,Aile Blanche,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+264,Remède pour les blessés,Aile Blanche,,,icon/Exploration.png,,map/Exploration_.png
+265,Fragment de bobine,Aile Blanche,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+266,Clé du chirurgien,Aile Blanche,,,icon/Cle_chirurgien.png,,map/Cle_chirurgien.png
+267,Duo mécaniques,Noyau mécanique,,,icon/Duo_mecanique.png,,map/Duo_mecanique.png
+268,Mélodie Maestrels,Alcôves de la chorale,,,icon/Melodie_maestrels.png,,map/Melodie_maestrels.png
+269,Mélodie des Architectes,Alcôves de la chorale,,,icon/Melodie_architectes.png,,map/Melodie_architectes.png
+270,Mélodie Archivistes,Alcôves de la chorale,,,icon/Melodie_archivistes.png,,map/Melodie_archivistes.png
+271,Carte du Noyau mécanique,Noyau mécanique,,,icon/Noyau_mecanique.png,,map/Noyau_mecanique.png
+272,Fragment de masque,Noyau mécanique,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+273,Fragment de bobine,Noyau mécanique,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+274,Mélodie des Architectes,Noyau mécanique,,,icon/Melodie_architectes.png,,map/Melodie_architectes.png
+275,Carte des voûtes des murmures,Voûtes des murmures,,,icon/Voute_murmure.png,,map/Voute_murmure.png
+276,Dévoreur de Soie,Voûtes des murmures,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+277,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+278,Puce,Voûtes des murmures,,,icon/Puce.png,,map/Puce_.png
+279,Huile pâle,Alcôves de la chorale,,,icon/Huile_pale.png,,map/Huile_pale.png
+280,Levier,Alcôves de la chorale,,,icon/Levier.png,,map/Levier_.png
+281,Volpeste enragée,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+282,La gloire de Clochelle,Clochelle,,,icon/Contribution.png,,map/Contribution_.png
+283,Huile du maître aiguiseur,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+284,Aiguille brillante,Clochelle,,,icon/Needle_3.png,,map/Needle_3.png
+285,Médaillon de souvenir,Voûtes des murmures,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_9.png
+286,Puce,Voûtes des murmures,,,icon/Puce.png,,map/Puce_.png
+287,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+288,Fragment de masque,Voûtes des murmures,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+289,Composant mécanique,Voûtes des murmures,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
+290,Trobbio,Voûtes des murmures,,,icon/Trobbio.png,,map/Trobbio.png
+291,Mirosserre,Voûtes des murmures,,,icon/Mirosserre.png,,map/Mirosserre.png
+292,Porte,Fonderie,,,,,
+293,Médaillon de souvenir,Alcôves de la chorale,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_10.png
+294,Cylindre de psaume,Voûtes des murmures,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+295,Mélodie Archivistes,Voûtes des murmures,,,icon/Melodie_archivistes.png,,map/Melodie_archivistes.png
+296,Piques de qualité,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
+297,Pique de qualité,Alcôves de la chorale,,,icon/Pique_qualite.png,,map/Pique_qualite.png
+298,Carte du Mont Fay,Mont Fay,,,icon/Mont_Fay.png,,map/Mont_Fay.png
+299,Cristal de souvenir,Mont Fay,,,icon/Cristal_souvenir.png,,map/Cristal_souvenir.png
+300,Puce,Mont Fay,,,icon/Puce.png,,map/Puce_.png
+301,Cape de plumes,Mont Fay,,,icon/Cape_plumes.png,,map/Cape_plumes.png
+302,Fragment de masque,Mont Fay,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+303,Médaillon de souvenir,Sables Karak,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_11.png
+304,Carte des Sables Karak,Sables Karak,,,icon/Sable_Karak.png,,map/Sable_Karak.png
+305,Ecornoix,Sables Karak,,,icon/Ecornoix.png,,map/Ecornoix.png
+306,Puce,Sables Karak,,,icon/Puce.png,,map/Puce_.png
+307,Clé simple,Sables Karak,,,icon/cle_simple.png,,map/cle_simple_.png
+308,Médaillon de souvenir,Sombrevale,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_12.png
+309,Chef Déshonoré Lugoli,Chemin du pêcheur,,,icon/Lugoli.png,,map/Lugoli.png
+310,Bouefrasse marinée,Chemin du pêcheur,,,icon/Bouefrasse_marinee.png,,map/Bouefrasse_marinee.png
+311,Clé d'un clochetoit,Clochelle,,,icon/Cle_clochetoit.png,,map/Cle_clochetoit.png
+312,Lard de coursier,Clochelle,,,icon/lard_coursier.png,,map/lard_coursier.png
+313,Papilles délicates de Pharloom,Alcôves de la chorale,,,icon/Recolte.png,,map/Recolte_.png
+314,Huile pâle,Alcôves de la chorale,,,icon/Huile_pale.png,,map/Huile_pale.png
+315,Aiguille d'acier-alvéole,Clochelle,,,icon/Needle_4.png,,map/Needle_4.png
+316,L'exfilé,Aile Blanche,,,icon/Les_tisses.png,,map/Les_tisses.png
+317,Coeur de soie,Aile Blanche,,,icon/Coeur_soie.png,,map/Coeur_soie.png
+318,Cylindre de psaume,Fonderie,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+319,Kit de fabrication,Marches érodées,,,icon/Kit_fabrication.png,,map/Kit_fabrication_.png
+320,Fragment de bobine,Marches érodées,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+321,Robes de la chorale,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
+322,Fragment de bobine,Grandes galeries,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+323,Mouchetille,Grandes galeries,,,icon/Mouchetille.png,,map/Mouchetille.png
+324,Cylindre de psaume,Grandes galeries,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+325,Chapelet usé,Grandes galeries,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
+326,Carte des Grandes galeries,Grandes galeries,,,icon/Grandes_galerie.png,,map/Grandes_galerie.png
+327,Chapletier,Grandes galeries,,,icon/Chapletier.png,,map/Chapletier.png
+328,Mélodie Maestrels,Grandes galeries,,,icon/Melodie_maestrels.png,,map/Melodie_maestrels.png
+329,Souveraine pâle,Le Berceau,,,icon/Divers.png,,map/Divers.png
+330,Composant mécanique,Memorium,,,icon/Composant_mecanique.png,,map/Composant_mecanique.png
+331,Carte du Memorium,Memorium,,,icon/Memorium.png,,map/Memorium.png
+332,Baie verdissante (7),Memorium,,,icon/Baie_verdissante.png,,map/Baie_verdissante.png
+333,Médaillon de souvenir,Memorium,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_13.png
+334,Fragment de bobine,Memorium,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+335,Matérium,Memorium,,,icon/Materium.png,,map/Materium.png
+336,Orbéclair,Memorium,,,icon/Orbeclair.png,,map/Orbeclair.png
+337,Puce,Memorium,,,icon/Puce.png,,map/Puce_.png
+338,Fortifier Chantsoir,Alcôves de la chorale,,,icon/Contribution.png,,map/Contribution_.png
+339,La marchande perdue,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+340,La marchande perdue,Memorium,,,icon/Exploration.png,,map/Exploration_.png
+341,Carte des Conduits putrides,Conduits putrides,,,icon/Conduits_putrides.png,,map/Conduits_putrides.png
+342,Clé de l'Apostat,Conduits putrides,,,icon/Cle_apostat.png,,map/Cle_apostat.png
+343,Festin de la couvée,Conduits putrides,,,icon/Chasse.png,,map/Chasse_.png
+344,Couronne de pureté,Conduits putrides,,,icon/Couronne_purete.png,,map/Couronne_purete.png
+345,Puce,Conduits putrides,,,icon/Puce.png,,map/Puce_.png
+346,Métal artisanal,Conduits putrides,,,icon/Metal_artisanal.png,,map/Metal_artisanal_.png
+347,Commandement de la chorale,Alcôves de la chorale,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
+348,Fil d'araignée,Alcôves de la chorale,,,icon/Fil_araignee.png,,map/Fil_araignee.png
+349,Fragment de bobine,Alcôves de la chorale,,,icon/Fragment_bobine.png,,map/Fragment_bobine_.png
+350,Métal artisanal,Alcôves de la chorale,,,icon/Metal_artisanal.png,,map/Metal_artisanal_.png
+351,Yeux druidique,Gouffre,,,icon/Yeux_druidique.png,,map/Yeux_druidique.png
+352,Volpeste enragée,Terres lointaines,,,icon/Volpeste_enragee.png,,map/Volpeste_enragee_bis.png
+353,Fragment de corne,Terres lointaines,,,icon/fragment_corne.png,,map/fragment_corne.png
+354,Fragment de masque,Terres lointaines,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+355,Volpeste enragée,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+356,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+357,Puce,Le Bloc,,,icon/Puce.png,,map/Puce_.png
+358,Médaillon de souvenir,Le Bloc,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_14.png
+359,Puce,Le Bloc,,,icon/Puce.png,,map/Puce_.png
+360,Carte du Bloc,Le Bloc,,,icon/Bloc.png,,map/Bloc.png
+361,Fragment de masque,Le Bloc,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+362,Clé de l'Indolent,Le Bloc,,,icon/cle_indolent.png,,map/cle_indolent.png
+363,Chapelet usé,Le Bloc,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
 364,Chapelet usé,Le Bloc,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
-365,Chapelet usé,Le Bloc,,,icon/Chapelet_use.png,,map/Chapelet_use_.png
-366,Clé de l'Hérétique,Le Bloc,,,icon/Cle_heretique.png,,map/Cle_heretique.png
-367,Effigie de tisserande,Le Bloc,,,icon/Effigie_tisserande.png,,map/Effigie_tisserande.png
-368,Premier péché,Le Bloc,,,icon/Peche_originel.png,,map/Peche_originel.png
-369,Furie runique,Le Bloc,,,icon/Furie_runique.png,,map/Furie_runique.png
-370,Manuscrit d'os,Bosquet de feu follet,,,icon/Manuscrit_os.png,,map/Manuscrit_os_.png
-371,Fragment de masque,Bosquet de feu follet,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-372,Collier de perles,Bosquet de feu follet,,,icon/Collier_perles.png,,map/Collier_perles.png
-373,Métal artisanal,Bosquet de feu follet,,,icon/Metal_artisanal.png,,map/Metal_artisanal.png
-374,Puce,Fonderie,,,icon/Puce.png,,map/Puce_.png
-375,Lace,Le Berceau,,,icon/Lace.png,,map/Lace.png
-376,Coeur de soie,Le Berceau,,,icon/Coeur_soie.png,,map/Coeur_soie.png
-377,La mère des lamentations,Alcôves de la chorale,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-378,Mère Nourricière,Le Bloc,,,icon/Mere_suprieuse_soie.png,,map/Mere_suprieuse_soie.png
-379,Oeil de la mère nourricière,Le Bloc,,,icon/Oeil_mere_nourriciere.png,,map/Oeil_mere_nourriciere.png
-380,La mère des lamentations,Alcôves de la chorale,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-381,Extenseur de bobine,Alcôves de la chorale,,,icon/Extenseur_bobine.png,,map/Extenseur_bobine.png
-382,Robes de la chorale,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
-383,Toge de la chorale,Alcôves de la chorale,,,icon/Toge_chorale.png,,map/Toge_chorale.png
-384,Festin de la couvée,Conduits putrides,,,icon/Chasse.png,,map/Chasse_.png
-385,Organe rôti,Conduits putrides,,,icon/Organe_roti.png,,map/Organe_roti.png
-386,Longue-griffe,Conduits putrides,,,icon/Longue_griffe.png,,map/Longue_griffe.png
-387,Organe découpé,Conduits putrides,,,icon/Organe_decoupe.png,,map/Organe_decoupe.png
-388,Brochette d'organe,Conduits putrides,,,icon/Brochette_organe.png,,map/Brochette_organe.png
-389,Multisoie,Clochelle,,,icon/Multisoie.png,,map/Multisoie.png
-390,Mandrago,Bilesac,,,icon/Mandrago.png,,map/Mandrago.png
-391,Médaillon de souvenir,Bilesac,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_15.png
-392,Carte de Bilesac,Bilesac,,,icon/Bilesac.png,,map/Bilesac.png
-393,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
-394,Outil endommagé,Bilesac,,,icon/Outil_endommage.png,,map/Outil_endommage.png
-395,Fin de la piste,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-396,Jet-éclair,Bilesac,,,icon/Jet_eclair.png,,map/Jet_eclair.png
-397,Fragment de masque,Bilesac,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-398,Médaillon de souvenir,Bilesac,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_16.png
-399,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
-400,Fin de la piste,Bilesac,,,icon/Exploration.png,,map/Exploration.png
-401,Lance-anneaux,Bilesac,,,icon/Lance_anneaux.png,,map/Lance_anneaux.png
-402,Groal le grand,Bilesac,,,icon/Groal.png,,map/Groal.png
-403,L'âme du chercheur,Bilesac,,,icon/Ame_chercheur.png,,map/Ame_chercheur.png
-404,Sac à outils agrandi,Conduits putrides,,,icon/Sac_outils.png,,map/Sac_outils.png
-405,Soie et Âme,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-406,L'âme de la jeune fille,Gouffre,,,icon/Ame_jeune_fille.png,,map/Ame_jeune_fille.png
-407,Piège runique,Tisse-nid Alta,,,icon/Piege_runique.png,,map/Piege_runique.png
-408,L'âme de l'ermite,Clochelle,,,icon/Ame_ermite.png,,map/Ame_ermite.png
-409,Soie et Âme,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-410,Attrape-âme,Alcôves de la chorale,,,icon/Attrape_ame.png,,map/Attrape_ame.png
-411,Carte du berceau,Le Berceau,,,icon/Berceau.png,,map/Berceau.png
-412,Mère supérieur Soie,Le Berceau,,,icon/Mere_nourriciere.png,,map/Mere_nourriciere.png
-413,Après la chute du royaume,Le Berceau,,,icon/Acte_3.png,,map/Acte_3.png
-414,En attendant la fin,Alcôves de la chorale,,,icon/Acte_3.png,,map/Acte_3.png
-415,Dévoreur de cloches,Alcôves de la chorale,,,icon/Devoreur_cloches.png,,map/Devoreur_cloches.png
-416,Bête des cloches,Alcôves de la chorale,,,icon/Vaincre_bete_cloche.png,,map/Vaincre_bete_cloche.png
-417,Mélodie des Bestiots,Station,,,icon/Melodie_bestiots.png,,map/Melodie_bestiots.png
-418,Caché en dessous,Gouffre,,,icon/Acte_3.png,,map/Acte_3.png
-419,Frères précursuers Signis et Gron,Quais profonds,,,icon/Signis_Gron.png,,map/Signis_Gron.png
-420,Dévoreur de Soie,Quais profonds,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-421,Médaillon de souvenir,Quais profonds,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_17.png
-422,Clé de la cloche de plongée,Quais profonds,,,icon/Cle_cloche_plongee.png,,map/Cle_cloche_plongee.png
-423,Oeuf arcanique,Abysse,,,icon/Oeuf_arcanique.png,,map/Oeuf_arcanique.png
-424,Carte des Abysses,Abysse,,,icon/Abysse.png,,map/Abysse.png
-425,Retourner à Pharloom,Abysse,,,icon/Acte_3.png,,map/Acte_3.png
-426,Longue-vue,Abysse,,,icon/Longue-vue.png,,map/Longue-vue.png
-427,Elan de soie,Abysse,,,icon/Elan_soie.png,,map/Elan_soie.png
-428,Chercheuse de sorts,Quais profonds,,,icon/Acte_3.png,,map/Acte_3.png
-429,???,Quais profonds,,,,,
-430,Elégie des profondeurs,Gouffre,,,icon/Elegie_profondeurs.png,,map/Elegie_profondeurs.png
-431,Chaman,Gouffre,,,icon/Chaman.png,,map/Chaman.png
-432,Alchimie avancée,Vermiterres,,,icon/Recolte.png,,map/Recolte.png
-433,Alchimie avancée,Vermiterres,,,icon/Recolte.png,,map/Recolte.png
-434,Glande de plasmonium,Vermiterres,,,icon/Glande_plasmonium.png,,map/Glande_plasmonium.png
-435,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
-436,Dévoreur de Soie,Bilesac,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-437,Fantome,Bilesac,,,icon/Fantome.png,,map/Fantome.png
-438,Point de croix,Bilesac,,,icon/Point_croix.png,,map/Point_croix.png
-439,Oeuf de Pucelia,Conduits putrides,,,icon/Oeuf_Pucelia.png,,map/Oeuf_Pucelia.png
-440,Résolution fatale,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-441,Coeurs noirs,Clochelle,,,icon/Chasse.png,,map/Chasse_.png
-442,Médaillon de souvenir,Clochelle,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_18.png
-443,Griffes pâles,Le Berceau,,,icon/Griffes_pales.png,,map/Griffes_pales.png
-444,Masse de néant,Sentier du chasseur,,,icon/Masse_neant.png,,map/Masse_neant.png
-445,Le plus rapide de Pharloom,Terres lointaines,,,icon/sprint.png,,map/sprint.png
-446,Fragment de masque,Terres lointaines,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-447,Masse de néant,Terres lointaines,,,icon/Masse_neant.png,,map/Masse_neant.png
-448,Médaillon de souvenir,Terres lointaines,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_20.png
-449,Faurelle,Terres lointaines,,,icon/Faurelle.png,,map/Faurelle.png
-450,Réjouissements de la fin,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-451,Huile pâle,Conduits putrides,,,icon/Huile_pale.png,,map/Huile_pale.png
-452,Aiguille d'acier pâle,Clochelle,,,icon/Needle_5.png,,map/Needle_5.png
-453,Cylindre de psaume,Marches érodées,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
-454,Marque du voleur,Marches érodées,,,icon/Marque_voleur.png,,map/Marque_voleur.png
-455,Dé magnétite,Marches érodées,,,icon/Des_magnetite.png,,map/Des_magnetite.png
-456,Masse de néant,Marches érodées,,,icon/Masse_neant.png,,map/Masse_neant.png
-457,Fragment de masque,Marches érodées,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-458,Fragment de masque,Mont Fay,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-459,Maîtresse de la Pique,Mont Fay,,,icon/Maitresse_pique.png,,map/Maitresse_pique.png
-460,Insigne de la Pique,Mont Fay,,,icon/Insigne_pique.png,,map/Insigne_pique.png
-461,Tire-soie,Mont Fay,,,icon/Tire_soie.png,,map/Tire_soie.png
-462,Rite de réincarnation,Coquibois,,,icon/Exploration.png,,map/Exploration.png
-463,Rite de réincarnation,Coquibois,,,icon/Exploration.png,,map/Exploration.png
-464,Maudit,Coquibois,,,icon/Maudit.png,,map/Maudit.png
-465,Effigie de tisserande,Coquibois,,,icon/Effigie_tisserande.png,,map/Effigie_tisserande.png
-466,Chirurgie parasitaire,Sombrevale,,,icon/Exploration.png,,map/Exploration.png
-467,Epines d'acier,Chemin du pêcheur,,,icon/Epines_acier.png,,map/Epines_acier.png
-468,Chirurgie parasitaire,Sombrevale,,,icon/Exploration.png,,map/Exploration.png
-469,Sorcière,Sombrevale,,,icon/Sorciere.png,,map/Sorciere.png
-470,Chasseur (final),Tisse-nid Alta,,,icon/Hunter_Crest_3.png,,map/Hunter_Crest_3.png
-471,Sylphonie,Tisse-nid Alta,,,icon/Sylphonie.png,,map/Sylphonie.png
-472,Masse de néant,Marches érodées,,,icon/Masse_neant.png,,map/Masse_neant.png
-473,Foudrelon,Sables Karak,,,icon/Foudrelon.png,,map/Foudrelon.png
-474,Voltine,Sables Karak,,,icon/Voltine.png,,map/Voltine.png
-475,Grande Volucorne,Sables Karak,,,icon/Volucorne_furie.png,,map/Volucorne_furie.png
-476,Coquilleur,Sables Karak,,,icon/Coquilleur.png,,map/Coquilleur.png
-477,Roi corail Khann,Sables Karak,,,icon/Roi_Corail_Khann.png,,map/Roi_Corail_Khann.png
-478,Coeur de corail,Sables Karak,,,icon/Coeur_corail.png,,map/Coeur_corail.png
-479,Serrepince,Marches érodées,,,icon/Serrepince.png,,map/Serrepince.png
-480,Masse de néant,Grand portail,,,icon/Masse_neant.png,,map/Masse_neant.png
-481,Seth Gardien du Sanctuaire,Grand portail,,,icon/Seth.png,,map/Seth.png
-482,Florinelle,Grand portail,,,icon/Florinelle.png,,map/Florinelle.png
-483,Coeur fleurissant,Grand portail,,,icon/Coeur_pollen.png,,map/Coeur_pollen.png
-484,Chanteuse Skarr Karmelita,Terres lointaines,,,icon/Skarr_karmelita.png,,map/Skarr_karmelita.png
-485,Coeur de Skarr,Terres lointaines,,,icon/Coeur_skarr.png,,map/Coeur_skarr.png
-486,Flore éternelle,Gouffre,,,icon/Flore_eternelle.png,,map/Flore_eternelle.png
-487,Dernière plongée,,,,icon/Derniere_plongee.png,,map/Derniere_plongee.png
-488,Message de corbotère,Clochelle,,,icon/Message_corbotere.png,,map/Message_corbotere.png
-489,Chasseur de l'ombre,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-490,L'appel du héros,Clochelle,,,icon/Exploration.png,,map/Exploration.png
-491,Gurr Le banni,Terres lointaines,,,icon/Gurr.png,,map/Gurr.png
-492,Poupée d'herbe,Terres lointaines,,,icon/Poupee_herbe.png,,map/Poupee_herbe.png
-493,Chasseur de l'ombre,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse.png
-494,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-495,Harpe runique,Grandes galeries,,,icon/Harpe_runique.png,,map/Harpe_runique.png
-496,L'ultime audience,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration.png
-497,Seconde Sentinelle,Grandes galeries,,,icon/Seconde_sentinelle.png,,map/Seconde_sentinelle.png
-498,Réserve de soie,Grandes galeries,,,icon/Reserve_soie.png,,map/Reserve_soie.png
-499,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
-500,Roue mécanique,Fonderie,,,icon/Roue_mecanique.png,,map/Roue_mecanique.png
-501,Ceinture à dents-de-scie,Fonderie,,,icon/Ceinture_dent_scie.png,,map/Ceinture_dent_scie.png
-502,Père de la flamme,Bosquet de feu follet,,,icon/Pere_flamme.png,,map/Pere_flamme.png
-503,Lanterne de flambrume,Bosquet de feu follet,,,icon/Lanterne_flambrume.png,,map/Lanterne_flambrume.png
-504,Porte,Quais profonds,,,,,
-505,Porte,Grand portail,,,,,
-506,Commandement de la chorale,Aile Blanche,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
+365,Clé de l'Hérétique,Le Bloc,,,icon/Cle_heretique.png,,map/Cle_heretique.png
+366,Effigie de tisserande,Le Bloc,,,icon/Effigie_tisserande.png,,map/Effigie_tisserande_.png
+367,Premier péché,Le Bloc,,,icon/Peche_originel.png,,map/Peche_originel.png
+368,Furie runique,Le Bloc,,,icon/Furie_runique.png,,map/Furie_runique.png
+369,Manuscrit d'os,Bosquet de feu follet,,,icon/Manuscrit_os.png,,map/Manuscrit_os_.png
+370,Fragment de masque,Bosquet de feu follet,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+371,Collier de perles,Bosquet de feu follet,,,icon/Collier_perles.png,,map/Collier_perles_.png
+372,Métal artisanal,Bosquet de feu follet,,,icon/Metal_artisanal.png,,map/Metal_artisanal_.png
+373,Puce,Fonderie,,,icon/Puce.png,,map/Puce_.png
+374,Lace,Le Berceau,,,icon/Lace.png,,map/Lace.png
+375,Coeur de soie,Le Berceau,,,icon/Coeur_soie.png,,map/Coeur_soie.png
+376,La mère des lamentations,Alcôves de la chorale,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+377,Mère Nourricière,Le Bloc,,,icon/Mere_suprieuse_soie.png,,map/Mere_suprieuse_soie.png
+378,Oeil de la mère nourricière,Le Bloc,,,icon/Oeil_mere_nourriciere.png,,map/Oeil_mere_nourriciere.png
+379,La mère des lamentations,Alcôves de la chorale,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+380,Extenseur de bobine,Alcôves de la chorale,,,icon/Extenseur_bobine.png,,map/Extenseur_bobine.png
+381,Robes de la chorale,Alcôves de la chorale,,,icon/Chasse.png,,map/Chasse_.png
+382,Toge de la chorale,Alcôves de la chorale,,,icon/Toge_chorale.png,,map/Toge_chorale.png
+383,Festin de la couvée,Conduits putrides,,,icon/Chasse.png,,map/Chasse_.png
+384,Organe rôti,Conduits putrides,,,icon/Organe_roti.png,,map/Organe_roti.png
+385,Longue-griffe,Conduits putrides,,,icon/Longue_griffe.png,,map/Longue_griffe.png
+386,Organe découpé,Conduits putrides,,,icon/Organe_decoupe.png,,map/Organe_decoupe.png
+387,Brochette d'organe,Conduits putrides,,,icon/Brochette_organe.png,,map/Brochette_organe.png
+388,Multisoie,Clochelle,,,icon/Multisoie.png,,map/Multisoie.png
+389,Mandrago,Bilesac,,,icon/Mandrago.png,,map/Mandrago.png
+390,Médaillon de souvenir,Bilesac,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_15.png
+391,Carte de Bilesac,Bilesac,,,icon/Bilesac.png,,map/Bilesac.png
+392,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
+393,Outil endommagé,Bilesac,,,icon/Outil_endommage.png,,map/Outil_endommage.png
+394,Fin de la piste,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+395,Jet-éclair,Bilesac,,,icon/Jet_eclair.png,,map/Jet_eclair.png
+396,Fragment de masque,Bilesac,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+397,Médaillon de souvenir,Bilesac,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_16.png
+398,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
+399,Fin de la piste,Bilesac,,,icon/Exploration.png,,map/Exploration_.png
+400,Lance-anneaux,Bilesac,,,icon/Lance_anneaux.png,,map/Lance_anneaux.png
+401,Groal le grand,Bilesac,,,icon/Groal.png,,map/Groal.png
+402,L'âme du chercheur,Bilesac,,,icon/Ame_chercheur.png,,map/Ame_chercheur.png
+403,Sac à outils agrandi,Conduits putrides,,,icon/Sac_outils.png,,map/Sac_outils_.png
+404,Soie et Âme,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+405,L'âme de la jeune fille,Gouffre,,,icon/Ame_jeune_fille.png,,map/Ame_jeune_fille.png
+406,Piège runique,Tisse-nid Alta,,,icon/Piege_runique.png,,map/Piege_runique.png
+407,L'âme de l'ermite,Clochelle,,,icon/Ame_ermite.png,,map/Ame_ermite.png
+408,Soie et Âme,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+409,Attrape-âme,Alcôves de la chorale,,,icon/Attrape_ame.png,,map/Attrape_ame.png
+410,Carte du berceau,Le Berceau,,,icon/Berceau.png,,map/Berceau.png
+411,Mère supérieur Soie,Le Berceau,,,icon/Mere_nourriciere.png,,map/Mere_nourriciere.png
+412,Après la chute du royaume,Le Berceau,,,icon/Acte_3.png,,map/Acte_3.png
+413,En attendant la fin,Alcôves de la chorale,,,icon/Acte_3.png,,map/Acte_3.png
+414,Dévoreur de cloches,Alcôves de la chorale,,,icon/Devoreur_cloches.png,,map/Devoreur_cloches.png
+415,Bête des cloches,Alcôves de la chorale,,,icon/Vaincre_bete_cloche.png,,map/Vaincre_bete_cloche.png
+416,Mélodie des Bestiots,Station,,,icon/Melodie_bestiots.png,,map/Melodie_bestiots.png
+417,Caché en dessous,Gouffre,,,icon/Acte_3.png,,map/Acte_3.png
+418,Frères précursuers Signis et Gron,Quais profonds,,,icon/Signis_Gron.png,,map/Signis_Gron.png
+419,Dévoreur de Soie,Quais profonds,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+420,Médaillon de souvenir,Quais profonds,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_17.png
+421,Clé de la cloche de plongée,Quais profonds,,,icon/Cle_cloche_plongee.png,,map/Cle_cloche_plongee.png
+422,Oeuf arcanique,Abysse,,,icon/Oeuf_arcanique.png,,map/Oeuf_arcanique.png
+423,Carte des Abysses,Abysse,,,icon/Abysse.png,,map/Abysse.png
+424,Retourner à Pharloom,Abysse,,,icon/Acte_3.png,,map/Acte_3.png
+425,Longue-vue,Abysse,,,icon/Longue-vue.png,,map/Longue-vue.png
+426,Elan de soie,Abysse,,,icon/Elan_soie.png,,map/Elan_soie.png
+427,Chercheuse de sorts,Quais profonds,,,icon/Acte_3.png,,map/Acte_3.png
+428,???,Quais profonds,,,,,
+429,Elégie des profondeurs,Gouffre,,,icon/Elegie_profondeurs.png,,map/Elegie_profondeurs.png
+430,Chaman,Gouffre,,,icon/Chaman.png,,map/Chaman.png
+431,Alchimie avancée,Vermiterres,,,icon/Recolte.png,,map/Recolte_.png
+432,Alchimie avancée,Vermiterres,,,icon/Recolte.png,,map/Recolte_.png
+433,Glande de plasmonium,Vermiterres,,,icon/Glande_plasmonium.png,,map/Glande_plasmonium.png
+434,Puce,Bilesac,,,icon/Puce.png,,map/Puce_.png
+435,Dévoreur de Soie,Bilesac,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+436,Fantome,Bilesac,,,icon/Fantome.png,,map/Fantome.png
+437,Point de croix,Bilesac,,,icon/Point_croix.png,,map/Point_croix.png
+438,Oeuf de Pucelia,Conduits putrides,,,icon/Oeuf_Pucelia.png,,map/Oeuf_Pucelia.png
+439,Résolution fatale,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+440,Coeurs noirs,Clochelle,,,icon/Chasse.png,,map/Chasse_.png
+441,Médaillon de souvenir,Clochelle,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_18.png
+442,Griffes pâles,Le Berceau,,,icon/Griffes_pales.png,,map/Griffes_pales.png
+443,Masse de néant,Sentier du chasseur,,,icon/Masse_neant.png,,map/Masse_neant.png
+444,Le plus rapide de Pharloom,Terres lointaines,,,icon/sprint.png,,map/sprint.png
+445,Fragment de masque,Terres lointaines,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+446,Masse de néant,Terres lointaines,,,icon/Masse_neant.png,,map/Masse_neant.png
+447,Médaillon de souvenir,Terres lointaines,,,icon/Medailllon_souvenir.png,,map/Medailllon_souvenir_20.png
+448,Faurelle,Terres lointaines,,,icon/Faurelle.png,,map/Faurelle.png
+449,Réjouissements de la fin,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+450,Huile pâle,Conduits putrides,,,icon/Huile_pale.png,,map/Huile_pale.png
+451,Aiguille d'acier pâle,Clochelle,,,icon/Needle_5.png,,map/Needle_5.png
+452,Cylindre de psaume,Marches érodées,,,icon/Cylindre_psaume.png,,map/Cylindre_psaume.png
+453,Marque du voleur,Marches érodées,,,icon/Marque_voleur.png,,map/Marque_voleur.png
+454,Dé magnétite,Marches érodées,,,icon/Des_magnetite.png,,map/Des_magnetite.png
+455,Masse de néant,Marches érodées,,,icon/Masse_neant.png,,map/Masse_neant.png
+456,Fragment de masque,Marches érodées,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+457,Fragment de masque,Mont Fay,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+458,Maîtresse de la Pique,Mont Fay,,,icon/Maitresse_pique.png,,map/Maitresse_pique.png
+459,Insigne de la Pique,Mont Fay,,,icon/Insigne_pique.png,,map/Insigne_pique.png
+460,Tire-soie,Mont Fay,,,icon/Tire_soie.png,,map/Tire_soie.png
+461,Rite de réincarnation,Coquibois,,,icon/Exploration.png,,map/Exploration_.png
+462,Rite de réincarnation,Coquibois,,,icon/Exploration.png,,map/Exploration_.png
+463,Maudit,Coquibois,,,icon/Maudit.png,,map/Maudit.png
+464,Effigie de tisserande,Coquibois,,,icon/Effigie_tisserande.png,,map/Effigie_tisserande_.png
+465,Chirurgie parasitaire,Sombrevale,,,icon/Exploration.png,,map/Exploration_.png
+466,Epines d'acier,Chemin du pêcheur,,,icon/Epines_acier.png,,map/Epines_acier.png
+467,Chirurgie parasitaire,Sombrevale,,,icon/Exploration.png,,map/Exploration_.png
+468,Sorcière,Sombrevale,,,icon/Sorciere.png,,map/Sorciere.png
+469,Chasseur (final),Tisse-nid Alta,,,icon/Hunter_Crest_3.png,,map/Hunter_Crest_3.png
+470,Sylphonie,Tisse-nid Alta,,,icon/Sylphonie.png,,map/Sylphonie.png
+471,Masse de néant,Marches érodées,,,icon/Masse_neant.png,,map/Masse_neant.png
+472,Foudrelon,Sables Karak,,,icon/Foudrelon.png,,map/Foudrelon.png
+473,Voltine,Sables Karak,,,icon/Voltine.png,,map/Voltine.png
+474,Grande Volucorne,Sables Karak,,,icon/Volucorne_furie.png,,map/Volucorne_furie.png
+475,Coquilleur,Sables Karak,,,icon/Coquilleur.png,,map/Coquilleur.png
+476,Roi corail Khann,Sables Karak,,,icon/Roi_Corail_Khann.png,,map/Roi_Corail_Khann.png
+477,Coeur de corail,Sables Karak,,,icon/Coeur_corail.png,,map/Coeur_corail.png
+478,Serrepince,Marches érodées,,,icon/Serrepince.png,,map/Serrepince.png
+479,Masse de néant,Grand portail,,,icon/Masse_neant.png,,map/Masse_neant.png
+480,Seth Gardien du Sanctuaire,Grand portail,,,icon/Seth.png,,map/Seth.png
+481,Florinelle,Grand portail,,,icon/Florinelle.png,,map/Florinelle.png
+482,Coeur fleurissant,Grand portail,,,icon/Coeur_pollen.png,,map/Coeur_pollen.png
+483,Chanteuse Skarr Karmelita,Terres lointaines,,,icon/Skarr_karmelita.png,,map/Skarr_karmelita.png
+484,Coeur de Skarr,Terres lointaines,,,icon/Coeur_skarr.png,,map/Coeur_skarr.png
+485,Flore éternelle,Gouffre,,,icon/Flore_eternelle.png,,map/Flore_eternelle.png
+486,Dernière plongée,,,,icon/Derniere_plongee.png,,map/Derniere_plongee.png
+487,Message de corbotère,Clochelle,,,icon/Message_corbotere.png,,map/Message_corbotere.png
+488,Chasseur de l'ombre,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+489,L'appel du héros,Clochelle,,,icon/Exploration.png,,map/Exploration_.png
+490,Gurr Le banni,Terres lointaines,,,icon/Gurr.png,,map/Gurr.png
+491,Poupée d'herbe,Terres lointaines,,,icon/Poupee_herbe.png,,map/Poupee_herbe.png
+492,Chasseur de l'ombre,Clochelle,,,icon/Grande_chasse.png,,map/Grande_chasse_.png
+493,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+494,Harpe runique,Grandes galeries,,,icon/Harpe_runique.png,,map/Harpe_runique_.png
+495,L'ultime audience,Alcôves de la chorale,,,icon/Exploration.png,,map/Exploration_.png
+496,Seconde Sentinelle,Grandes galeries,,,icon/Seconde_sentinelle.png,,map/Seconde_sentinelle.png
+497,Réserve de soie,Grandes galeries,,,icon/Reserve_soie.png,,map/Reserve_soie.png
+498,Fragment de masque,Clochelle,,,icon/Fragment_masque.png,,map/Fragment_masque_.png
+499,Roue mécanique,Fonderie,,,icon/Roue_mecanique.png,,map/Roue_mecanique.png
+500,Ceinture à dents-de-scie,Fonderie,,,icon/Ceinture_dent_scie.png,,map/Ceinture_dent_scie.png
+501,Père de la flamme,Bosquet de feu follet,,,icon/Pere_flamme.png,,map/Pere_flamme.png
+502,Lanterne de flambrume,Bosquet de feu follet,,,icon/Lanterne_flambrume.png,,map/Lanterne_flambrume.png
+503,Porte,Quais profonds,,,,,
+504,Porte,Grand portail,,,,,
+505,Commandement de la chorale,Aile Blanche,,,icon/Commandement_chorale.png,,map/Commandement_chorale.png
+506,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
 507,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
 508,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
 509,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
 510,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
 511,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
-512,Masse de néant,??,,,icon/Masse_neant.png,,map/Masse_neant.png
-513,Clé simple,Gouffre,,,icon/cle_simple.png,,map/cle_simple.png
-514,Clé simple,Alcôves de la chorale,,,icon/cle_simple.png,,map/cle_simple.png
-515,Dévoreur de Soie,Le Berceau,,,icon/Devoreur_soie.png,,map/Devoreur_soie.png
-516,Père Corbotère,Sombrevale,,,icon/Pere_corbotere.png,,map/Pere_corbotere.png
-517,Garmond perdu,Marches érodées,,,icon/Garmond.png,,map/Garmond.png
-518,Duo trefleur,Verdania,,,icon/Duo_trefleur.png,,map/Duo_trefleur.png
-519,Lace déchue,Abysse,,,icon/Lace_dechue.png,,map/Lace_dechue.png
-520,Cerf Pâle,Verdania,,,icon/Cerf_pale.png,,map/Cerf_pale.png
-521,Zango plasmifié,Vermiterres,,,icon/Zango_plasmifie.png,,map/Zango_plasmifie.png
-522,Trobbio tourmenté,Voûtes des murmures,,,icon/Trobbio_tourmente.png,,map/Trobbio_tourmente.png
-523,Gardien frontière,Sables Karak,,,icon/Gardien_frontiere.png,,map/Gardien_frontiere.png
-524,Mirosserres,Voûtes des murmures,,,icon/Mirosserres.png,,map/Mirosserres.png
-525,Carte de Verdania,Verdania,,,icon/Verdania.png,,map/Verdania.png
-526,Epingles de Banc,Antre,,,icon/Epingle_Banc.png,,map/Epingle_Banc.png
-527,Epingles des Clochevoies,Quais profonds,,,icon/Epingle_Clochevoie.png,,map/Epingle_Clochevoie.png
-528,Epingles de Marchand,Quais profonds,,,icon/Epingle_Marchand.png,,map/Epingle_Marchand.png
-529,Coeurs anciens,Gouffre,,,icon/Acte_3.png,,map/Acte_3.png
-530,Coeur de puissance,Gouffre,,,icon/Coeur_puissance.png,,map/Coeur_puissance.png
-531,Coeur sylvestre,Gouffre,,,icon/Coeur_sylvestre.png,,map/Coeur_sylvestre.png
-532,Coeur sauvage,Gouffre,,,icon/Coeur_sauvage.png,,map/Coeur_sauvage.png
-533,"Douleur, angoisse et misère",??,,,icon/Exploration.png,,map/Exploration.png
-534,Passage des âges,??,,,icon/Temoin.png,,map/Temoin.png
+512,Clé simple,Gouffre,,,icon/cle_simple.png,,map/cle_simple_.png
+513,Clé simple,Alcôves de la chorale,,,icon/cle_simple.png,,map/cle_simple_.png
+514,Dévoreur de Soie,Le Berceau,,,icon/Devoreur_soie.png,,map/Devoreur_soie_.png
+515,Père Corbotère,Sombrevale,,,icon/Pere_corbotere.png,,map/Pere_corbotere.png
+516,Garmond perdu,Marches érodées,,,icon/Garmond.png,,map/Garmond.png
+517,Duo trefleur,Verdania,,,icon/Duo_trefleur.png,,map/Duo_trefleur.png
+518,Lace déchue,Abysse,,,icon/Lace_dechue.png,,map/Lace_dechue.png
+519,Cerf Pâle,Verdania,,,icon/Cerf_pale.png,,map/Cerf_pale.png
+520,Zango plasmifié,Vermiterres,,,icon/Zango_plasmifie.png,,map/Zango_plasmifie.png
+521,Trobbio tourmenté,Voûtes des murmures,,,icon/Trobbio_tourmente.png,,map/Trobbio_tourmente.png
+522,Gardien frontière,Sables Karak,,,icon/Gardien_frontiere.png,,map/Gardien_frontiere.png
+523,Mirosserres,Voûtes des murmures,,,icon/Mirosserres.png,,map/Mirosserres.png
+524,Carte de Verdania,Verdania,,,icon/Verdania.png,,map/Verdania.png
+525,Epingles de Banc,Antre,,,icon/Epingle_Banc.png,,map/Epingle_Banc.png
+526,Epingles des Clochevoies,Quais profonds,,,icon/Epingle_Clochevoie.png,,map/Epingle_Clochevoie.png
+527,Epingles de Marchand,Quais profonds,,,icon/Epingle_Marchand.png,,map/Epingle_Marchand.png
+528,Coeurs anciens,Gouffre,,,icon/Acte_3.png,,map/Acte_3.png
+529,Coeur de puissance,Gouffre,,,icon/Coeur_puissance.png,,map/Coeur_puissance.png
+530,Coeur sylvestre,Gouffre,,,icon/Coeur_sylvestre.png,,map/Coeur_sylvestre.png
+531,Coeur sauvage,Gouffre,,,icon/Coeur_sauvage.png,,map/Coeur_sauvage.png
+532,"Douleur, angoisse et misère",??,,,icon/Exploration.png,,map/Exploration_.png
+533,Passage des âges,??,,,icon/Temoin.png,,map/Temoin.png
