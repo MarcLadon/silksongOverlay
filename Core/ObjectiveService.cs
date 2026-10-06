@@ -58,16 +58,16 @@ public sealed class ObjectiveService
 
     public bool GoToPreviousObjective()
     {
-        for (var i = CurrentObjectiveIndex - 1; i >= 0; i--)
-        {
-            if (!_objectives[i].IsCompleted)
-            {
-                CurrentObjectiveIndex = i;
-                return true;
-            }
-        }
+        if (_objectives.Count == 0) return false;
 
-        return false;
+        // L'index peut valoir Count quand tous les objectifs sont terminés.
+        var target = Math.Min(CurrentObjectiveIndex, _objectives.Count) - 1;
+        if (target < 0) return false;
+
+        // On rouvre l'objectif précédent (il était validé, sinon on ne l'aurait pas dépassé).
+        _objectives[target].IsCompleted = false;
+        CurrentObjectiveIndex = target;
+        return true;
     }
 
     public void RefreshOrder()
