@@ -3,7 +3,6 @@ using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Interop;
-using SilksongOverlay.Core;
 using SilksongOverlay.Models;
 using SilksongOverlay.Services;
 using SilksongOverlay.ViewModels;
@@ -19,7 +18,6 @@ public partial class OverlayWindow : Window
     private readonly ConfigurationService _configurationService;
     private readonly OverlayViewModel _viewModel;
     private readonly List<WidgetBase> _widgets = new();
-    private IObjectiveDetector? _objectiveDetector;
     private HwndSource? _source;
     private readonly Dictionary<int, Action> _hotkeys = new();
     private const int WM_HOTKEY = 0x0312;
@@ -49,8 +47,8 @@ public partial class OverlayWindow : Window
             // Si aucun CSV n'existe et aucun objectif sauvegardé, créer des défauts
             config.Objectives = new List<Objective>
             {
-                new() { Name = "Entrer dans les quais profonds", Location = "Quais profonds", Order = 0, DetectionType = "area_entered", DetectionValue = "Deep Docks" },
-                new() { Name = "Vaincre le boss", Location = "Arène", Order = 1, DetectionType = "boss_defeated", DetectionValue = "Bell Beast" }
+                new() { Name = "Entrer dans les quais profonds", Location = "Quais profonds", Order = 0 },
+                new() { Name = "Vaincre le boss", Location = "Arène", Order = 1 }
             };
         }
 
@@ -89,15 +87,11 @@ public partial class OverlayWindow : Window
         _source?.AddHook(WndProc);
         RegisterHotkeys();
         EnableClickThrough(true);
-
-        var eventPath = Path.Combine(Environment.CurrentDirectory, "runtime", "game-events.json");
-        StartObjectiveDetection(eventPath);
     }
 
     private void OverlayWindow_Closing(object? sender, System.ComponentModel.CancelEventArgs e)
     {
         SaveConfiguration();
-        _objectiveDetector?.Dispose();
         UnregisterHotkeys();
     }
 
@@ -118,25 +112,6 @@ public partial class OverlayWindow : Window
             _isEditMode = value;
             Opacity = _isEditMode ? 0.98 : 1.0;
         }
-    }
-
-    private void StartObjectiveDetection(string path)
-    {
-        _objectiveDetector = new FileObjectiveDetector(path);
-        _objectiveDetector.ObjectiveDetected += ObjectiveDetector_ObjectiveDetected;
-        _ = _objectiveDetector.StartAsync(CancellationToken.None);
-    }
-
-    private void ObjectiveDetector_ObjectiveDetected(object? sender, ObjectiveDetectedEventArgs e)
-    {
-        Dispatcher.Invoke(() =>
-        {
-            if (_viewModel.ProcessDetectedEvent(e.EventType, e.Value))
-            {
-                RefreshUI();
-                SaveConfiguration();
-            }
-        });
     }
 
     private void BuildOverlayWidgets()
@@ -181,7 +156,7 @@ public partial class OverlayWindow : Window
     {
         // F3: Objectif précédent
         RegisterHotKey(1003, KeyInterop.VirtualKeyFromKey(Key.F3), ModifierKeys.None);
-        // F4: Objectif suivant
+        // F4: Marquer l'objectif comme complété
         RegisterHotKey(1004, KeyInterop.VirtualKeyFromKey(Key.F4), ModifierKeys.None);
         // F8: Quitter l'application
         RegisterHotKey(1008, KeyInterop.VirtualKeyFromKey(Key.F8), ModifierKeys.None);
