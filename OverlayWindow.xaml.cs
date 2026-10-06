@@ -39,6 +39,20 @@ public partial class OverlayWindow : Window
 
         if (csvObjectives.Count > 0)
         {
+            // Le CSV définit la liste des objectifs, mais la progression (IsCompleted)
+            // vient de la sauvegarde : on la réapplique par nom d'objectif.
+            var savedState = config.Objectives
+                .GroupBy(o => o.Name, StringComparer.OrdinalIgnoreCase)
+                .ToDictionary(g => g.Key, g => g.First().IsCompleted, StringComparer.OrdinalIgnoreCase);
+
+            foreach (var objective in csvObjectives)
+            {
+                if (savedState.TryGetValue(objective.Name, out var isCompleted))
+                {
+                    objective.IsCompleted = isCompleted;
+                }
+            }
+
             config.Objectives = csvObjectives;
         }
         else if (config.Objectives.Count == 0)
