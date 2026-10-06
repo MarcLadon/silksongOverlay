@@ -22,13 +22,10 @@ public partial class OverlayWindow : Window
     private IObjectiveDetector? _objectiveDetector;
     private HwndSource? _source;
     private readonly Dictionary<int, Action> _hotkeys = new();
-    private readonly Dictionary<int, DateTime> _lastHotkeyTime = new();
     private const int WM_HOTKEY = 0x0312;
     private const int GWL_EXSTYLE = -20;
     private const int WS_EX_LAYERED = 0x00080000;
     private const int WS_EX_TRANSPARENT = 0x00000020;
-    private const uint MOD_NOREPEAT = 0x4000;
-    private static readonly TimeSpan HotkeyDebounce = TimeSpan.FromMilliseconds(250);
 
     public OverlayWindow()
     {
@@ -195,7 +192,7 @@ public partial class OverlayWindow : Window
 
         _hotkeys[1003] = () => { _viewModel.GoPreviousObjective(); RefreshUI(); SaveConfiguration(); };
         _hotkeys[1004] = () => { _viewModel.CompleteCurrentObjective(); RefreshUI(); SaveConfiguration(); };
-        _hotkeys[1008] = () => { Close(); };
+        _hotkeys[1008] = () => { Dispatcher.Invoke(() => Close()); };
         _hotkeys[1006] = () => { IsEditMode = !IsEditMode; EnableClickThrough(!IsEditMode); };
         _hotkeys[1007] = () => { if (IsVisible) Hide(); else Show(); };
     }
@@ -206,29 +203,11 @@ public partial class OverlayWindow : Window
         _hotkeys.Clear();
     }
 
-    // MOD_NOREPEAT : une touche maintenue ne déclenche qu'une seule fois.
-    private void RegisterHotKey(int id, int virtualKey, ModifierKeys modifiers) =>
-        RegisterHotKeyNative(new WindowInteropHelper(this).Handle, id, (uint)modifiers | MOD_NOREPEAT, (uint)virtualKey);
+    private void RegisterHotKey(int id, int virtualKey, ModifierKeys modifiers) => RegisterHotKeyNative(new WindowInteropHelper(this).Handle, id, (uint)modifiers, (uint)virtualKey);
 
     private IntPtr WndProc(IntPtr hwnd, int msg, IntPtr wParam, IntPtr lParam, ref bool handled)
     {
-        if (msg == WM_HOTKEY)
-        {
-            var id = wParam.ToInt32();
-            if (_hotkeys.TryGetValue(id, out var action))
-            {
-                // Anti-rebond : ignore les déclenchements trop rapprochés (double appui involontaire).
-                var now = DateTime.UtcNow;
-                if (!_lastHotkeyTime.TryGetValue(id, out var last) || now - last >= HotkeyDebounce)
-                {
-                    _lastHotkeyTime[id] = now;
-                    action();
-                }
-
-                handled = true;
-            }
-        }
-
+        if (msg == WM_HOTKEY && _hotkeys.TryGetValue(wParam.ToInt32(), out var action)) action();
         return IntPtr.Zero;
     }
 
