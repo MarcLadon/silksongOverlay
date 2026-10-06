@@ -1,6 +1,6 @@
 # silksongOverlay
 
-Overlay pour suivi de progression et timer pour Silksong
+Overlay pour suivi de progression en temps réel pour Silksong.
 
 ## Installation et lancement
 
@@ -35,8 +35,8 @@ Les objectifs du jeu sont définis dans `data/objectives.csv`. Tu peux éditer c
 ### Format du CSV
 
 ```csv
-Order,Name,Location,DetectionType,DetectionValue,ImagePath
-1,Nom de l'objectif,Lieu,type_detection,valeur_detection,Icon/image.png
+Order,Name,Location,DetectionType,DetectionValue,ImagePath,MapImagePath
+1,Nom de l'objectif,Lieu,type_detection,valeur_detection,Icon/image.png,Map/map.png
 ```
 
 **Colonnes** :
@@ -47,13 +47,14 @@ Order,Name,Location,DetectionType,DetectionValue,ImagePath
 - **DetectionType** : type d'événement (`area_entered`, `boss_defeated`, etc.)
 - **DetectionValue** : valeur précise de l'événement (ex: `Deep Docks`, `Bell Beast`)
 - **ImagePath** : chemin optionnel vers une icône (ex: `Icon/Hunter_Crest_1.png`)
+- **MapImagePath** : chemin optionnel vers une minimap (ex: `Map/deep_docks.png`)
 
 ### Exemple
 
 ```csv
-Order,Name,Location,DetectionType,DetectionValue,ImagePath
-1,Entrer dans les Quais profonds,Quais profonds,area_entered,Deep Docks,Icon/Hunter_Crest_1.png
-2,Vaincre le premier boss,Arène principale,boss_defeated,Bell Beast,Icon/Hunter_Crest_1.png
+Order,Name,Location,DetectionType,DetectionValue,ImagePath,MapImagePath
+1,Entrer dans les Quais profonds,Quais profonds,area_entered,Deep Docks,Icon/Hunter_Crest_1.png,Map/deep_docks.png
+2,Vaincre le premier boss,Arène principale,boss_defeated,Bell Beast,Icon/Hunter_Crest_1.png,Map/arena.png
 ```
 
 ## Détection automatique (test)
@@ -71,10 +72,7 @@ Si cet événement correspond à l'objectif courant, il sera validé automatique
 
 ## Raccourcis clavier
 
-- **F1** : Basculer le timer (play/pause)
-- **F2** : Réinitialiser le timer
-- **F3** : Ajouter une mort
-- **F4** : Valider l'objectif courant
-- **Shift+F4** : Aller à l'objectif précédent
-- **Ctrl+E** : Mode édition de l'overlay
+- **F3** : Aller à l'objectif précédent
+- **F4** : Valider l'objectif courant et passer au suivant
+- **Ctrl+E** : Mode édition de l'overlay (déplacer/redimensionner)
 - **Ctrl+O** : Afficher/Masquer l'overlay
