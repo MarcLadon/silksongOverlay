@@ -179,20 +179,20 @@ public partial class OverlayWindow : Window
 
     private void RegisterHotkeys()
     {
-        // F2: Objectif précédent
-        RegisterHotKey(1002, KeyInterop.VirtualKeyFromKey(Key.F2), ModifierKeys.None);
-        // F3: Quitter l'application
+        // F3: Objectif précédent
         RegisterHotKey(1003, KeyInterop.VirtualKeyFromKey(Key.F3), ModifierKeys.None);
         // F4: Objectif suivant
         RegisterHotKey(1004, KeyInterop.VirtualKeyFromKey(Key.F4), ModifierKeys.None);
+        // F8: Quitter l'application
+        RegisterHotKey(1008, KeyInterop.VirtualKeyFromKey(Key.F8), ModifierKeys.None);
         // Ctrl+E: Mode édition
         RegisterHotKey(1006, KeyInterop.VirtualKeyFromKey(Key.E), ModifierKeys.Control);
         // Ctrl+O: Show/Hide overlay
         RegisterHotKey(1007, KeyInterop.VirtualKeyFromKey(Key.O), ModifierKeys.Control);
 
-        _hotkeys[1002] = () => { _viewModel.GoPreviousObjective(); RefreshUI(); SaveConfiguration(); };
-        _hotkeys[1003] = () => { Dispatcher.Invoke(() => Close()); };
+        _hotkeys[1003] = () => { _viewModel.GoPreviousObjective(); RefreshUI(); SaveConfiguration(); };
         _hotkeys[1004] = () => { _viewModel.CompleteCurrentObjective(); RefreshUI(); SaveConfiguration(); };
+        _hotkeys[1008] = () => { Dispatcher.Invoke(() => Close()); };
         _hotkeys[1006] = () => { IsEditMode = !IsEditMode; EnableClickThrough(!IsEditMode); };
         _hotkeys[1007] = () => { if (IsVisible) Hide(); else Show(); };
     }
