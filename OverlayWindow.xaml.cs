@@ -43,19 +43,8 @@ public partial class OverlayWindow : Window
         if (csvObjectives.Count > 0)
         {
             // Le CSV définit la liste des objectifs, mais la progression (IsCompleted)
-            // vient de la sauvegarde : on la réapplique par nom d'objectif.
-            var savedState = config.Objectives
-                .GroupBy(o => o.Name, StringComparer.OrdinalIgnoreCase)
-                .ToDictionary(g => g.Key, g => g.First().IsCompleted, StringComparer.OrdinalIgnoreCase);
-
-            foreach (var objective in csvObjectives)
-            {
-                if (savedState.TryGetValue(objective.Name, out var isCompleted))
-                {
-                    objective.IsCompleted = isCompleted;
-                }
-            }
-
+            // vient de la sauvegarde : on la réapplique en utilisant Order comme clé unique.
+            RestoreProgress(csvObjectives, config.Objectives);
             config.Objectives = csvObjectives;
         }
         else if (config.Objectives.Count == 0)
@@ -77,6 +66,24 @@ public partial class OverlayWindow : Window
         PositionTopRight();
         Loaded += OverlayWindow_Loaded;
         Closing += OverlayWindow_Closing;
+    }
+
+    /// <summary>
+    /// Réapplique l'état "terminé" sauvegardé sur les objectifs du CSV.
+    /// L'Order est unique pour chaque objectif, c'est donc la meilleure clé de correspondance.
+    /// </summary>
+    private static void RestoreProgress(List<Objective> csvObjectives, List<Objective> savedObjectives)
+    {
+        // Créer un dictionnaire des états sauvegardés indexés par Order
+        var savedState = savedObjectives
+            .GroupBy(o => o.Order)
+            .ToDictionary(g => g.Key, g => g.First().IsCompleted);
+
+        // Réappliquer l'état sauvegardé à chaque objectif du CSV
+        foreach (var objective in csvObjectives)
+        {
+            objective.IsCompleted = savedState.TryGetValue(objective.Order, out var isCompleted) && isCompleted;
+        }
     }
 
     private void OverlayWindow_Loaded(object sender, RoutedEventArgs e)
@@ -196,7 +203,7 @@ public partial class OverlayWindow : Window
         _hotkeys.Clear();
     }
 
-    // MOD_NOREPEAT : une touche maintenue ne déclenche qu'une seule fois (évite les sauts d'objectifs).
+    // MOD_NOREPEAT : une touche maintenue ne déclenche qu'une seule fois.
     private void RegisterHotKey(int id, int virtualKey, ModifierKeys modifiers) =>
         RegisterHotKeyNative(new WindowInteropHelper(this).Handle, id, (uint)modifiers | MOD_NOREPEAT, (uint)virtualKey);
 
