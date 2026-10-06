@@ -25,7 +25,21 @@ public sealed class FileObjectiveDetector : IObjectiveDetector
         _stopSource = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
         Directory.CreateDirectory(Path.GetDirectoryName(_path) ?? ".");
 
+        // Le contenu déjà présent au démarrage est un ancien événement : on l'ignore,
+        // sinon il valide automatiquement l'objectif courant à chaque lancement
+        // (ce qui faisait sauter un objectif au F4 suivant).
         string? lastContent = null;
+        if (File.Exists(_path))
+        {
+            try
+            {
+                lastContent = await File.ReadAllTextAsync(_path, _stopSource.Token);
+            }
+            catch (IOException)
+            {
+                // Sera relu à la prochaine itération.
+            }
+        }
 
         try
         {
