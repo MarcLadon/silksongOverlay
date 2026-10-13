@@ -45,17 +45,6 @@ public sealed class ObjectiveService
         return true;
     }
 
-    public bool ProcessDetectedEvent(string eventType, string value)
-    {
-        var current = CurrentObjective;
-        if (current is null) return false;
-
-        var matches = string.Equals(current.DetectionType, eventType, StringComparison.OrdinalIgnoreCase)
-            && string.Equals(current.DetectionValue, value, StringComparison.OrdinalIgnoreCase);
-
-        return matches && CompleteCurrentObjective();
-    }
-
     public bool GoToPreviousObjective()
     {
         if (_objectives.Count == 0) return false;
