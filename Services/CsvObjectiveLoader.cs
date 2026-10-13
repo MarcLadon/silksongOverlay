@@ -43,7 +43,7 @@ public sealed class CsvObjectiveLoader
 
                 var parts = ParseCsvLine(line);
 
-                if (parts.Count < 5)
+                if (parts.Count < 3)
                 {
                     continue;
                 }
@@ -58,11 +58,9 @@ public sealed class CsvObjectiveLoader
                     Order = order,
                     Name = parts[1],
                     Location = parts[2],
-                    DetectionType = parts[3],
-                    DetectionValue = parts[4],
-                    ImagePath = parts.Count > 5 && !string.IsNullOrWhiteSpace(parts[5]) ? parts[5] : null,
-                    Detail = parts.Count > 6 ? parts[6] : string.Empty,
-                    MapImagePath = parts.Count > 7 && !string.IsNullOrWhiteSpace(parts[7]) ? parts[7] : null,
+                    ImagePath = parts.Count > 3 && !string.IsNullOrWhiteSpace(parts[3]) ? parts[3] : null,
+                    Detail = parts.Count > 4 ? parts[4] : string.Empty,
+                    MapImagePath = parts.Count > 5 && !string.IsNullOrWhiteSpace(parts[5]) ? parts[5] : null,
                     IsCompleted = false
                 };
 
