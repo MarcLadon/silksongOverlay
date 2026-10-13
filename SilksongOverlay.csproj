@@ -16,13 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="icon/**/*">
+    <None Update="img/**/**/**/*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="data/**/*">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="map/**/*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
