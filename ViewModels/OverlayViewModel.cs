@@ -22,3 +22,4 @@ public sealed class OverlayViewModel
     public void CompleteCurrentObjective() => ObjectiveService.CompleteCurrentObjective();
     public void GoPreviousObjective() => ObjectiveService.GoToPreviousObjective();
 
+}
