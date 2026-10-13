@@ -18,19 +18,7 @@ public sealed class OverlayViewModel
     public string CurrentObjectiveLocation => ObjectiveService.CurrentObjective?.Location ?? "—";
     public string? CurrentObjectiveImagePath => ObjectiveService.CurrentObjective?.ImagePath;
     public double CompletionPercentage => ObjectiveService.CompletionPercentage;
-    public string TimerText => TimerService.GetFormattedText();
-    public string DeathText => DeathCount.ToString();
 
     public void CompleteCurrentObjective() => ObjectiveService.CompleteCurrentObjective();
-    public bool ProcessDetectedEvent(string eventType, string value) => ObjectiveService.ProcessDetectedEvent(eventType, value);
     public void GoPreviousObjective() => ObjectiveService.GoToPreviousObjective();
-    public void AddDeath() => DeathCount++;
 
-    public void ToggleTimer()
-    {
-        if (TimerService.IsRunning) TimerService.Stop();
-        else TimerService.Start();
-    }
-
-    public void ResetTimer() => TimerService.Reset();
-}
