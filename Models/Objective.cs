@@ -17,8 +17,4 @@ public sealed class Objective
     public bool IsCompleted { get; set; }
 
     public int Order { get; set; }
-
-    public string DetectionType { get; set; } = string.Empty;
-
-    public string DetectionValue { get; set; } = string.Empty;
 }
